@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {FlipCard, WordCard} from './components';
+import {FlipCard, StarsRating, WordCard} from './components';
 import { WORD_LIST } from './data/words';
 import {useUserWordData} from './hooks';
 import { UserWordData, Word } from './models';
@@ -52,12 +52,14 @@ const App: React.FC = () => {
         setSessionStarted(true);
         setLearningMode('new'); // Початок з режиму ознайомлення з новими словами
         setCurrentWordIndex(0);
+        setShowReviewResults(false);
     };
 
     const startReviewSession = () => {
+        setCurrentWordIndex(0);
         setSessionStarted(true);
         setLearningMode('review'); // Початок з режиму повторення
-        setCurrentWordIndex(0);
+        setShowReviewResults(false);
     };
 
     const word = WORD_LIST[currentWordIndex];
@@ -73,9 +75,23 @@ const App: React.FC = () => {
                 showReviewResults ? (
                     <div>
                         {learningMode === 'new' ? (
-                            <p>Тепер ви знаєте {results.total} нових слів.</p>
+                            <div className="flex gap-4 items-center">
+                                <p>Тепер ви знаєте {results.total} нових слів.</p>
+                                <div className="flex gap-4 items-center">
+                                    <button onClick={startReviewSession}
+                                            className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
+                                        <div
+                                            className="absolute inset-0 w-3 bg-amber-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+                                        <span className="relative text-black group-hover:text-white">Повторити!</span>
+                                    </button>
+                                </div>
+                            </div>
+
                         ) : (
-                            <p>Ви запам'ятали {results.remembered} із {results.total} слів.</p>
+                            <div className="flex flex-col gap-4 justify-center items-center">
+                                <p>Ви запам'ятали {results.remembered} із {results.total} слів.</p>
+                                <StarsRating count={results.remembered} outOf={results.total} />
+                            </div>
                         )}
                         {/* Тут можна додати кнопки або дії для наступної сесії */}
                     </div>
@@ -96,16 +112,50 @@ const App: React.FC = () => {
                             <>
                                 <FlipCard data={word} />
                                 <div className="flex gap-4 justify-center">
-                                    <button
+                                    {/*<div*/}
+                                    {/*    onClick={() => handleReview(true)}*/}
+                                    {/*    className='button w-40 h-16 bg-blue-500  cursor-pointer select-none*/}
+                                    {/*    active:translate-y-2  active:[box-shadow:0_0px_0_0_#1b6ff8,0_0px_0_0_#1b70f841]*/}
+                                    {/*    active:border-b-[0px]*/}
+                                    {/*    transition-all duration-150 [box-shadow:0_10px_0_0_#1b6ff8,0_15px_0_0_#1b70f841]*/}
+                                    {/*    rounded-full  border-[1px] border-blue-400'*/}
+                                    {/*>*/}
+                                    {/*    <span*/}
+                                    {/*        className='flex flex-col justify-center items-center h-full text-white font-bold text-lg '>Знаю</span>*/}
+                                    {/*</div>*/}
+                                    <div
                                         onClick={() => handleReview(true)}
-                                        className="group relative h-12 w-48 overflow-hidden rounded-2xl bg-green-500 text-lg font-bold text-white">
-                                        Запамятав
-                                        <div
-                                            className="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
-                                    </button>
-                                    <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full"
-                                            onClick={() => handleReview(false)}>Не памятаю
-                                    </button>
+                                        className='button w-40 h-16 bg-emerald-500  cursor-pointer select-none
+                                        active:translate-y-2  active:[box-shadow:0_0px_0_0_#059669,0_0px_0_0_#34d399]
+                                        active:border-b-[0px]
+                                        transition-all duration-150 [box-shadow:0_10px_0_0_#059669,0_15px_0_0_#34d399]
+                                        rounded-full  border-[1px] border-emerald-400'
+                                    >
+                                        <span
+                                            className='flex flex-col justify-center items-center h-full text-white font-bold text-lg '>Знаю</span>
+                                    </div>
+                                    <div
+                                        onClick={() => handleReview(false)}
+                                        className='button w-40 h-16 bg-gray-300  cursor-pointer select-none
+                                        active:translate-y-2  active:[box-shadow:0_0px_0_0_#9ca3af,0_0px_0_0_#e5e7eb]
+                                        active:border-b-[0px]
+                                        transition-all duration-150 [box-shadow:0_10px_0_0_#9ca3af,0_15px_0_0_#e5e7eb]
+                                        rounded-full  border-[1px] border-gray-200'
+                                    >
+                                        <span
+                                            className='flex flex-col justify-center items-center h-full text-white font-bold text-lg '>Не помню</span>
+                                    </div>
+                                    {/*<button*/}
+                                    {/*    onClick={() => handleReview(true)}*/}
+                                    {/*    className="group relative h-12 w-48 overflow-hidden rounded-2xl bg-green-500 text-lg font-bold text-white">*/}
+                                    {/*    Запамятав*/}
+                                    {/*    <div*/}
+                                    {/*        className="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>*/}
+                                    {/*</button>*/}
+                                    {/*<button*/}
+                                    {/*    className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full"*/}
+                                    {/*    onClick={() => handleReview(false)}>Не памятаю*/}
+                                    {/*</button>*/}
                                 </div>
                             </>
                         )}
