@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { WordData } from '../models/WordData';
 
-const useWordData = () => {
+export const useWordData = () => {
     const [words, setWords] = useState<WordData[]>([]);
     const [currentWordIndex, setCurrentWordIndex] = useState<number>(0);
 
@@ -30,11 +30,10 @@ const useWordData = () => {
         // Логіка для визначення наступного слова
         // Може включати перевірку дати наступного повторення
         // та вибір слова, яке потребує повторення або нового вивчення
-        const nextIndex = 0/* ваш алгоритм */;
+        let nextIndex = (currentWordIndex + 1) % words.length;
         setCurrentWordIndex(nextIndex);
     };
 
     return { words, currentWordIndex, setCurrentWordIndex, updateWordReview };
 };
 
-export default useWordData;
