@@ -86,7 +86,6 @@ const App: React.FC = () => {
                                     </button>
                                 </div>
                             </div>
-
                         ) : (
                             <div className="flex flex-col gap-4 justify-center items-center">
                                 <p>Ви запам'ятали {results.remembered} із {results.total} слів.</p>
