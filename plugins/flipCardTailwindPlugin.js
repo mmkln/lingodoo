@@ -5,28 +5,41 @@ const flipCardPlugin = plugin(function({ addUtilities }) {
         '.perspective': {
             perspective: '1000px',
         },
-        '.flip-container': {
-            position: 'relative',
-            width: '100%',
-            height: '100%',
-        },
         '.flip-card': {
+            position: 'relative',
+            cursor: 'pointer',
+            transitionDuration: '0.6s',
+            transitionTimingFunction: 'ease-in-out',
+            transformStyle: 'preserve-3d',
+        },
+        '.flip-front, .flip-back': {
+            position: 'absolute',
+            top: 0,
+            left: 0,
             width: '100%',
             height: '100%',
-            transition: 'transform 0.5s',
-            transformStyle: 'preserve-3d',
-            'backface-visibility': 'hidden',
+            backfaceVisibility: 'hidden',
         },
         '.flip-front': {
-            'backface-visibility': 'hidden',
+            zIndex: 2,
+            transform: 'rotateX(0deg)',
         },
         '.flip-back': {
-            'backface-visibility': 'hidden',
             transform: 'rotateX(180deg)',
         },
-        '.is-flipped .flip-card': {
+        '.flip-rotate-y': {
+            transform: 'rotateY(180deg)',
+        },
+        '.flip-rotate-y-back': {
+            transform: 'rotateY(-180deg)',
+        },
+        '.flip-rotate-x': {
             transform: 'rotateX(180deg)',
         },
+        '.flip-rotate-x-back': {
+            transform: 'rotateX(-180deg)',
+        },
+        // Тут можна додати інші варіанти фліпу (diagonal, inverted, тощо)
     };
 
     addUtilities(newUtilities);
