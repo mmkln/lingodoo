@@ -72,7 +72,11 @@ const App: React.FC = () => {
             ) : (
                 showReviewResults ? (
                     <div>
-                        <p>Ви запам'ятали {results.remembered} із {results.total} слів.</p>
+                        {learningMode === 'new' ? (
+                            <p>Тепер ви знаєте {results.total} нових слів.</p>
+                        ) : (
+                            <p>Ви запам'ятали {results.remembered} із {results.total} слів.</p>
+                        )}
                         {/* Тут можна додати кнопки або дії для наступної сесії */}
                     </div>
                 ) : (
