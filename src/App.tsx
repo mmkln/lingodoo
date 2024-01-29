@@ -65,7 +65,7 @@ const App: React.FC = () => {
     return (
         <div className="app w-full h-lvh flex justify-center items-center bg-gray-100">
             {!sessionStarted ?  (
-                <button onClick={startReviewSession} className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
+                <button onClick={startLearningSession} className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
                     <div className="absolute inset-0 w-3 bg-amber-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                     <span className="relative text-black group-hover:text-white">Почати Навчання!</span>
                 </button>
