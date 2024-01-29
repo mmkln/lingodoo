@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lingodoo/static/css/main.4d739705.css",
+    "main.js": "/lingodoo/static/js/main.9e97bda4.js",
+    "index.html": "/lingodoo/index.html",
+    "main.4d739705.css.map": "/lingodoo/static/css/main.4d739705.css.map",
+    "main.9e97bda4.js.map": "/lingodoo/static/js/main.9e97bda4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d739705.css",
+    "static/js/main.9e97bda4.js"
+  ]
+}
