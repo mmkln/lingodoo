@@ -30,5 +30,3 @@ export const SelectLanguage: React.FC<SelectLanguageProps> = ({setLanguage}) => 
         </div>
     );
 };
-
-export default SelectLanguage;
