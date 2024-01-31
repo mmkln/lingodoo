@@ -9,7 +9,7 @@ import {cutArrayRange} from "../utils";
 
 export const useUserWordData = () => {
     const [userDaysCount, setUserDaysCount] = useState<UserDaysCount | null>();
-    const [userLanguage, setUserLanguage] = useState<LanguageCode | null>(null);
+    const [selectedLanguage, setSelectedLanguage] = useState<LanguageCode | null>(null);
     const [wordsForToday, setWordsForToday] = useState<Word[]>([]);
 
     useEffect(() => {
@@ -17,24 +17,24 @@ export const useUserWordData = () => {
     }, []);
 
     useEffect(() => {
-        if (userLanguage) {
+        if (selectedLanguage) {
             const userDaysCountMap = {...userDaysCount};
-            if (!userDaysCountMap[userLanguage]) {
-                userDaysCountMap[userLanguage] = 1;
+            if (!userDaysCountMap[selectedLanguage]) {
+                userDaysCountMap[selectedLanguage] = 1;
                 setLocalStorageItem<UserDaysCount>(LS_KEYS.userDaysCount, userDaysCountMap);
                 setUserDaysCount(userDaysCountMap);
             }
 
-            const start = ((userDaysCountMap[userLanguage] || 1) - 1) * 5;
+            const start = ((userDaysCountMap[selectedLanguage] || 1) - 1) * 5;
             const end = start + 4;
-            const words = getWordListByLanguage(userLanguage);
+            const words = getWordListByLanguage(selectedLanguage);
             setWordsForToday(cutArrayRange<Word>(words, start, end));
         }
-    }, [userLanguage]);
+    }, [selectedLanguage]);
 
     const initUserData = () => {
         const daysCount = getLocalStorageItem<UserDaysCount>(LS_KEYS.userDaysCount);
-        const language = getLocalStorageItem<LanguageCode>(LS_KEYS.userLanguage);
+        const language = getLocalStorageItem<LanguageCode>(LS_KEYS.selectedLanguage);
         const today = new Date();
 
         setLocalStorageItem(LS_KEYS.userLastVisitDate, today);
@@ -42,7 +42,7 @@ export const useUserWordData = () => {
             setUserDaysCount(daysCount);
         }
         if (language) {
-            setUserLanguage(language);
+            setSelectedLanguage(language);
         }
     }
 
@@ -66,8 +66,8 @@ export const useUserWordData = () => {
     };
 
     const setLanguage = (language: LanguageCode) => {
-        setUserLanguage(language);
-        setLocalStorageItem(LS_KEYS.userLanguage, language);
+        setSelectedLanguage(language);
+        setLocalStorageItem(LS_KEYS.selectedLanguage, language);
     }
 
     const updateUserWordData = (wordId: number, remembered: boolean) => {
@@ -98,5 +98,5 @@ export const useUserWordData = () => {
         // localStorage.setItem('userWords', JSON.stringify(userWords));
     };
 
-    return { userLanguage, updateUserWordData, planNextSession, setLanguage, wordsForToday };
+    return { userLanguage: selectedLanguage, updateUserWordData, planNextSession, setLanguage, wordsForToday };
 };
