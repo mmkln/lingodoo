@@ -1,26 +1,19 @@
 import React, {useEffect, useState} from 'react';
-import { LearnNewWord, ReviewWord, StarsRating, WordCard} from './components';
-import { WORD_LIST } from './data/words';
+import {LearnNewWord, ReviewWord, StarsRating, SelectLanguage} from './components';
 import {useUserWordData} from './hooks';
-import { UserWordData, Word } from './models';
+import {LanguageCode, Word} from './models';
 
 const App: React.FC = () => {
-    const { userWords, updateUserWordData } = useUserWordData();
+    const { updateUserWordData, userLanguage, setLanguage, wordsForToday } = useUserWordData();
     const [currentWordIndex, setCurrentWordIndex] = useState(0);
     const [showReviewResults, setShowReviewResults] = useState(false);
     const [results, setResults] = useState({ remembered: 0, total: 5 });
-    const [wordsToReview, setWordsToReview] = useState<Word[]>([]);
     const [sessionStarted, setSessionStarted] = useState(false);
     const [learningMode, setLearningMode] = useState<'new' | 'review'>('new');
+    const [word, setWord] = useState<Word | null>(null);
 
     useEffect(() => {
-        // Логіка визначення слів для навчання або повторення
-        const today = new Date();
-        const wordsForToday = userWords?.length ? WORD_LIST.filter(word =>
-            userWords.some(uw => uw.wordId === word.id && uw.nextReviewDate <= today)
-        ).slice(0, 5) : WORD_LIST.slice(0, 5);  // Обмеження до перших 5 слів
-        setWordsToReview(wordsForToday);
-    }, [userWords]);
+    }, []);
 
     const handleReview = (remembered: boolean) => {
         // Оновлення даних користувача на основі його відповіді
@@ -31,7 +24,8 @@ const App: React.FC = () => {
 
         // Перехід до наступного слова
         const nextIndex = currentWordIndex + 1;
-        if (nextIndex < wordsToReview.length) {
+        if (nextIndex < wordsForToday.length) {
+            setWord(wordsForToday[nextIndex]);
             setCurrentWordIndex(nextIndex);
         } else {
             setShowReviewResults(true);
@@ -41,7 +35,8 @@ const App: React.FC = () => {
     const handleNext = () => {
         // Перехід до наступного слова
         const nextIndex = currentWordIndex + 1;
-        if (nextIndex < wordsToReview.length) {
+        if (nextIndex < wordsForToday.length) {
+            setWord(wordsForToday[nextIndex]);
             setCurrentWordIndex(nextIndex);
         } else {
             setShowReviewResults(true);
@@ -49,6 +44,8 @@ const App: React.FC = () => {
     };
 
     const startLearningSession = () => {
+        console.log({wordsForToday});
+        setWord(wordsForToday[currentWordIndex]);
         setSessionStarted(true);
         setLearningMode('new'); // Початок з режиму ознайомлення з новими словами
         setCurrentWordIndex(0);
@@ -56,21 +53,25 @@ const App: React.FC = () => {
     };
 
     const startReviewSession = () => {
+        setWord(wordsForToday[0]);
         setCurrentWordIndex(0);
-        setSessionStarted(true);
+        setResults({ remembered: 0, total: wordsForToday.length });
         setLearningMode('review'); // Початок з режиму повторення
+        setSessionStarted(true);
         setShowReviewResults(false);
     };
-
-    const word = WORD_LIST[currentWordIndex];
 
     return (
         <div className="app w-full h-lvh flex justify-center items-center bg-gray-100">
             {!sessionStarted ?  (
-                <button onClick={startLearningSession} className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
-                    <div className="absolute inset-0 w-3 bg-amber-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                    <span className="relative text-black group-hover:text-white">Почати Навчання!</span>
-                </button>
+                userLanguage ? (
+                    <button onClick={startLearningSession} className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
+                        <div className="absolute inset-0 w-3 bg-amber-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+                        <span className="relative text-black group-hover:text-white">Почати Навчання!</span>
+                    </button>
+                ) : (
+                    <SelectLanguage setLanguage={setLanguage} />
+                )
             ) : (
                 showReviewResults ? (
                     <div>
@@ -97,9 +98,9 @@ const App: React.FC = () => {
                 ) : (
                     <div className="flex flex-col gap-4">
                         {learningMode === 'new' ? (
-                            <LearnNewWord data={word} onClick={() => handleNext()}/>
+                            (word && <LearnNewWord data={word} onClick={() => handleNext()}/>)
                         ) : (
-                            <ReviewWord data={word} onClick={(event: boolean) => handleReview(event)} />
+                            (word && <ReviewWord data={word} onClick={(event: boolean) => handleReview(event)} />)
                         )}
                     </div>
                 )
