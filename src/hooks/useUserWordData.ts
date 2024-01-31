@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-import {LanguageCode, UserWordData, Word} from '../models';
+import {LanguageCode, UserDaysCount, UserWordData, Word} from '../models';
 import {LS_KEYS} from "../constants";
 import {WORD_LIST, WORD_LIST_HUNGARIAN} from "../data";
 
@@ -8,7 +8,7 @@ import {getLocalStorageItem, setLocalStorageItem} from "../helpers";
 import {cutArrayRange} from "../utils";
 
 export const useUserWordData = () => {
-    const [userDayCount, setUserDayCount] = useState<number>(0);
+    const [userDaysCount, setUserDaysCount] = useState<UserDaysCount | null>();
     const [userLanguage, setUserLanguage] = useState<LanguageCode | null>(null);
     const [wordsForToday, setWordsForToday] = useState<Word[]>([]);
 
@@ -18,7 +18,14 @@ export const useUserWordData = () => {
 
     useEffect(() => {
         if (userLanguage) {
-            const start = (userDayCount - 1) * 5;
+            const userDaysCountMap = {...userDaysCount};
+            if (!userDaysCountMap[userLanguage]) {
+                userDaysCountMap[userLanguage] = 1;
+                setLocalStorageItem<UserDaysCount>(LS_KEYS.userDaysCount, userDaysCountMap);
+                setUserDaysCount(userDaysCountMap);
+            }
+
+            const start = ((userDaysCountMap[userLanguage] || 1) - 1) * 5;
             const end = start + 4;
             const words = getWordListByLanguage(userLanguage);
             setWordsForToday(cutArrayRange<Word>(words, start, end));
@@ -26,25 +33,16 @@ export const useUserWordData = () => {
     }, [userLanguage]);
 
     const initUserData = () => {
-        const daysCount = getLocalStorageItem<number>(LS_KEYS.userDayCount);
+        const daysCount = getLocalStorageItem<UserDaysCount>(LS_KEYS.userDaysCount);
         const language = getLocalStorageItem<LanguageCode>(LS_KEYS.userLanguage);
         const today = new Date();
 
         setLocalStorageItem(LS_KEYS.userLastVisitDate, today);
-        if (!daysCount) {
-            setLocalStorageItem(LS_KEYS.userDayCount, 1);
-            setUserDayCount(1);
-        }
         if (daysCount) {
-            setUserDayCount(daysCount);
+            setUserDaysCount(daysCount);
         }
         if (language) {
             setUserLanguage(language);
-            const start = (userDayCount - 1) * 5;
-            const end = start + 5;
-            const words = getWordListByLanguage(language);
-            setWordsForToday(cutArrayRange<Word>(words, start, end));
-            console.log(1, {wordsForToday});
         }
     }
 

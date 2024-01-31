@@ -1,6 +1,6 @@
 export const LS_KEYS = {
     userWords: 'userWords',
-    userDayCount: 'userDayCount',
+    userDaysCount: 'userDaysCount',
     userLanguage: 'userLanguage',
     userLastVisitDate: 'userLastVisitDate',
 }

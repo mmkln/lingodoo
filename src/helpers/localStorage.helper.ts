@@ -1,5 +1,5 @@
 // Save data to Local Storage
-export const setLocalStorageItem = (key: string, value: any): void => {
+export const setLocalStorageItem = <T>(key: string, value: T): void => {
     try {
         localStorage.setItem(key, JSON.stringify(value));
     } catch (error) {

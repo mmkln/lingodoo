@@ -4,6 +4,10 @@ export interface UserWordData {
     reviewCount: number;
 }
 
+export type UserDaysCount = {
+    [key in LanguageCode]?: number;
+};
+
 export enum LanguageCode {
     EN = 'en',
     HU = 'hu',
