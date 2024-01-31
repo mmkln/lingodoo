@@ -5,7 +5,7 @@ interface SelectLanguageProps {
     setLanguage: (language: LanguageCode) => void;
 }
 
-const SelectLanguage: React.FC<SelectLanguageProps> = ({setLanguage}) => {
+export const SelectLanguage: React.FC<SelectLanguageProps> = ({setLanguage}) => {
     return (
         <div className="flex flex-col items-center justify-center h-screen">
             <h1 className="text-2xl font-bold mb-4">Select Language</h1>
