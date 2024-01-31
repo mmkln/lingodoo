@@ -3,3 +3,13 @@ export interface UserWordData {
     nextReviewDate: Date;
     reviewCount: number;
 }
+
+export enum LanguageCode {
+    EN = 'en',
+    HU = 'hu',
+}
+
+export interface AppLanguage {
+    name: string;
+    code: LanguageCode;
+}
