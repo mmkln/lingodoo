@@ -4,7 +4,7 @@ import {useUserWordData} from './hooks';
 import {LanguageCode, Word} from './models';
 
 const App: React.FC = () => {
-    const { updateUserWordData, userLanguage, setLanguage, wordsForToday } = useUserWordData();
+    const { updateUserWordData, userLanguage, setLanguage, wordsForToday, setLearnedAllTodayWords } = useUserWordData();
     const [currentWordIndex, setCurrentWordIndex] = useState(0);
     const [showReviewResults, setShowReviewResults] = useState(false);
     const [results, setResults] = useState({ remembered: 0, total: 5 });
@@ -39,6 +39,7 @@ const App: React.FC = () => {
             setWord(wordsForToday[nextIndex]);
             setCurrentWordIndex(nextIndex);
         } else {
+            setLearnedAllTodayWords();
             setShowReviewResults(true);
         }
     };

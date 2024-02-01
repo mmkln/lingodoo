@@ -19,16 +19,20 @@ export const useUserWordData = () => {
     useEffect(() => {
         if (selectedLanguage) {
             const userDaysCountMap = {...userDaysCount};
-            if (!userDaysCountMap[selectedLanguage]) {
-                userDaysCountMap[selectedLanguage] = 1;
+            let selectedLanguageDaysCount = userDaysCountMap[selectedLanguage];
+            if (!selectedLanguageDaysCount) {
+                selectedLanguageDaysCount = { count: 0, date: new Date() };
                 setLocalStorageItem<UserDaysCount>(LS_KEYS.userDaysCount, userDaysCountMap);
                 setUserDaysCount(userDaysCountMap);
             }
-
-            const start = ((userDaysCountMap[selectedLanguage] || 1) - 1) * 5;
-            const end = start + 4;
-            const words = getWordListByLanguage(selectedLanguage);
-            setWordsForToday(cutArrayRange<Word>(words, start, end));
+            if (!selectedLanguageDaysCount?.count
+                || (new Date(selectedLanguageDaysCount?.date)?.getDate() !== new Date().getDate()))
+            {
+                const start = (selectedLanguageDaysCount?.count || 0) * 5;
+                const end = start + 4;
+                const words = getWordListByLanguage(selectedLanguage);
+                setWordsForToday(cutArrayRange<Word>(words, start, end));
+            }
         }
     }, [selectedLanguage]);
 
@@ -43,6 +47,16 @@ export const useUserWordData = () => {
         }
         if (language) {
             setSelectedLanguage(language);
+        }
+    }
+
+    const setLearnedAllTodayWords = () => {
+        const userDaysCountMap = {...userDaysCount};
+        if (selectedLanguage) {
+            const count = (userDaysCountMap[selectedLanguage]?.count|| 0) + 1;
+            userDaysCountMap[selectedLanguage] = { count, date: new Date() };
+            setLocalStorageItem<UserDaysCount>(LS_KEYS.userDaysCount, userDaysCountMap);
+            setUserDaysCount(userDaysCountMap);
         }
     }
 
@@ -98,5 +112,5 @@ export const useUserWordData = () => {
         // localStorage.setItem('userWords', JSON.stringify(userWords));
     };
 
-    return { userLanguage: selectedLanguage, updateUserWordData, planNextSession, setLanguage, wordsForToday };
+    return { userLanguage: selectedLanguage, updateUserWordData, planNextSession, setLanguage, wordsForToday, setLearnedAllTodayWords };
 };
