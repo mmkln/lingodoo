@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import {LearnNewWord, ReviewWord, StarsRating, SelectLanguage} from './components';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import {LearnNewWord, ReviewWord, StarsRating, SelectLanguage, DeckList, DeckPage, NewWordPage} from './components';
 import {useUserWordData} from './hooks';
 import {LanguageCode, Word} from './models';
 
@@ -63,51 +64,59 @@ const App: React.FC = () => {
     };
 
     return (
-        <div className="app w-full h-lvh flex justify-center items-center bg-gray-100">
-            {!sessionStarted ?  (
-                userLanguage ? (
-                    <button onClick={startLearningSession} className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
-                        <div className="absolute inset-0 w-3 bg-amber-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                        <span className="relative text-black group-hover:text-white">Почати Навчання!</span>
-                    </button>
-                ) : (
-                    <SelectLanguage setLanguage={setLanguage} />
-                )
-            ) : (
-                showReviewResults ? (
-                    <div>
-                        {learningMode === 'new' ? (
-                            <div className="flex gap-4 items-center">
-                                <p>Тепер ви знаєте {results.total} нових слів.</p>
-                                <div className="flex gap-4 items-center">
-                                    <button onClick={startReviewSession}
-                                            className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
-                                        <div
-                                            className="absolute inset-0 w-3 bg-amber-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                                        <span className="relative text-black group-hover:text-white">Повторити!</span>
-                                    </button>
-                                </div>
-                            </div>
-                        ) : (
-                            <div className="flex flex-col gap-4 justify-center items-center">
-                                <p>Ви запам'ятали {results.remembered} із {results.total} слів.</p>
-                                <StarsRating count={results.remembered} outOf={results.total} />
-                            </div>
-                        )}
-                        {/* Тут можна додати кнопки або дії для наступної сесії */}
-                    </div>
-                ) : (
-                    <div className="flex flex-col gap-4">
-                        {learningMode === 'new' ? (
-                            (word && <LearnNewWord data={word} onClick={() => handleNext()}/>)
-                        ) : (
-                            (word && <ReviewWord data={word} onClick={(event: boolean) => handleReview(event)} />)
-                        )}
-                    </div>
-                )
-            )}
-        </div>
+        <Router>
+            <Routes>
+                <Route path="/" element={<DeckList />} />
+                <Route path="/deck/:id" element={<DeckPage />} />
+                <Route path="/new-word/:id" element={<NewWordPage />} />
+            </Routes>
+        </Router>
     );
+        {/*<div className="app w-full h-lvh flex justify-center items-center bg-gray-100">*/}
+        {/*    {!sessionStarted ?  (*/}
+        {/*        userLanguage ? (*/}
+        {/*            <button onClick={startLearningSession} className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">*/}
+        {/*                <div className="absolute inset-0 w-3 bg-amber-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>*/}
+        {/*                <span className="relative text-black group-hover:text-white">Почати Навчання!</span>*/}
+        {/*            </button>*/}
+        {/*        ) : (*/}
+        {/*            <SelectLanguage setLanguage={setLanguage} />*/}
+        {/*        )*/}
+        {/*    ) : (*/}
+        {/*        showReviewResults ? (*/}
+        {/*            <div>*/}
+        {/*                {learningMode === 'new' ? (*/}
+        {/*                    <div className="flex gap-4 items-center">*/}
+        {/*                        <p>Тепер ви знаєте {results.total} нових слів.</p>*/}
+        {/*                        <div className="flex gap-4 items-center">*/}
+        {/*                            <button onClick={startReviewSession}*/}
+        {/*                                    className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">*/}
+        {/*                                <div*/}
+        {/*                                    className="absolute inset-0 w-3 bg-amber-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>*/}
+        {/*                                <span className="relative text-black group-hover:text-white">Повторити!</span>*/}
+        {/*                            </button>*/}
+        {/*                        </div>*/}
+        {/*                    </div>*/}
+        {/*                ) : (*/}
+        {/*                    <div className="flex flex-col gap-4 justify-center items-center">*/}
+        {/*                        <p>Ви запам'ятали {results.remembered} із {results.total} слів.</p>*/}
+        {/*                        <StarsRating count={results.remembered} outOf={results.total} />*/}
+        {/*                    </div>*/}
+        {/*                )}*/}
+        {/*                /!* Тут можна додати кнопки або дії для наступної сесії *!/*/}
+        {/*            </div>*/}
+        {/*        ) : (*/}
+        {/*            <div className="flex flex-col gap-4">*/}
+        {/*                {learningMode === 'new' ? (*/}
+        {/*                    (word && <LearnNewWord data={word} onClick={() => handleNext()}/>)*/}
+        {/*                ) : (*/}
+        {/*                    (word && <ReviewWord data={word} onClick={(event: boolean) => handleReview(event)} />)*/}
+        {/*                )}*/}
+        {/*            </div>*/}
+        {/*        )*/}
+        {/*    )}*/}
+        {/*</div>*/}
+    // );
 };
 
 export default App;
