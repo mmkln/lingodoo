@@ -1,6 +1,15 @@
 import React, {useEffect, useState} from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import {LearnNewWord, ReviewWord, StarsRating, SelectLanguage, DeckList, DeckPage, NewWordPage} from './components';
+import {
+    LearnNewWord,
+    ReviewWord,
+    StarsRating,
+    SelectLanguage,
+    DeckList,
+    DeckPage,
+    NewWordPage,
+    ReviewPage,
+} from './components';
 import {useUserWordData} from './hooks';
 import {LanguageCode, Word} from './models';
 
@@ -69,6 +78,7 @@ const App: React.FC = () => {
                 <Route path="/" element={<DeckList />} />
                 <Route path="/deck/:id" element={<DeckPage />} />
                 <Route path="/new-word/:id" element={<NewWordPage />} />
+                <Route path="/review/:id" element={<ReviewPage />} />
             </Routes>
         </Router>
     );

@@ -15,3 +15,4 @@ export * from './WordItem';
 export {default as DeckModal} from './DeckModal';
 export {default as NewWordPage} from './NewWordPage'
 export * from './FlipCardInput';
+export {default as ReviewPage} from './ReviewPage';
