@@ -3,4 +3,5 @@ export const LS_KEYS = {
     userDaysCount: 'userDaysCount',
     selectedLanguage: 'selectedLanguage',
     userLastVisitDate: 'userLastVisitDate',
+    decks: 'decks',
 }

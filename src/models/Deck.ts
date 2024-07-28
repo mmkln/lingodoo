@@ -10,4 +10,8 @@ export interface DeckWord {
     id: number;
     word: string;
     translation: string;
+    example: string;
+    nextReviewDate: Date;
+    interval: number;
+    repetitionCount: number;
 }

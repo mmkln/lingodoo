@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { WordData } from '../models/WordData';
+import { WordData } from '../models';
 
 export const useWordData = () => {
     const [words, setWords] = useState<WordData[]>([]);
