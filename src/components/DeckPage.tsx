@@ -93,7 +93,7 @@ const DeckPage: React.FC = () => {
             ) : (
                 <button
                   onClick={handleReviewClick}
-                  className="text-2xl bg-yellow-500 text-white rounded-lg p-4 mt-4 w-full flex items-center justify-center">
+                  className="mb-4 text-2xl bg-yellow-500 text-white rounded-lg p-4 w-full flex items-center justify-center">
                     Review Cards
                 </button>
             )
