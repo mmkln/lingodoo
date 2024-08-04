@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.21eba2e2.css",
-    "main.js": "/static/js/main.7a955797.js",
-    "index.html": "/index.html",
-    "main.21eba2e2.css.map": "/static/css/main.21eba2e2.css.map",
-    "main.7a955797.js.map": "/static/js/main.7a955797.js.map"
+    "main.css": "/lingodoo/static/css/main.21eba2e2.css",
+    "main.js": "/lingodoo/static/js/main.7a955797.js",
+    "index.html": "/lingodoo/index.html",
+    "main.21eba2e2.css.map": "/lingodoo/static/css/main.21eba2e2.css.map",
+    "main.7a955797.js.map": "/lingodoo/static/js/main.7a955797.js.map"
   },
   "entrypoints": [
     "static/css/main.21eba2e2.css",
