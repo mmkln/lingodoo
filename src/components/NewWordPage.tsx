@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { Deck, DeckWord } from '../models';
 import { FlipCardInput } from "./FlipCardInput";
-import { getLocalStorageItem, initializeWord, setLocalStorageItem } from '../helpers';
+import { getLocalStorageItem, initializeWord, setLocalStorageItem, setWordIntoDeck } from '../helpers';
 import { LS_KEYS } from '../constants';
 
 
@@ -14,21 +14,13 @@ const NewWordPage: React.FC = () => {
     const [isFlipped, setIsFlipped] = useState(false);
 
     const handleSave = () => {
-        const storedDecks: Deck[] = getLocalStorageItem<any[]>(LS_KEYS.decks) || [];
-        const deckIndex = storedDecks.findIndex((d: Deck) => d.id === Number(id));
+        const newWord ={
+            word: front,
+            translation: back,
+            example: 'string' // Dummy data
+        };
 
-        if (deckIndex !== -1) {
-            const newWord: DeckWord = initializeWord({
-                    id: storedDecks[deckIndex].words?.length ? storedDecks[deckIndex].words[storedDecks[deckIndex].words.length - 1].id + 1 : 1,
-                    word: front,
-                    translation: back,
-                    example: 'string' // Dummy data
-                });
-
-            storedDecks[deckIndex].words.push(newWord);
-            storedDecks[deckIndex].total += 1;
-            setLocalStorageItem(LS_KEYS.decks, storedDecks);
-        }
+        id && setWordIntoDeck(id, newWord);
 
         navigate(`/deck/${id}`);
     };

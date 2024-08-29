@@ -4,27 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31b2c143-fea7-4c35-9ade-8dabeb74f926" name="Changes" comment="Minor fix in Package.json homepage; and xml files;">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/translate/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/translate/translate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components_legacy/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/wordsHPHungarian.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="31b2c143-fea7-4c35-9ade-8dabeb74f926" name="Changes" comment="Update environment settings; Add python scripts for translation; Move legacy components into dedicated directory;">
+      <change afterPath="$PROJECT_DIR$/src/constants/WORDS_HP_HU.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/deckWords.helper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/is.helper.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FlipCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components_legacy/FlipCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LearnNewWord.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components_legacy/LearnNewWord.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProgressBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components_legacy/ProgressBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ReviewWord.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components_legacy/ReviewWord.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SelectLanguage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components_legacy/SelectLanguage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StarsRating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components_legacy/StarsRating.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WordCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components_legacy/WordCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DeckList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DeckList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DeckPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DeckPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewWordPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewWordPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +130,7 @@
       <workItem from="1722777742294" duration="1308000" />
       <workItem from="1723923172065" duration="5552000" />
       <workItem from="1724436013748" duration="1341000" />
-      <workItem from="1724948366494" duration="660000" />
+      <workItem from="1724948366494" duration="6977000" />
     </task>
     <task id="LOCAL-00001" summary="Init new Decks logic;">
       <option name="closed" value="true" />
@@ -183,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722171622573</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update environment settings; Add python scripts for translation; Move legacy components into dedicated directory;">
+      <option name="closed" value="true" />
+      <created>1724949198307</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724949198307</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +192,7 @@
     <MESSAGE value="Minor fix - Review Cards button margin;" />
     <MESSAGE value="Implement Repetition algorithm;" />
     <MESSAGE value="Minor fix in Package.json homepage; and xml files;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor fix in Package.json homepage; and xml files;" />
+    <MESSAGE value="Update environment settings; Add python scripts for translation; Move legacy components into dedicated directory;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update environment settings; Add python scripts for translation; Move legacy components into dedicated directory;" />
   </component>
 </project>

@@ -2,7 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { WordItem } from '../components';
 import { Deck, DeckWord } from '../models';
-import { getLocalStorageItem } from '../helpers';
+import {
+    getLocalStorageItem,
+    updateDeckToReviewCount,
+} from '../helpers';
 import { LS_KEYS } from '../constants';
 
 const defaultDeckData: Deck = {
@@ -20,7 +23,6 @@ const DeckPage: React.FC = () => {
     const [deckName, setDeckName] = useState('');
     const [deckData, setDeckData] = useState<Deck | null>(null);
     const [deckWords, setDeckWords] = useState<DeckWord[]>([]);
-    const [toReviewCount, setToReviewCount] = useState<number | null>(null);
 
     const handleBackClick = () => {
         navigate(`/`);
@@ -44,8 +46,7 @@ const DeckPage: React.FC = () => {
             setDeckWords(deck.words || []);
         }
         if (deck && 'words' in deck) {
-            const count = deck.words.filter(word => new Date(word.nextReviewDate) <= new Date()).length;
-            setToReviewCount(count);
+            updateDeckToReviewCount(deck);
         }
     }, [id]);
 
@@ -85,8 +86,8 @@ const DeckPage: React.FC = () => {
               <div>
                   <h2 className="text-lg font-bold">{deckData.name}</h2>
                   <div className="flex gap-4">
-                    <span className={`rounded-md px-2 py-1 font-bold ${!toReviewCount ? 'bg-green-300' : 'bg-yellow-300'}`}>
-                      {toReviewCount} to review
+                    <span className={`rounded-md px-2 py-1 font-bold ${!deckData.toReview ? 'bg-green-300' : 'bg-yellow-300'}`}>
+                      {deckData.toReview} to review
                     </span>
                     <span className="bg-blue-500 text-white rounded-md px-2 py-1 font-bold">{deckData.total} total</span>
                   </div>
@@ -106,7 +107,7 @@ const DeckPage: React.FC = () => {
                   </svg>
               </button>
           </div>
-          {!toReviewCount ? (
+          {!deckData.toReview ? (
             <div className="mb-4 text-2xl bg-green-300 text-center text-white rounded-md p-4">
                 Nothing to review today
             </div>

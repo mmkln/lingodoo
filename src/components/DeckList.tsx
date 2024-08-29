@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {DeckItem, DeckModal} from '../components';
 import {Deck} from "../models";
+import { WORDS_HP_HU } from '../constants';
+import { initializeDeckWords, setNextDeckWords } from '../helpers';
 
 const DeckList: React.FC = () => {
     const [decks, setDecks] = useState<Deck[]>([]);
@@ -11,7 +13,21 @@ const DeckList: React.FC = () => {
     useEffect(() => {
         const storedDecks = JSON.parse(localStorage.getItem('decks') || '[]');
         setDecks(storedDecks);
+        addHungarianDeckIfNotExists(storedDecks);
     }, []);
+
+    const addHungarianDeckIfNotExists = (currentDeckList: Deck[]): void => {
+        const hungarianDeckName = 'Magyar HP';
+        const words = WORDS_HP_HU;
+        let deck = currentDeckList.find((deck) => deck.name === hungarianDeckName);
+
+        if (!deck) {
+            deck = handleSaveDeck(hungarianDeckName, false);
+            initializeDeckWords(deck.id, words);
+        } else {
+            setNextDeckWords(deck, words);
+        }
+    }
 
     const handleDeckClick = (id: number) => {
         navigate(`/deck/${id}`);
@@ -25,8 +41,8 @@ const DeckList: React.FC = () => {
         setIsModalOpen(false);
     };
 
-    const handleSaveDeck = (name: string, reminder: boolean) => {
-        const newDeck = {
+    const handleSaveDeck = (name: string, reminder: boolean): Deck => {
+        const newDeck: Deck = {
             id: decks.length ? decks[decks.length - 1].id + 1 : 1,
             name,
             toReview: 0,
@@ -36,6 +52,8 @@ const DeckList: React.FC = () => {
         const updatedDecks = [...decks, newDeck];
         setDecks(updatedDecks);
         localStorage.setItem('decks', JSON.stringify(updatedDecks));
+
+        return newDeck;
     };
 
     return (
