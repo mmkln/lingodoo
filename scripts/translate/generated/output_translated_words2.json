@@ -1,0 +1,6466 @@
+[
+    {
+        "word": "úr",
+        "translation": "пан",
+        "en": {
+            "translation": "watch"
+        },
+        "example": "Dursley úr a fúrókat eladta."
+    },
+    {
+        "word": "palástban",
+        "translation": "у плащі",
+        "en": {
+            "translation": "cloak"
+        },
+        "example": "Az ember smaragdzöld palástban volt."
+    },
+    {
+        "word": "tűzijáték-petárdákat",
+        "translation": "феєрверки",
+        "en": {
+            "translation": "fireworks"
+        },
+        "example": "Talán máris tűzijáték-petárdákat lődöznek?"
+    },
+    {
+        "word": "perccel",
+        "translation": "хвилиною",
+        "en": {
+            "translation": "minutes"
+        },
+        "example": "Néhány perccel később megérkezett."
+    },
+    {
+        "word": "dolgában",
+        "translation": "в справі",
+        "en": {
+            "translation": "dolgában"
+        },
+        "example": "Nyak dolgában a szokásos méret kétszeresével büszkélkedhetett."
+    },
+    {
+        "word": "darabig",
+        "translation": "на деякий час",
+        "en": {
+            "translation": "for a piece"
+        },
+        "example": "Egy darabig így fortyogott magában."
+    },
+    {
+        "word": "szürke",
+        "translation": "сірий",
+        "en": {
+            "translation": "gray"
+        },
+        "example": "Az a borongós, szürke kedd."
+    },
+    {
+        "word": "emeleti",
+        "translation": "поверховий",
+        "en": {
+            "translation": "upstairs"
+        },
+        "example": "A kilencedik emeleti igazgatói irodában."
+    },
+    {
+        "word": "épp",
+        "translation": "саме",
+        "en": {
+            "translation": "just"
+        },
+        "example": "Épp hisztirohamot kapott."
+    },
+    {
+        "word": "egész",
+        "translation": "цілий",
+        "en": {
+            "translation": "whole"
+        },
+        "example": "E különcök egy egész csoportjába botlott."
+    },
+    {
+        "word": "ide-oda",
+        "translation": "туди-сюди",
+        "en": {
+            "translation": "Idea"
+        },
+        "example": "Fényes nappal ide-oda repdeső baglyokat."
+    },
+    {
+        "word": "utcatáblát",
+        "translation": "вуличний знак",
+        "en": {
+            "translation": "street board"
+        },
+        "example": "A macska most az utcatáblát olvasta."
+    },
+    {
+        "word": "miközben",
+        "translation": "під час",
+        "en": {
+            "translation": "while"
+        },
+        "example": "Miközben kifordult a főútra, figyelte az állatot."
+    },
+    {
+        "word": "záporoztak",
+        "translation": "сипалися",
+        "en": {
+            "translation": "were raining"
+        },
+        "example": "Hullócsillagok záporoztak az égből."
+    },
+    {
+        "word": "legújabb",
+        "translation": "найновіший",
+        "en": {
+            "translation": "recent"
+        },
+        "example": "Biztosan ez a legújabb őrült divat."
+    },
+    {
+        "word": "privet",
+        "translation": "привіт",
+        "en": {
+            "translation": "privet"
+        },
+        "example": "A Privet Drive 4. szám alatt lakó."
+    },
+    {
+        "word": "köpönyeget",
+        "translation": "плащ",
+        "en": {
+            "translation": "cloak"
+        },
+        "example": "A kis ember ibolyaszínű köpönyeget viselt."
+    },
+    {
+        "word": "nyílt",
+        "translation": "відкритий",
+        "en": {
+            "translation": "open"
+        },
+        "example": "Azután kerekre nyílt szemekkel visszafordult."
+    },
+    {
+        "word": "virít",
+        "translation": "сіяє",
+        "en": {
+            "translation": "chill"
+        },
+        "example": "Smaragdzöld palástban virít!"
+    },
+    {
+        "word": "számukra",
+        "translation": "для них",
+        "en": {
+            "translation": "for them"
+        },
+        "example": "Dursley úr és neje számára épp úgy kezdődött."
+    },
+    {
+        "word": "távol",
+        "translation": "далеко",
+        "en": {
+            "translation": "far"
+        },
+        "example": "Távol tartsák maguktól a Potter családot."
+    },
+    {
+        "word": "csoportjába",
+        "translation": "до групи",
+        "en": {
+            "translation": "csoportjába"
+        },
+        "example": "E különcök egy egész csoportjába botlott."
+    },
+    {
+        "word": "első",
+        "translation": "перший",
+        "en": {
+            "translation": "first"
+        },
+        "example": "Az első dolog, ami szemet szúrt neki."
+    },
+    {
+        "word": "fánkot",
+        "translation": "пончик",
+        "en": {
+            "translation": "donut"
+        },
+        "example": "Átsétál a szemközti pékségbe egy fánkért."
+    },
+    {
+        "word": "parkolójába",
+        "translation": "на парковку",
+        "en": {
+            "translation": "in the parking lot"
+        },
+        "example": "Megérkezett a Grunnings parkolójába."
+    },
+    {
+        "word": "lesz",
+        "translation": "буде",
+        "en": {
+            "translation": "become"
+        },
+        "example": "Ez ám a rejtély, igaz-e? És most lássuk, milyen időt ígér nekünk Jim McGuffin. Éjszaka is számíthatunk bagolyátvonulásra, Jim?"
+    },
+    {
+        "word": "égből",
+        "translation": "з неба",
+        "en": {
+            "translation": "heaven"
+        },
+        "example": "Hullócsillagok záporoztak az égből."
+    },
+    {
+        "word": "szegélyező",
+        "translation": "що оточує",
+        "en": {
+            "translation": "borders"
+        },
+        "example": "A kertet szegélyező falon üldögélt."
+    },
+    {
+        "word": "szomszédokat",
+        "translation": "сусідів",
+        "en": {
+            "translation": "neighbors"
+        },
+        "example": "A kerítésnél ágaskodott, és a szomszédokat leste."
+    },
+    {
+        "word": "kénytelen",
+        "translation": "вимушений",
+        "en": {
+            "translation": "forced"
+        },
+        "example": "Átmenetileg ismét kénytelen volt megfeledkezni szeretett fúróiról."
+    },
+    {
+        "word": "továbbment",
+        "translation": "продовжив",
+        "en": {
+            "translation": "go on"
+        },
+        "example": "Azután nyelt egyet, és továbbment."
+    },
+    {
+        "word": "dugóban",
+        "translation": "в заторі",
+        "en": {
+            "translation": "in plug"
+        },
+        "example": "A szokásos reggeli dugóban araszolva."
+    },
+    {
+        "word": "eső",
+        "translation": "дощ",
+        "en": {
+            "translation": "rain"
+        },
+        "example": "Az előre jelzett eső helyett hullócsillagok záporoztak az égből."
+    },
+    {
+        "word": "tévedt",
+        "translation": "помилився",
+        "en": {
+            "translation": "misbehaved"
+        },
+        "example": "Tekintete a talárosok egy csoportjára tévedt."
+    },
+    {
+        "word": "sovány",
+        "translation": "худий",
+        "en": {
+            "translation": "thin"
+        },
+        "example": "Dursley-né sovány volt, és szőke."
+    },
+    {
+        "word": "járt",
+        "translation": "йшов",
+        "en": {
+            "translation": "traveled"
+        },
+        "example": "Ekkor már ismét csak a fúrókon járt az esze."
+    },
+    {
+        "word": "kerül",
+        "translation": "потрапляє",
+        "en": {
+            "translation": "avoid"
+        },
+        "example": "Sohasem került ki a szomszédok figyelméből."
+    },
+    {
+        "word": "látszani",
+        "translation": "виглядати",
+        "en": {
+            "translation": "to appear"
+        },
+        "example": "Igyekezett tökéletesen nyugodtnak látszani."
+    },
+    {
+        "word": "történetünk",
+        "translation": "наша історія",
+        "en": {
+            "translation": "our story"
+        },
+        "example": "Történetünk kezdetét veszi."
+    },
+    {
+        "word": "kaptam",
+        "translation": "отримав",
+        "en": {
+            "translation": "I got it"
+        },
+        "example": "Kentből, Yorkshire-ból és Dundeeból is kaptam telefonhívásokat."
+    },
+    {
+        "word": "eltökélt",
+        "translation": "рішучий",
+        "en": {
+            "translation": "determined"
+        },
+        "example": "Még mindig eltökélt szándéka volt, hogy."
+    },
+    {
+        "word": "ujjaival",
+        "translation": "пальцями",
+        "en": {
+            "translation": "with your fingers"
+        },
+        "example": "S ujjaival türelmetlenül dobolt a kormánykeréken."
+    },
+    {
+        "word": "lássuk",
+        "translation": "подивимося",
+        "en": {
+            "translation": "let's see"
+        },
+        "example": "És most lássuk, milyen időt ígér nekünk Jim McGuffin."
+    },
+    {
+        "word": "valaki",
+        "translation": "хтось",
+        "en": {
+            "translation": "someone"
+        },
+        "example": "Úgy érezték, nem is élnék túl, ha valaki tudomást szerezne."
+    },
+    {
+        "word": "állhatta",
+        "translation": "терпів",
+        "en": {
+            "translation": "could stand"
+        },
+        "example": "Dursley úr ki nem állhatta a feltűnősködést."
+    },
+    {
+        "word": "s",
+        "translation": "і",
+        "en": {
+            "translation": "s"
+        },
+        "example": "A kis Dudley-nak is megpróbált egy búcsúpuszit adni."
+    },
+    {
+        "word": "munkába",
+        "translation": "на роботу",
+        "en": {
+            "translation": "to work"
+        },
+        "example": "Dursley úr munkába készülőben volt."
+    },
+    {
+        "word": "rossz",
+        "translation": "поганий",
+        "en": {
+            "translation": "bad"
+        },
+        "example": "Kölykük csak rossz hatással lenne az ő Dudley-jukra."
+    },
+    {
+        "word": "később",
+        "translation": "пізніше",
+        "en": {
+            "translation": "later"
+        },
+        "example": "Néhány perccel később, amikor megérkezett a Grunnings parkolójába."
+    },
+    {
+        "word": "köztudomásúlag",
+        "translation": "відомо",
+        "en": {
+            "translation": "well -known"
+        },
+        "example": "A bagoly köztudomásúlag éjszakai madár."
+    },
+    {
+        "word": "szólnának",
+        "translation": "сказали б",
+        "en": {
+            "translation": "they would speak"
+        },
+        "example": "Mit szólnának a szomszédok, ha a Potter-pereputty feltűnne az utcájukban."
+    },
+    {
+        "word": "egyszerre",
+        "translation": "одночасно",
+        "en": {
+            "translation": "at the same time"
+        },
+        "example": "Egyszerre meggondolta magát."
+    },
+    {
+        "word": "araszolva",
+        "translation": "повільно рухаючись",
+        "en": {
+            "translation": "with"
+        },
+        "example": "A szokásos reggeli dugóban araszolva."
+    },
+    {
+        "word": "fellökt",
+        "translation": "штовхнув",
+        "en": {
+            "translation": "rally"
+        },
+        "example": "Kis híján fellökte az illetőt."
+    },
+    {
+        "word": "szakértők",
+        "translation": "експерти",
+        "en": {
+            "translation": "experts"
+        },
+        "example": "A szakértők egyelőre nem találtak magyarázatot."
+    },
+    {
+        "word": "járókelővel",
+        "translation": "перехожим",
+        "en": {
+            "translation": "with passenger"
+        },
+        "example": "Rögtön összeütközött egy járókelővel."
+    },
+    {
+        "word": "urának",
+        "translation": "чоловіку",
+        "en": {
+            "translation": "lord"
+        },
+        "example": "Mesélt urának a szomszédasszony haszontalan gyerekéről."
+    },
+    {
+        "word": "bagolyátvonulásra",
+        "translation": "переліт сов",
+        "en": {
+            "translation": "owl"
+        },
+        "example": "Éjszaka is számíthatunk bagolyátvonulásra."
+    },
+    {
+        "word": "telefonhívásokat",
+        "translation": "телефонні дзвінки",
+        "en": {
+            "translation": "phone calls"
+        },
+        "example": "Dundeeból is kaptam telefonhívásokat."
+    },
+    {
+        "word": "nyoma",
+        "translation": "слід",
+        "en": {
+            "translation": "trace"
+        },
+        "example": "De a térképnek már nyoma sem volt."
+    },
+    {
+        "word": "le",
+        "translation": "вниз",
+        "en": {
+            "translation": "the"
+        },
+        "example": "Pislogva meredt a macskára, s az visszanézett rá."
+    },
+    {
+        "word": "nézők",
+        "translation": "глядачі",
+        "en": {
+            "translation": "spectators"
+        },
+        "example": "Melyekben a nézők arról számoltak be."
+    },
+    {
+        "word": "pékségbe",
+        "translation": "до пекарні",
+        "en": {
+            "translation": "bakery"
+        },
+        "example": "Átsétál a szemközti pékségbe egy fánkért."
+    },
+    {
+        "word": "ért",
+        "translation": "дійшов",
+        "en": {
+            "translation": "understand"
+        },
+        "example": "Amikor a város határába ért."
+    },
+    {
+        "word": "borongós",
+        "translation": "похмурий",
+        "en": {
+            "translation": "chucky"
+        },
+        "example": "Az a borongós, szürke kedd."
+    },
+    {
+        "word": "kagylót",
+        "translation": "трубка",
+        "en": {
+            "translation": "shell"
+        },
+        "example": "Felkapta a telefonkagylót."
+    },
+    {
+        "word": "éles",
+        "translation": "різкий",
+        "en": {
+            "translation": "sharp"
+        },
+        "example": "Olyan éles, nyekergő hangon szólt."
+    },
+    {
+        "word": "jelentései",
+        "translation": "звіти",
+        "en": {
+            "translation": "reports"
+        },
+        "example": "A madárfigyelők jelentései szerint."
+    },
+    {
+        "word": "előtti",
+        "translation": "перед",
+        "en": {
+            "translation": "precedent"
+        },
+        "example": "A négyes szám előtti felhajtóra."
+    },
+    {
+        "word": "nyugtalanság",
+        "translation": "тривога",
+        "en": {
+            "translation": "restlessness"
+        },
+        "example": "Nyugtalanság fogta el."
+    },
+    {
+        "word": "őrzött",
+        "translation": "охороняв",
+        "en": {
+            "translation": "guarded"
+        },
+        "example": "Volt azonban egy féltve őrzött titkuk."
+    },
+    {
+        "word": "képzelődött",
+        "translation": "уявляв",
+        "en": {
+            "translation": "imagined"
+        },
+        "example": "Őszintén remélte, hogy csak képzelődött."
+    },
+    {
+        "word": "feltűnősködést",
+        "translation": "демонстративність",
+        "en": {
+            "translation": "striking"
+        },
+        "example": "Dursley úr ki nem állhatta a feltűnősködést."
+    },
+    {
+        "word": "leste",
+        "translation": "підглядав",
+        "en": {
+            "translation": "leste"
+        },
+        "example": "A kerítésnél ágaskodott, és a szomszédokat leste."
+    },
+    {
+        "word": "látta",
+        "translation": "бачив",
+        "en": {
+            "translation": "saw"
+        },
+        "example": "Dursley úr megütközve látta."
+    },
+    {
+        "word": "vele",
+        "translation": "з ним",
+        "en": {
+            "translation": "vele"
+        },
+        "example": "A sarokra érve történt vele az első szokatlan dolog."
+    },
+    {
+        "word": "város",
+        "translation": "місто",
+        "en": {
+            "translation": "city"
+        },
+        "example": "Amikor a város határába ért."
+    },
+    {
+        "word": "dolgokról",
+        "translation": "про речі",
+        "en": {
+            "translation": "about things"
+        },
+        "example": "Feleségének egy szót sem szól a történtekről."
+    },
+    {
+        "word": "hogy",
+        "translation": "що",
+        "en": {
+            "translation": "that"
+        },
+        "example": "Tudták, hogy Potteréknek is van egy fiuk."
+    },
+    {
+        "word": "szemei",
+        "translation": "очі",
+        "en": {
+            "translation": "eyes"
+        },
+        "example": "Könnyen fel lehetett ismerni a szemei körül."
+    },
+    {
+        "word": "dudley",
+        "translation": "Дадлі",
+        "en": {
+            "translation": "dudley"
+        },
+        "example": "A kis Dudley megint tanult egy új szót."
+    },
+    {
+        "word": "dologhoz",
+        "translation": "до справи",
+        "en": {
+            "translation": "thing"
+        },
+        "example": "Nem feltételezte róluk, hogy közük lehet bármilyen rejtélyes dologhoz."
+    },
+    {
+        "word": "mugli",
+        "translation": "магл",
+        "en": {
+            "translation": "mug"
+        },
+        "example": "Örömünnep ez a nap még maguknak, mugliknak is!"
+    },
+    {
+        "word": "szám",
+        "translation": "номер",
+        "en": {
+            "translation": "number"
+        },
+        "example": "A Privet Drive 4. szám alatt lakó."
+    },
+    {
+        "word": "cégnél",
+        "translation": "в компанії",
+        "en": {
+            "translation": "at a company"
+        },
+        "example": "Dursley úr igazgatói posztot töltött be egy Grunnings nevű cégnél."
+    },
+    {
+        "word": "nappaliba",
+        "translation": "у вітальні",
+        "en": {
+            "translation": "in the living room"
+        },
+        "example": "Átment a nappaliba, és bekapcsolta a tévét."
+    },
+    {
+        "word": "bekapcsolta",
+        "translation": "увімкнув",
+        "en": {
+            "translation": "turned on"
+        },
+        "example": "Bekapcsolta a tévét."
+    },
+    {
+        "word": "mutatkozik",
+        "translation": "з'являється",
+        "en": {
+            "translation": "show up"
+        },
+        "example": "A bagoly köztudomásúlag éjszakai madár, nappal csak ritkán mutatkozik."
+    },
+    {
+        "word": "szokatlanul",
+        "translation": "незвично",
+        "en": {
+            "translation": "unusually"
+        },
+        "example": "A hazai baglyok ma igen szokatlanul viselkedtek."
+    },
+    {
+        "word": "lézengő",
+        "translation": "блукаючий",
+        "en": {
+            "translation": "laser"
+        },
+        "example": "A szokásos reggeli dugóban araszolva nem kerülhették el a figyelmét az utcákon lézengő."
+    },
+    {
+        "word": "kurta",
+        "translation": "короткий",
+        "en": {
+            "translation": "kurta"
+        },
+        "example": "Dursley úr tagbaszakadt ember volt, aránytalanul kurta nyakkal."
+    },
+    {
+        "word": "történt",
+        "translation": "сталося",
+        "en": {
+            "translation": "happened"
+        },
+        "example": "A sarokra érve történt vele az első szokatlan dolog."
+    },
+    {
+        "word": "el",
+        "translation": "від",
+        "en": {
+            "translation": "he"
+        },
+        "example": "Nyugtalanság fogta el, ha rájuk nézett."
+    },
+    {
+        "word": "lett",
+        "translation": "став",
+        "en": {
+            "translation": "lett"
+        },
+        "example": "S ettől cseppet sem lett vidámabb."
+    },
+    {
+        "word": "cseppet",
+        "translation": "трохи",
+        "en": {
+            "translation": "drop"
+        },
+        "example": "Látszólag cseppet sem bosszantotta."
+    },
+    {
+        "word": "valamit",
+        "translation": "щось",
+        "en": {
+            "translation": "something"
+        },
+        "example": "Mintha mondani akarna nekik valamit."
+    },
+    {
+        "word": "közben",
+        "translation": "під час",
+        "en": {
+            "translation": "during"
+        },
+        "example": "Vacsora közben mesélt urának."
+    },
+    {
+        "word": "nyugalom",
+        "translation": "спокій",
+        "en": {
+            "translation": "calmness"
+        },
+        "example": "Csak nyugalom, nyugalom... butaság az egész."
+    },
+    {
+        "word": "drive",
+        "translation": "драйв",
+        "en": {
+            "translation": "drive"
+        },
+        "example": "A Privet Drive 4. szám alatt lakó."
+    },
+    {
+        "word": "zsémbelt",
+        "translation": "бурчав",
+        "en": {
+            "translation": "crazy"
+        },
+        "example": "Azután még egy kicsit zsémbelt."
+    },
+    {
+        "word": "mint",
+        "translation": "як",
+        "en": {
+            "translation": "mint"
+        },
+        "example": "A borult égen sem látszott semmi, ami arra utalt volna, hogy hamarosan szokatlan, rejtélyes dolgok történnek majd országszerte."
+    },
+    {
+        "word": "izgatott",
+        "translation": "схвильований",
+        "en": {
+            "translation": "excited"
+        },
+        "example": "Izgatott sugdolózásba mélyedt."
+    },
+    {
+        "word": "találtak",
+        "translation": "знайшли",
+        "en": {
+            "translation": "were found"
+        },
+        "example": "A szakértők egyelőre nem találtak magyarázatot."
+    },
+    {
+        "word": "négyes",
+        "translation": "четвертий",
+        "en": {
+            "translation": "quad"
+        },
+        "example": "A négyes szám előtti felhajtóra."
+    },
+    {
+        "word": "vidámabb",
+        "translation": "веселіше",
+        "en": {
+            "translation": "more cheerful"
+        },
+        "example": "Ettől cseppet sem lett vidámabb."
+    },
+    {
+        "word": "mondani",
+        "translation": "сказати",
+        "en": {
+            "translation": "say"
+        },
+        "example": "Mintha mondani akarna nekik valamit."
+    },
+    {
+        "word": "senki",
+        "translation": "ніхто",
+        "en": {
+            "translation": "nobody"
+        },
+        "example": "Senki sem feltételezte róluk, hogy."
+    },
+    {
+        "word": "csak",
+        "translation": "лише",
+        "en": {
+            "translation": "only"
+        },
+        "example": "Dursley úr aznap délután sehogy sem tudott a fúrókra koncentrálni."
+    },
+    {
+        "word": "kocsioszlop",
+        "translation": "автомобільний ряд",
+        "en": {
+            "translation": "car column"
+        },
+        "example": "Ekkor meglódult a kocsioszlop."
+    },
+    {
+        "word": "ilyen",
+        "translation": "такий",
+        "en": {
+            "translation": "such"
+        },
+        "example": "Ha neki lenne egy ilyen testvére."
+    },
+    {
+        "word": "majdnem",
+        "translation": "майже",
+        "en": {
+            "translation": "almost"
+        },
+        "example": "Megtántorodott, és majdnem elesett."
+    },
+    {
+        "word": "sugdolózásba",
+        "translation": "нашіптування",
+        "en": {
+            "translation": "in whispering"
+        },
+        "example": "Izgatott sugdolózásba mélyedt."
+    },
+    {
+        "word": "nyakkendőjét",
+        "translation": "краватку",
+        "en": {
+            "translation": "tie"
+        },
+        "example": "Előkereste legunalmasabb mintájú nyakkendőjét."
+    },
+    {
+        "word": "kentből",
+        "translation": "з Кенту",
+        "en": {
+            "translation": "from Kent"
+        },
+        "example": "Kentből is kaptam telefonhívásokat."
+    },
+    {
+        "word": "megfeledkezni",
+        "translation": "забути",
+        "en": {
+            "translation": "forget"
+        },
+        "example": "Kénytelen volt megfeledkezni szeretett fúróiról."
+    },
+    {
+        "word": "összeütközött",
+        "translation": "зіткнувся",
+        "en": {
+            "translation": "collided"
+        },
+        "example": "Kilépve rögtön összeütközött egy járókelővel."
+    },
+    {
+        "word": "burkolódzó",
+        "translation": "загорнений",
+        "en": {
+            "translation": "tanker"
+        },
+        "example": "Feltűnő palástokba burkolódzó figurák."
+    },
+    {
+        "word": "bajuszán",
+        "translation": "вуса",
+        "en": {
+            "translation": "mustache"
+        },
+        "example": "Töprengve végigsimított a bajuszán."
+    },
+    {
+        "word": "borult",
+        "translation": "похмурий",
+        "en": {
+            "translation": "overcast"
+        },
+        "example": "A borult égen sem látszott semmi."
+    },
+    {
+        "word": "bömbölő",
+        "translation": "ревучий",
+        "en": {
+            "translation": "roar"
+        },
+        "example": "Bömbölő fiát az etetőszékbe tuszkolta."
+    },
+    {
+        "word": "megölelte",
+        "translation": "обійняв",
+        "en": {
+            "translation": "hugged"
+        },
+        "example": "Az illető átölelte Dursley úr derekát."
+    },
+    {
+        "word": "nyak",
+        "translation": "шия",
+        "en": {
+            "translation": "neck"
+        },
+        "example": "Dursley úr tagbaszakadt ember volt, aránytalanul kurta nyakkal."
+    },
+    {
+        "word": "szokásának",
+        "translation": "звичка",
+        "en": {
+            "translation": "habit"
+        },
+        "example": "Baglyok alvási szokásának e hirtelen megváltozására."
+    },
+    {
+        "word": "sietett",
+        "translation": "поспішив",
+        "en": {
+            "translation": "hastened"
+        },
+        "example": "Dursley úr a kocsijához sietett."
+    },
+    {
+        "word": "visszanézett",
+        "translation": "поглянув назад",
+        "en": {
+            "translation": "looked back"
+        },
+        "example": "Pislogva meredt a macskára, s az visszanézett rá."
+    },
+    {
+        "word": "kocsijába",
+        "translation": "в машину",
+        "en": {
+            "translation": "kocsijába"
+        },
+        "example": "Beült a kocsijába."
+    },
+    {
+        "word": "elesett",
+        "translation": "упав",
+        "en": {
+            "translation": "fallen"
+        },
+        "example": "Megtántorodott, és majdnem elesett."
+    },
+    {
+        "word": "hívják",
+        "translation": "називають",
+        "en": {
+            "translation": "are called"
+        },
+        "example": "Nem is látta még azt a gyereket. Lehet, hogy Harvey a neve."
+    },
+    {
+        "word": "bagoly",
+        "translation": "сова",
+        "en": {
+            "translation": "owl"
+        },
+        "example": "Baglyok ma igen szokatlanul viselkedtek."
+    },
+    {
+        "word": "rettegtek",
+        "translation": "боялися",
+        "en": {
+            "translation": "they dreaded"
+        },
+        "example": "Egyenesen rettegtek attól, hogy kitudódhat."
+    },
+    {
+        "word": "legpompásabb",
+        "translation": "найчудовіший",
+        "en": {
+            "translation": "mostly"
+        },
+        "example": "A legpompásabb fiúcska volt a világon."
+    },
+    {
+        "word": "remek",
+        "translation": "відмінний",
+        "en": {
+            "translation": "excellent"
+        },
+        "example": "Remek hangulatban töltötte az időt."
+    },
+    {
+        "word": "tartsák",
+        "translation": "тримати",
+        "en": {
+            "translation": "keep it"
+        },
+        "example": "Távol tartsák maguktól a Potter családot."
+    },
+    {
+        "word": "egyikük",
+        "translation": "один з них",
+        "en": {
+            "translation": "one of them"
+        },
+        "example": "Egyikük sem vette észre az ablak előtt elszálló nagy, sárgásbarna baglyot."
+    },
+    {
+        "word": "ki",
+        "translation": "хто",
+        "en": {
+            "translation": "to"
+        },
+        "example": "Dursley úr ki nem állhatta a feltűnősködést."
+    },
+    {
+        "word": "tudott",
+        "translation": "зміг",
+        "en": {
+            "translation": "known"
+        },
+        "example": "Sehogy sem tudott a fúrókra koncentrálni."
+    },
+    {
+        "word": "zavarja",
+        "translation": "турбує",
+        "en": {
+            "translation": "disturb"
+        },
+        "example": "Ráförmedt a titkárnőjére, hogy senki ne zavarja."
+    },
+    {
+        "word": "ma",
+        "translation": "сьогодні",
+        "en": {
+            "translation": "ma"
+        },
+        "example": "Baglyok ma igen szokatlanul viselkedtek."
+    },
+    {
+        "word": "üldögélt",
+        "translation": "сидів",
+        "en": {
+            "translation": "seated"
+        },
+        "example": "A kertet szegélyező falon üldögélt."
+    },
+    {
+        "word": "mintájú",
+        "translation": "з візерунком",
+        "en": {
+            "translation": "patterned"
+        },
+        "example": "Előkereste legunalmasabb mintájú nyakkendőjét."
+    },
+    {
+        "word": "ezzel",
+        "translation": "з цим",
+        "en": {
+            "translation": "with this"
+        },
+        "example": "Dursley-né ezzel szemben sovány volt."
+    },
+    {
+        "word": "több",
+        "translation": "більше",
+        "en": {
+            "translation": "more"
+        },
+        "example": "Mi több, Dursley-né úgy tett, mintha sose lett volna nővére."
+    },
+    {
+        "word": "hiányt",
+        "translation": "нестача",
+        "en": {
+            "translation": "deficiency"
+        },
+        "example": "A Dursley család semmiben nem szenvedett hiányt."
+    },
+    {
+        "word": "szokatlan",
+        "translation": "незвичайний",
+        "en": {
+            "translation": "unusual"
+        },
+        "example": "Az első szokatlan dolog, amit megpillantott."
+    },
+    {
+        "word": "gyűjtenek",
+        "translation": "збирають",
+        "en": {
+            "translation": "collect"
+        },
+        "example": "Biztosan adományokat gyűjtenek valamire."
+    },
+    {
+        "word": "végre",
+        "translation": "нарешті",
+        "en": {
+            "translation": "finally"
+        },
+        "example": "Végre megszabadultunk Tudjakitől!"
+    },
+    {
+        "word": "ráförmedt",
+        "translation": "накричав",
+        "en": {
+            "translation": "grumble"
+        },
+        "example": "Ráförmedt a titkárnőjére."
+    },
+    {
+        "word": "ripakodott",
+        "translation": "крикнув",
+        "en": {
+            "translation": "rolled"
+        },
+        "example": "Sicc! – ripakodott rá Dursley úr."
+    },
+    {
+        "word": "nyugtalanul",
+        "translation": "неспокійно",
+        "en": {
+            "translation": "anxiously"
+        },
+        "example": "Nyugtalanul repkedő példányt figyeltek meg országszerte."
+    },
+    {
+        "word": "szeretett",
+        "translation": "улюблений",
+        "en": {
+            "translation": "beloved"
+        },
+        "example": "Kénytelen volt megfeledkezni szeretett fúróiról."
+    },
+    {
+        "word": "potterék",
+        "translation": "сім'я Поттерів",
+        "en": {
+            "translation": "Potter"
+        },
+        "example": "Tudták, hogy Potteréknek is van egy fiuk."
+    },
+    {
+        "word": "néhány",
+        "translation": "декілька",
+        "en": {
+            "translation": "some"
+        },
+        "example": "Néhány perccel később megérkezett."
+    },
+    {
+        "word": "korántsem",
+        "translation": "далеко не",
+        "en": {
+            "translation": "not far"
+        },
+        "example": "A Potter név korántsem olyan ritka."
+    },
+    {
+        "word": "szól",
+        "translation": "говорить",
+        "en": {
+            "translation": "speak"
+        },
+        "example": "Feleségének egy szót sem szól a történtekről."
+    },
+    {
+        "word": "családot",
+        "translation": "сім'я",
+        "en": {
+            "translation": "family"
+        },
+        "example": "Távol tartsák maguktól a Potter családot."
+    },
+    {
+        "word": "egymást",
+        "translation": "один одного",
+        "en": {
+            "translation": "each other"
+        },
+        "example": "Évek óta nem is látták egymást."
+    },
+    {
+        "word": "volna",
+        "translation": "б",
+        "en": {
+            "translation": "would have"
+        },
+        "example": "A borult égen sem látszott semmi, ami arra utalt volna, hogy hamarosan szokatlan, rejtélyes dolgok történnek majd országszerte."
+    },
+    {
+        "word": "sül",
+        "translation": "згоряє",
+        "en": {
+            "translation": "fry"
+        },
+        "example": "Hogy nem sül le a bőr a képéről!"
+    },
+    {
+        "word": "feltűnne",
+        "translation": "з'явиться",
+        "en": {
+            "translation": "show up"
+        },
+        "example": "Potter-pereputty feltűnne az utcájukban."
+    },
+    {
+        "word": "többi",
+        "translation": "решта",
+        "en": {
+            "translation": "rest"
+        },
+        "example": "Épp úgy kezdődött, mint az összes többi nap."
+    },
+    {
+        "word": "legfrissebb",
+        "translation": "найсвіжіший",
+        "en": {
+            "translation": "recent"
+        },
+        "example": "Elmesélte a legfrissebb pletykákat."
+    },
+    {
+        "word": "ismét",
+        "translation": "знову",
+        "en": {
+            "translation": "again"
+        },
+        "example": "Ismét felfigyelt rájuk."
+    },
+    {
+        "word": "vette",
+        "translation": "взяв",
+        "en": {
+            "translation": "vette"
+        },
+        "example": "Fél kilenckor Dursley úr felkapta aktatáskáját."
+    },
+    {
+        "word": "látszólag",
+        "translation": "здавалося",
+        "en": {
+            "translation": "apparently"
+        },
+        "example": "Látszólag cseppet sem bosszantotta."
+    },
+    {
+        "word": "kellemes",
+        "translation": "приємний",
+        "en": {
+            "translation": "pleasant"
+        },
+        "example": "Dursley-nének kellemes, átlagos napja volt."
+    },
+    {
+        "word": "akkor",
+        "translation": "тоді",
+        "en": {
+            "translation": "then"
+        },
+        "example": "A feltűnő palástokba burkolódzó figurák akkor is ott voltak még."
+    },
+    {
+        "word": "meteorológus",
+        "translation": "метеоролог",
+        "en": {
+            "translation": "meteorologist"
+        },
+        "example": "Jim McGuffin, a meteorológus."
+    },
+    {
+        "word": "kerítésnél",
+        "translation": "біля огорожі",
+        "en": {
+            "translation": "on the fence"
+        },
+        "example": "A kerítésnél ágaskodott, és a szomszédokat leste."
+    },
+    {
+        "word": "ablaknak",
+        "translation": "до вікна",
+        "en": {
+            "translation": "as a window"
+        },
+        "example": "A kilencedik emeleti igazgatói irodában Dursley úr széke az ablaknak háttal állt."
+    },
+    {
+        "word": "rengeteg",
+        "translation": "безліч",
+        "en": {
+            "translation": "plenty"
+        },
+        "example": "Valószínűleg rengeteg Potternek van Harry nevű fia."
+    },
+    {
+        "word": "viselkedés-e",
+        "translation": "поведінка",
+        "en": {
+            "translation": "behavior"
+        },
+        "example": "Felötlött a kérdés, hogy vajon normális viselkedés-e ez egy macskától."
+    },
+    {
+        "word": "szerencsére",
+        "translation": "на щастя",
+        "en": {
+            "translation": "fortunately"
+        },
+        "example": "Szerencsére, mert másképpen nemigen tudott volna aznap délelőtt a fúrókra összpontosítani."
+    },
+    {
+        "word": "kaján",
+        "translation": "задоволений",
+        "en": {
+            "translation": "kayan"
+        },
+        "example": "Kaján jókedvvel elmesélte a legfrissebb pletykákat."
+    },
+    {
+        "word": "titkuk",
+        "translation": "секрет",
+        "en": {
+            "translation": "their secrets"
+        },
+        "example": "Volt azonban egy féltve őrzött titkuk."
+    },
+    {
+        "word": "férje”",
+        "translation": "чоловік",
+        "en": {
+            "translation": "her husband ”"
+        },
+        "example": "Az a semmirekellő férje.”"
+    },
+    {
+        "word": "alvási",
+        "translation": "сонний",
+        "en": {
+            "translation": "sleeping"
+        },
+        "example": "A baglyok alvási szokásának e hirtelen megváltozására."
+    },
+    {
+        "word": "meg",
+        "translation": "знову",
+        "en": {
+            "translation": "meg"
+        },
+        "example": "Fél kilenckor Dursley úr felkapta aktatáskáját, és csókot nyomott neje orcájára."
+    },
+    {
+        "word": "beült",
+        "translation": "сів",
+        "en": {
+            "translation": "sat down"
+        },
+        "example": "Beült a kocsijába."
+    },
+    {
+        "word": "fontos",
+        "translation": "важливий",
+        "en": {
+            "translation": "important"
+        },
+        "example": "Elintézett néhány fontos telefont."
+    },
+    {
+        "word": "átsétál",
+        "translation": "переходить",
+        "en": {
+            "translation": "walk through"
+        },
+        "example": "Átsétál a szemközti pékségbe egy fánkért."
+    },
+    {
+        "word": "minden",
+        "translation": "все",
+        "en": {
+            "translation": "all"
+        },
+        "example": "Ugyanis a leghatározottabban elzárkóztak minden sületlenségtől."
+    },
+    {
+        "word": "alakok",
+        "translation": "персонажі",
+        "en": {
+            "translation": "shapes"
+        },
+        "example": "Talán azok a taláros alakok…"
+    },
+    {
+        "word": "járni",
+        "translation": "ходити",
+        "en": {
+            "translation": "to walk"
+        },
+        "example": "Fiatalok is micsoda maskarákban képesek járni."
+    },
+    {
+        "word": "átölelte",
+        "translation": "обійняв",
+        "en": {
+            "translation": "hugged"
+        },
+        "example": "A kis ember boldogan átölelte Dursley úr derekát."
+    },
+    {
+        "word": "kapott",
+        "translation": "отримав",
+        "en": {
+            "translation": "received"
+        },
+        "example": "Épp hisztirohamot kapott."
+    },
+    {
+        "word": "hatással",
+        "translation": "вплив",
+        "en": {
+            "translation": "impact"
+        },
+        "example": "Kölykük csak rossz hatással lenne az ő Dudley-jukra."
+    },
+    {
+        "word": "pislogva",
+        "translation": "моргнувши",
+        "en": {
+            "translation": "blink"
+        },
+        "example": "Pislogva meredt a macskára, s az visszanézett rá."
+    },
+    {
+        "word": "búcsúpuszit",
+        "translation": "прощальний поцілунок",
+        "en": {
+            "translation": "bidding kiss"
+        },
+        "example": "A kis Dudley-nak is megpróbált egy búcsúpuszit adni."
+    },
+    {
+        "word": "évek",
+        "translation": "роки",
+        "en": {
+            "translation": "years"
+        },
+        "example": "Évek óta nem is látták egymást."
+    },
+    {
+        "word": "legkülönbözőbb",
+        "translation": "різноманітний",
+        "en": {
+            "translation": "various"
+        },
+        "example": "Az ország legkülönbözőbb részeiből."
+    },
+    {
+        "word": "adománygyűjtő",
+        "translation": "збір коштів",
+        "en": {
+            "translation": "fundraisher"
+        },
+        "example": "Úgy tűnt, egyiküknél sincs adománygyűjtő persely."
+    },
+    {
+        "word": "telefonkagylót",
+        "translation": "трубка",
+        "en": {
+            "translation": "telephone"
+        },
+        "example": "Felkapta a telefonkagylót."
+    },
+    {
+        "word": "óta",
+        "translation": "з",
+        "en": {
+            "translation": "since"
+        },
+        "example": "Ma hajnal óta több száz nyugtalanul repkedő példányt figyeltek meg országszerte."
+    },
+    {
+        "word": "„az",
+        "translation": "«той»,",
+        "en": {
+            "translation": "\"the"
+        },
+        "example": "Potterné és „az a semmirekellő férje”."
+    },
+    {
+        "word": "járókelőkkel",
+        "translation": "перехожі",
+        "en": {
+            "translation": "with passers -by"
+        },
+        "example": "Fényes nappal ide-oda repdeső baglyokat – ellentétben az utcai járókelőkkel."
+    },
+    {
+        "word": "végigmérte",
+        "translation": "оглянув",
+        "en": {
+            "translation": "weighed it down"
+        },
+        "example": "Gyanakodva végigmérte őket."
+    },
+    {
+        "word": "szegheti",
+        "translation": "перешкодити",
+        "en": {
+            "translation": "can break up"
+        },
+        "example": "Ma semmi nem szegheti kedvemet."
+    },
+    {
+        "word": "könnyen",
+        "translation": "легко",
+        "en": {
+            "translation": "easily"
+        },
+        "example": "Könnyen fel lehetett ismerni."
+    },
+    {
+        "word": "nagy",
+        "translation": "великий",
+        "en": {
+            "translation": "large"
+        },
+        "example": "Egyikük sem vette észre az ablak előtt elszálló nagy, sárgásbarna baglyot."
+    },
+    {
+        "word": "elvétette",
+        "translation": "не потрапив",
+        "en": {
+            "translation": "deprived"
+        },
+        "example": "De elvétette, mert fia épp hisztirohamot kapott."
+    },
+    {
+        "word": "ismerni",
+        "translation": "знати",
+        "en": {
+            "translation": "to know"
+        },
+        "example": "Könnyen fel lehetett ismerni a szemei körül sötétlő kerek foltról."
+    },
+    {
+        "word": "kerek",
+        "translation": "круглий",
+        "en": {
+            "translation": "wheel"
+        },
+        "example": "A szemei körül sötétlő kerek foltról."
+    },
+    {
+        "word": "kedvemet",
+        "translation": "настрій",
+        "en": {
+            "translation": "liking"
+        },
+        "example": "Semmi nem szegheti kedvemet!"
+    },
+    {
+        "word": "vagy",
+        "translation": "або",
+        "en": {
+            "translation": "or"
+        },
+        "example": "Lehet, hogy Harvey a neve. Vagy Harold."
+    },
+    {
+        "word": "posztot",
+        "translation": "посада",
+        "en": {
+            "translation": "post"
+        },
+        "example": "Dursley úr igazgatói posztot töltött be."
+    },
+    {
+        "word": "megpróbált",
+        "translation": "спробував",
+        "en": {
+            "translation": "tried"
+        },
+        "example": "A kis Dudley-nak is megpróbált egy búcsúpuszit adni."
+    },
+    {
+        "word": "eladni",
+        "translation": "продавати",
+        "en": {
+            "translation": "to sell"
+        },
+        "example": "Sok-sok fúró, amit aznap eladni remélt."
+    },
+    {
+        "word": "ház",
+        "translation": "будинок",
+        "en": {
+            "translation": "house"
+        },
+        "example": "Sicc! – ripakodott rá Dursley úr. A macska nem szaladt el, sőt szigorú pillantást vetett a ház urára."
+    },
+    {
+        "word": "kezdetét",
+        "translation": "початок",
+        "en": {
+            "translation": "onset of"
+        },
+        "example": "Az a borongós, szürke kedd, melyen történetünk kezdetét veszi."
+    },
+    {
+        "word": "biztos",
+        "translation": "впевнений",
+        "en": {
+            "translation": "sure"
+        },
+        "example": "Biztosan ez a legújabb őrült divat, gondolta."
+    },
+    {
+        "word": "keresik",
+        "translation": "шукають",
+        "en": {
+            "translation": "look for"
+        },
+        "example": "A maskarás emberek talán szántszándékkal keresik a feltűnést."
+    },
+    {
+        "word": "mosolyra",
+        "translation": "усмішка",
+        "en": {
+            "translation": "for a smile"
+        },
+        "example": "Szája széles mosolyra húzódott."
+    },
+    {
+        "word": "kerekre",
+        "translation": "широко",
+        "en": {
+            "translation": "round"
+        },
+        "example": "Azután kerekre nyílt szemekkel visszafordult."
+    },
+    {
+        "word": "így",
+        "translation": "так",
+        "en": {
+            "translation": "so"
+        },
+        "example": "Egy darabig így fortyogott magában."
+    },
+    {
+        "word": "ugyanis",
+        "translation": "адже",
+        "en": {
+            "translation": "because"
+        },
+        "example": "Ugyanis a leghatározottabban elzárkóztak minden sületlenségtől."
+    },
+    {
+        "word": "földbe",
+        "translation": "в землю",
+        "en": {
+            "translation": "on the ground"
+        },
+        "example": "Az igazgatónak a földbe gyökerezett a lába."
+    },
+    {
+        "word": "ahogy",
+        "translation": "як",
+        "en": {
+            "translation": "as"
+        },
+        "example": "Ahogy elhaladt mellettük, gyanakodva végigmérte őket."
+    },
+    {
+        "word": "mutogatva",
+        "translation": "показуючи",
+        "en": {
+            "translation": "pointing"
+        },
+        "example": "Tátott szájjal, mutogatva bámulták a fejük fölött elsuhanó madarakat."
+    },
+    {
+        "word": "messze",
+        "translation": "далеко",
+        "en": {
+            "translation": "far"
+        },
+        "example": "A társaság a járdán ácsorgott, nem messze tőle."
+    },
+    {
+        "word": "egyiküknél",
+        "translation": "ні в кого з них",
+        "en": {
+            "translation": "in one of them"
+        },
+        "example": "Úgy tűnt, egyiküknél sincs adománygyűjtő persely."
+    },
+    {
+        "word": "miután",
+        "translation": "після",
+        "en": {
+            "translation": "after"
+        },
+        "example": "Miután lefektették Dudley-t, átment a nappaliba."
+    },
+    {
+        "word": "titkárnőjére",
+        "translation": "секретарці",
+        "en": {
+            "translation": "to her secretary"
+        },
+        "example": "Ráförmedt a titkárnőjére."
+    },
+    {
+        "word": "kell",
+        "translation": "повинен",
+        "en": {
+            "translation": "must"
+        },
+        "example": "Nem kell bocsánatot kérnie."
+    },
+    {
+        "word": "szája",
+        "translation": "рот",
+        "en": {
+            "translation": "mouth"
+        },
+        "example": "Szája széles mosolyra húzódott."
+    },
+    {
+        "word": "hangulatban",
+        "translation": "в настрої",
+        "en": {
+            "translation": "in mood"
+        },
+        "example": "Remek hangulatban töltötte az időt."
+    },
+    {
+        "word": "terítette",
+        "translation": "покрив",
+        "en": {
+            "translation": "set"
+        },
+        "example": "A falat terítette be tejbepapival."
+    },
+    {
+        "word": "belépett",
+        "translation": "увійшов",
+        "en": {
+            "translation": "entered"
+        },
+        "example": "Belépett a házba."
+    },
+    {
+        "word": "pánikszerűen",
+        "translation": "панічно",
+        "en": {
+            "translation": "panic"
+        },
+        "example": "Pánikszerűen elindult hazafelé."
+    },
+    {
+        "word": "házba",
+        "translation": "в будинок",
+        "en": {
+            "translation": "in the house"
+        },
+        "example": "Belépett a házba."
+    },
+    {
+        "word": "végighallgatta",
+        "translation": "вислухав",
+        "en": {
+            "translation": "listened to"
+        },
+        "example": "Dursley úr engedelmesen végighallgatta."
+    },
+    {
+        "word": "köszönik",
+        "translation": "дякуємо",
+        "en": {
+            "translation": "thank you"
+        },
+        "example": "Dursley úr és neje büszkén állíthatták, hogy köszönik szépen."
+    },
+    {
+        "word": "mert",
+        "translation": "тому що",
+        "en": {
+            "translation": "because"
+        },
+        "example": "De elvétette, mert fia épp hisztirohamot kapott."
+    },
+    {
+        "word": "rejtő",
+        "translation": "прихований",
+        "en": {
+            "translation": "hide"
+        },
+        "example": "Fánkot rejtő zacskóval."
+    },
+    {
+        "word": "harold",
+        "translation": "Гарольд",
+        "en": {
+            "translation": "harold"
+        },
+        "example": "Lehet, hogy Harvey a neve. Vagy Harold."
+    },
+    {
+        "word": "feleségét",
+        "translation": "дружина",
+        "en": {
+            "translation": "his wife"
+        },
+        "example": "Felesleges felizgatnia a feleségét."
+    },
+    {
+        "word": "remélt",
+        "translation": "сподівався",
+        "en": {
+            "translation": "hoped"
+        },
+        "example": "Sok-sok fúró, amit aznap eladni remélt."
+    },
+    {
+        "word": "jeges",
+        "translation": "крижаний",
+        "en": {
+            "translation": "icy"
+        },
+        "example": "Egy pillanatra jeges borzalom markolt a szívébe."
+    },
+    {
+        "word": "maguktól",
+        "translation": "від себе",
+        "en": {
+            "translation": "by themselves"
+        },
+        "example": "Távol tartsák maguktól a Potter családot."
+    },
+    {
+        "word": "utalt",
+        "translation": "вказував",
+        "en": {
+            "translation": "hated"
+        },
+        "example": "A borult égen sem látszott semmi, ami arra utalt volna, hogy."
+    },
+    {
+        "word": "tudjakitől",
+        "translation": "Відомо-Хто",
+        "en": {
+            "translation": "from"
+        },
+        "example": "Hisz végre megszabadultunk Tudjakitől!"
+    },
+    {
+        "word": "szóba",
+        "translation": "в розмову",
+        "en": {
+            "translation": "room"
+        },
+        "example": "Mindig olyan ideges lesz szegény, ha a nővére szóba kerül."
+    },
+    {
+        "word": "sosem",
+        "translation": "ніколи",
+        "en": {
+            "translation": "never"
+        },
+        "example": "Sosem látták a gyereket."
+    },
+    {
+        "word": "repkedő",
+        "translation": "літаючий",
+        "en": {
+            "translation": "flying"
+        },
+        "example": "Több száz nyugtalanul repkedő példányt figyeltek meg országszerte."
+    },
+    {
+        "word": "felrohant",
+        "translation": "піднявся",
+        "en": {
+            "translation": "felrohant"
+        },
+        "example": "Felrohant az irodába."
+    },
+    {
+        "word": "mintha",
+        "translation": "ніби",
+        "en": {
+            "translation": "as if"
+        },
+        "example": "Mintha mondani akarna nekik valamit."
+    },
+    {
+        "word": "izgatottan",
+        "translation": "з хвилюванням",
+        "en": {
+            "translation": "excitedly"
+        },
+        "example": "A társaság is izgatottan sustorgott."
+    },
+    {
+        "word": "uram",
+        "translation": "сер",
+        "en": {
+            "translation": "sir"
+        },
+        "example": "Kedves uram, nem kell bocsánatot kérnie."
+    },
+    {
+        "word": "dudorászva",
+        "translation": "наспівуючи",
+        "en": {
+            "translation": "bump"
+        },
+        "example": "Munkába készülő Dursley úr dudorászva előkereste legunalmasabb mintájú nyakkendőjét."
+    },
+    {
+        "word": "butaság",
+        "translation": "дурниця",
+        "en": {
+            "translation": "folly"
+        },
+        "example": "Csak nyugalom, nyugalom... butaság az egész."
+    },
+    {
+        "word": "szőke",
+        "translation": "блондин",
+        "en": {
+            "translation": "blond"
+        },
+        "example": "Dursley-né sovány volt, és szőke."
+    },
+    {
+        "word": "végezetül",
+        "translation": "на завершення",
+        "en": {
+            "translation": "end"
+        },
+        "example": "Végezetül egy belföldi hír."
+    },
+    {
+        "word": "koncentrálni",
+        "translation": "зосереджуватися",
+        "en": {
+            "translation": "concentrate"
+        },
+        "example": "Aznap délután sehogy sem tudott a fúrókra koncentrálni."
+    },
+    {
+        "word": "ők",
+        "translation": "вони",
+        "en": {
+            "translation": "they"
+        },
+        "example": "Ők tökéletesen normálisak."
+    },
+    {
+        "word": "hamarosan",
+        "translation": "незабаром",
+        "en": {
+            "translation": "soon"
+        },
+        "example": "Hamarosan szokatlan, rejtélyes dolgok történnek majd országszerte."
+    },
+    {
+        "word": "jim",
+        "translation": "Джим",
+        "en": {
+            "translation": "jim"
+        },
+        "example": "Jim McGuffin, a meteorológus."
+    },
+    {
+        "word": "mugliknak",
+        "translation": "маглам",
+        "en": {
+            "translation": "mugliknak"
+        },
+        "example": "Örömünnep ez a nap még maguknak, mugliknak is!"
+    },
+    {
+        "word": "méret",
+        "translation": "розмір",
+        "en": {
+            "translation": "size"
+        },
+        "example": "Nyak dolgában a szokásos méret kétszeresével büszkélkedhetett."
+    },
+    {
+        "word": "égen",
+        "translation": "небо",
+        "en": {
+            "translation": "on the heavens"
+        },
+        "example": "A borult égen sem látszott semmi."
+    },
+    {
+        "word": "milyen",
+        "translation": "який",
+        "en": {
+            "translation": "what"
+        },
+        "example": "És most lássuk, milyen időt ígér nekünk Jim McGuffin."
+    },
+    {
+        "word": "falon",
+        "translation": "на стіні",
+        "en": {
+            "translation": "lament"
+        },
+        "example": "A kertet szegélyező falon üldögélt."
+    },
+    {
+        "word": "készülő",
+        "translation": "підготовка",
+        "en": {
+            "translation": "preparing"
+        },
+        "example": "A munkába készülő Dursley úr dudorászva előkereste legunalmasabb mintájú nyakkendőjét."
+    },
+    {
+        "word": "számoltak",
+        "translation": "рахували",
+        "en": {
+            "translation": "were counted"
+        },
+        "example": "Melyekben a nézők arról számoltak be, hogy az előre jelzett eső helyett hullócsillagok záporoztak az égből."
+    },
+    {
+        "word": "neki",
+        "translation": "йому",
+        "en": {
+            "translation": "some"
+        },
+        "example": "Az első dolog, ami szemet szúrt neki."
+    },
+    {
+        "word": "elzárkóztak",
+        "translation": "закрилися",
+        "en": {
+            "translation": "they are aloof"
+        },
+        "example": "A leghatározottabban elzárkóztak minden sületlenségtől."
+    },
+    {
+        "word": "észre",
+        "translation": "увага",
+        "en": {
+            "translation": "notice"
+        },
+        "example": "Egyikük sem vette észre az ablak előtt elszálló nagy, sárgásbarna baglyot."
+    },
+    {
+        "word": "őszintén",
+        "translation": "чесно",
+        "en": {
+            "translation": "honestly"
+        },
+        "example": "Őszintén remélte, hogy csak képzelődött."
+    },
+    {
+        "word": "némi",
+        "translation": "трохи",
+        "en": {
+            "translation": "some"
+        },
+        "example": "Dursley úr némi késéssel fogta fel."
+    },
+    {
+        "word": "őket",
+        "translation": "їх",
+        "en": {
+            "translation": "them"
+        },
+        "example": "Gyanakodva végigmérte őket."
+    },
+    {
+        "word": "talán",
+        "translation": "можливо",
+        "en": {
+            "translation": "perhaps"
+        },
+        "example": "A maskarás emberek talán szántszándékkal keresik a feltűnést."
+    },
+    {
+        "word": "ígér",
+        "translation": "обіцяє",
+        "en": {
+            "translation": "promise"
+        },
+        "example": "És most lássuk, milyen időt ígér nekünk Jim McGuffin."
+    },
+    {
+        "word": "tanult",
+        "translation": "вивчив",
+        "en": {
+            "translation": "learned"
+        },
+        "example": "A kis Dudley megint tanult egy új szót."
+    },
+    {
+        "word": "tudomást",
+        "translation": "знання",
+        "en": {
+            "translation": "awareness"
+        },
+        "example": "Ha valaki tudomást szerezne Potterékről."
+    },
+    {
+        "word": "sicc",
+        "translation": "шух",
+        "en": {
+            "translation": "sicc"
+        },
+        "example": "Sicc! – ripakodott rá Dursley úr."
+    },
+    {
+        "word": "morogta",
+        "translation": "пробурчав",
+        "en": {
+            "translation": "growl"
+        },
+        "example": "Bocsánat – morogta Dursley úr."
+    },
+    {
+        "word": "látszott",
+        "translation": "виглядало",
+        "en": {
+            "translation": "seemed"
+        },
+        "example": "A borult égen sem látszott semmi."
+    },
+    {
+        "word": "szomszédok",
+        "translation": "сусіди",
+        "en": {
+            "translation": "neighbors"
+        },
+        "example": "Mit szólnának a szomszédok, ha a Potter-pereputty feltűnne az utcájukban."
+    },
+    {
+        "word": "sőt",
+        "translation": "навіть",
+        "en": {
+            "translation": "indeed"
+        },
+        "example": "A macska nem szaladt el, sőt szigorú pillantást vetett a ház urára."
+    },
+    {
+        "word": "aztán",
+        "translation": "потім",
+        "en": {
+            "translation": "then"
+        },
+        "example": "Aztán felötlött benne, hogy a maskarás emberek talán szántszándékkal keresik a feltűnést."
+    },
+    {
+        "word": "potternek",
+        "translation": "Поттеру",
+        "en": {
+            "translation": "Potter"
+        },
+        "example": "Valószínűleg rengeteg Potternek van Harry nevű fia."
+    },
+    {
+        "word": "élnék",
+        "translation": "жили б",
+        "en": {
+            "translation": "I would live"
+        },
+        "example": "Úgy érezték, nem is élnék túl."
+    },
+    {
+        "word": "fánkért",
+        "translation": "за пончиком",
+        "en": {
+            "translation": "donut"
+        },
+        "example": "Átsétál a szemközti pékségbe egy fánkért."
+    },
+    {
+        "word": "mellettük",
+        "translation": "біля них",
+        "en": {
+            "translation": "beside them"
+        },
+        "example": "Ahogy elhaladt mellettük, gyanakodva végigmérte őket."
+    },
+    {
+        "word": "büszkélkedhetett",
+        "translation": "міг похвалитися",
+        "en": {
+            "translation": "proud"
+        },
+        "example": "Nyak dolgában a szokásos méret kétszeresével büszkélkedhetett."
+    },
+    {
+        "word": "szaladt",
+        "translation": "біг",
+        "en": {
+            "translation": "run"
+        },
+        "example": "A macska nem szaladt el."
+    },
+    {
+        "word": "beletuszkolta",
+        "translation": "втиснув",
+        "en": {
+            "translation": "Beletuszkolta"
+        },
+        "example": "Miközben beletuszkolta bömbölő fiát az etetőszékbe."
+    },
+    {
+        "word": "nála",
+        "translation": "з ним",
+        "en": {
+            "translation": "nála"
+        },
+        "example": "Hisz az a férfi ott még nála is öregebb."
+    },
+    {
+        "word": "nevű",
+        "translation": "названий",
+        "en": {
+            "translation": "named"
+        },
+        "example": "Grunnings nevű cégnél."
+    },
+    {
+        "word": "szájjal",
+        "translation": "з рота",
+        "en": {
+            "translation": "mouth"
+        },
+        "example": "Tátott szájjal, mutogatva bámulták a fejük fölött elsuhanó madarakat."
+    },
+    {
+        "word": "kijött",
+        "translation": "вийшов",
+        "en": {
+            "translation": "came out"
+        },
+        "example": "A feltűnő palástokba burkolódzó figurák akkor is ott voltak még, amikor kijött a pékségből."
+    },
+    {
+        "word": "nyekergő",
+        "translation": "скрипучий",
+        "en": {
+            "translation": "squeaky"
+        },
+        "example": "Olyan éles, nyekergő hangon szólt."
+    },
+    {
+        "word": "unokaöccsét",
+        "translation": "племінник",
+        "en": {
+            "translation": "nephew"
+        },
+        "example": "Az sem biztos, hogy az unokaöccsét Harrynek hívják."
+    },
+    {
+        "word": "harrynek",
+        "translation": "Гаррі",
+        "en": {
+            "translation": "to Harry"
+        },
+        "example": "Az sem biztos, hogy az unokaöccsét Harrynek hívják."
+    },
+    {
+        "word": "egy",
+        "translation": "один",
+        "en": {
+            "translation": "one"
+        },
+        "example": "Dursley-né úgy tett, mintha sose lett volna nővére – Potterné és „az a semmirekellő férje” ugyanis a lehető legdursley-szerűtlenebb emberek voltak."
+    },
+    {
+        "word": "ellenére",
+        "translation": "незважаючи",
+        "en": {
+            "translation": "in spite of"
+        },
+        "example": "Ennek ellenére ma hajnal óta több száz nyugtalanul repkedő példányt figyeltek meg országszerte."
+    },
+    {
+        "word": "házból",
+        "translation": "з будинку",
+        "en": {
+            "translation": "out of the house"
+        },
+        "example": "Kilépett a házból."
+    },
+    {
+        "word": "ember",
+        "translation": "людина",
+        "en": {
+            "translation": "ember"
+        },
+        "example": "A kis ember ibolyaszínű köpönyeget viselt."
+    },
+    {
+        "word": "figyelmét",
+        "translation": "увага",
+        "en": {
+            "translation": "attention"
+        },
+        "example": "Nem kerülhették el a figyelmét az utcákon lézengő, különös ruhába öltözött – egészen pontosan taláros – emberek."
+    },
+    {
+        "word": "legunalmasabb",
+        "translation": "найнудніший",
+        "en": {
+            "translation": "most boring"
+        },
+        "example": "Előkereste legunalmasabb mintájú nyakkendőjét."
+    },
+    {
+        "word": "megütközve",
+        "translation": "з подивом",
+        "en": {
+            "translation": "striking"
+        },
+        "example": "Dursley úr megütközve látta."
+    },
+    {
+        "word": "öt",
+        "translation": "п'ять",
+        "en": {
+            "translation": "öt"
+        },
+        "example": "Öt emberrel ordibált."
+    },
+    {
+        "word": "sehogy",
+        "translation": "жодним чином",
+        "en": {
+            "translation": "none"
+        },
+        "example": "Aznap délután sehogy sem tudott a fúrókra koncentrálni."
+    },
+    {
+        "word": "macskák",
+        "translation": "коти",
+        "en": {
+            "translation": "cats"
+        },
+        "example": "A macskák nem olvasnak se térképet, se táblákat!"
+    },
+    {
+        "word": "elhaladt",
+        "translation": "пройшов",
+        "en": {
+            "translation": "passed"
+        },
+        "example": "Ahogy elhaladt mellettük, gyanakodva végigmérte őket."
+    },
+    {
+        "word": "már",
+        "translation": "вже",
+        "en": {
+            "translation": "already"
+        },
+        "example": "A térképnek már nyoma sem volt."
+    },
+    {
+        "word": "eszében",
+        "translation": "в голові",
+        "en": {
+            "translation": "eszében"
+        },
+        "example": "Úton a város felé már nem is járt más az eszében, csak az a sok-sok fúró, amit aznap eladni remélt."
+    },
+    {
+        "word": "lehet",
+        "translation": "може бути",
+        "en": {
+            "translation": "can be"
+        },
+        "example": "Lehet, hogy Harvey a neve."
+    },
+    {
+        "word": "fiuk",
+        "translation": "їх син",
+        "en": {
+            "translation": "their son"
+        },
+        "example": "Tudták, hogy Potteréknek is van egy fiuk."
+    },
+    {
+        "word": "baglyok",
+        "translation": "сови",
+        "en": {
+            "translation": "owls"
+        },
+        "example": "A hazai baglyok ma igen szokatlanul viselkedtek."
+    },
+    {
+        "word": "orcájára",
+        "translation": "на обличчя",
+        "en": {
+            "translation": "cheeks"
+        },
+        "example": "Csókot nyomott neje orcájára."
+    },
+    {
+        "word": "valamiféle",
+        "translation": "якийсь",
+        "en": {
+            "translation": "sort of"
+        },
+        "example": "Valamiféle „mugli”-nak is nevezte őt."
+    },
+    {
+        "word": "telefont",
+        "translation": "телефон",
+        "en": {
+            "translation": "phone"
+        },
+        "example": "Elintézett néhány fontos telefont."
+    },
+    {
+        "word": "nappal",
+        "translation": "днем",
+        "en": {
+            "translation": "day"
+        },
+        "example": "A bagoly köztudomásúlag éjszakai madár, nappal csak ritkán mutatkozik."
+    },
+    {
+        "word": "gyanakodva",
+        "translation": "підозріло",
+        "en": {
+            "translation": "suspiciously"
+        },
+        "example": "Ahogy elhaladt mellettük, gyanakodva végigmérte őket."
+    },
+    {
+        "word": "türelem",
+        "translation": "терпіння",
+        "en": {
+            "translation": "patience"
+        },
+        "example": "Még egy egész hetünk van az ünnepig. Annyit azonban megígérhetek, hogy nem lesz száraz éjszakánk…"
+    },
+    {
+        "word": "túloldalára",
+        "translation": "на інший бік",
+        "en": {
+            "translation": "on the other side"
+        },
+        "example": "Átcsörtetett az utca túloldalára."
+    },
+    {
+        "word": "pillantást",
+        "translation": "погляд",
+        "en": {
+            "translation": "glance"
+        },
+        "example": "Szigorú pillantást vetett a ház urára."
+    },
+    {
+        "word": "akarna",
+        "translation": "хотів би",
+        "en": {
+            "translation": "would like to"
+        },
+        "example": "Mintha mondani akarna nekik valamit."
+    },
+    {
+        "word": "megfeledkezett",
+        "translation": "забув",
+        "en": {
+            "translation": "forgotten"
+        },
+        "example": "A talárosokról időközben teljesen megfeledkezett."
+    },
+    {
+        "word": "fiát",
+        "translation": "його син",
+        "en": {
+            "translation": "son"
+        },
+        "example": "Bömbölő fiát az etetőszékbe tuszkolta."
+    },
+    {
+        "word": "borzalom",
+        "translation": "жах",
+        "en": {
+            "translation": "horror"
+        },
+        "example": "Egy pillanatra jeges borzalom markolt a szívébe."
+    },
+    {
+        "word": "türelmetlenül",
+        "translation": "нетерпляче",
+        "en": {
+            "translation": "impatiently"
+        },
+        "example": "Ujjaival türelmetlenül dobolt a kormánykeréken."
+    },
+    {
+        "word": "magyarázatot",
+        "translation": "пояснення",
+        "en": {
+            "translation": "explain"
+        },
+        "example": "A szakértők egyelőre nem találtak magyarázatot."
+    },
+    {
+        "word": "elcsípte",
+        "translation": "перехопив",
+        "en": {
+            "translation": "grab"
+        },
+        "example": "Akkor akaratlanul is elcsípett néhány szót a beszélgetésükből."
+    },
+    {
+        "word": "ha",
+        "translation": "якщо",
+        "en": {
+            "translation": "ha"
+        },
+        "example": "Mit szólnának a szomszédok, ha a Potter-pereputty feltűnne az utcájukban."
+    },
+    {
+        "word": "perceit",
+        "translation": "хвилини",
+        "en": {
+            "translation": "minutes"
+        },
+        "example": "Még éppen elcsípte a híradó utolsó perceit."
+    },
+    {
+        "word": "maguknak",
+        "translation": "собі",
+        "en": {
+            "translation": "to themselves"
+        },
+        "example": "Örömünnep ez a nap még maguknak, mugliknak is!"
+    },
+    {
+        "word": "elsuhanó",
+        "translation": "пролітаючий",
+        "en": {
+            "translation": "furious"
+        },
+        "example": "A fejük fölött elsuhanó madarakat."
+    },
+    {
+        "word": "kitudódhat",
+        "translation": "може з'ясуватися",
+        "en": {
+            "translation": "be aware"
+        },
+        "example": "Egyenesen rettegtek attól, hogy kitudódhat."
+    },
+    {
+        "word": "család",
+        "translation": "сім'я",
+        "en": {
+            "translation": "family"
+        },
+        "example": "Távol tartsák maguktól a Potter családot."
+    },
+    {
+        "word": "úton",
+        "translation": "в дорозі",
+        "en": {
+            "translation": "on the way"
+        },
+        "example": "Úton a város felé már nem is járt más az eszében, csak az a sok-sok fúró, amit aznap eladni remélt."
+    },
+    {
+        "word": "meglódult",
+        "translation": "рушив",
+        "en": {
+            "translation": "wicked"
+        },
+        "example": "Ekkor meglódult a kocsioszlop."
+    },
+    {
+        "word": "szemekkel",
+        "translation": "очима",
+        "en": {
+            "translation": "with eyes"
+        },
+        "example": "Azután kerekre nyílt szemekkel visszafordult."
+    },
+    {
+        "word": "utcai",
+        "translation": "вуличний",
+        "en": {
+            "translation": "street"
+        },
+        "example": "Fényes nappal ide-oda repdeső baglyokat – ellentétben az utcai járókelőkkel."
+    },
+    {
+        "word": "ettől",
+        "translation": "від цього",
+        "en": {
+            "translation": "from this"
+        },
+        "example": "S ettől cseppet sem lett vidámabb."
+    },
+    {
+        "word": "foltról",
+        "translation": "пляма",
+        "en": {
+            "translation": "patch"
+        },
+        "example": "Könnyen fel lehetett ismerni a szemei körül sötétlő kerek foltról."
+    },
+    {
+        "word": "nos",
+        "translation": "ну",
+        "en": {
+            "translation": "nos"
+        },
+        "example": "Nos, kedves nézőink, türelem!"
+    },
+    {
+        "word": "bizonyos",
+        "translation": "певний",
+        "en": {
+            "translation": "certain"
+        },
+        "example": "De annyi bizonyos, hogy nem csak a baglyok viselkedtek ma furcsán."
+    },
+    {
+        "word": "határába",
+        "translation": "до межі",
+        "en": {
+            "translation": "on the border"
+        },
+        "example": "Mikor azonban a város határába ért."
+    },
+    {
+        "word": "elszálló",
+        "translation": "летючий",
+        "en": {
+            "translation": "desolate"
+        },
+        "example": "Egyikük sem vette észre az ablak előtt elszálló nagy, sárgásbarna baglyot."
+    },
+    {
+        "word": "igaz-e",
+        "translation": "правда?",
+        "en": {
+            "translation": "Is it true"
+        },
+        "example": "Ez ám a rejtély, igaz-e?"
+    },
+    {
+        "word": "széke",
+        "translation": "стілець",
+        "en": {
+            "translation": "chair"
+        },
+        "example": "Dursley úr széke az ablaknak háttal állt."
+    },
+    {
+        "word": "bajusszal",
+        "translation": "вуса",
+        "en": {
+            "translation": "with mustache"
+        },
+        "example": "Dursley úr tagbaszakadt ember volt, aránytalanul kurta nyakkal és hatalmas bajusszal."
+    },
+    {
+        "word": "arra",
+        "translation": "на це",
+        "en": {
+            "translation": "there"
+        },
+        "example": "A borult égen sem látszott semmi, ami arra utalt volna, hogy hamarosan szokatlan, rejtélyes dolgok történnek majd országszerte."
+    },
+    {
+        "word": "történnek",
+        "translation": "відбуваються",
+        "en": {
+            "translation": "happen"
+        },
+        "example": "Hamarosan szokatlan, rejtélyes dolgok történnek majd országszerte."
+    },
+    {
+        "word": "épületből",
+        "translation": "з будівлі",
+        "en": {
+            "translation": "from a building"
+        },
+        "example": "Az épületből kilépve rögtön összeütközött egy járókelővel."
+    },
+    {
+        "word": "azonos",
+        "translation": "той самий",
+        "en": {
+            "translation": "same"
+        },
+        "example": "Kétségkívül azonos volt a sarki macskával."
+    },
+    {
+        "word": "megszabadultunk",
+        "translation": "ми позбулися",
+        "en": {
+            "translation": "We've got rid of"
+        },
+        "example": "Hisz végre megszabadultunk Tudjakitől!"
+    },
+    {
+        "word": "igazgatónak",
+        "translation": "директор",
+        "en": {
+            "translation": "to the director"
+        },
+        "example": "Az igazgatónak a földbe gyökerezett a lába."
+    },
+    {
+        "word": "pontosan",
+        "translation": "точно",
+        "en": {
+            "translation": "exactly"
+        },
+        "example": "Egészen pontosan taláros emberek."
+    },
+    {
+        "word": "urára",
+        "translation": "господареві",
+        "en": {
+            "translation": "Urara"
+        },
+        "example": "Szigorú pillantást vetett a ház urára."
+    },
+    {
+        "word": "felizgatnia",
+        "translation": "турбувати",
+        "en": {
+            "translation": "upset"
+        },
+        "example": "Felesleges felizgatnia a feleségét."
+    },
+    {
+        "word": "fiatalok",
+        "translation": "молодь",
+        "en": {
+            "translation": "young people"
+        },
+        "example": "Fiatalok is micsoda maskarákban képesek járni."
+    },
+    {
+        "word": "lefektették",
+        "translation": "уклали",
+        "en": {
+            "translation": "laid down"
+        },
+        "example": "Miután lefektették Dudley-t, átment a nappaliba."
+    },
+    {
+        "word": "hisztirohamot",
+        "translation": "істерика",
+        "en": {
+            "translation": "hysterical"
+        },
+        "example": "Épp hisztirohamot kapott."
+    },
+    {
+        "word": "irodába",
+        "translation": "в офіс",
+        "en": {
+            "translation": "to the office"
+        },
+        "example": "Felrohant az irodába."
+    },
+    {
+        "word": "nővére",
+        "translation": "сестра",
+        "en": {
+            "translation": "sister"
+        },
+        "example": "Ha neki lenne egy ilyen testvére."
+    },
+    {
+        "word": "túl",
+        "translation": "надто",
+        "en": {
+            "translation": "over"
+        },
+        "example": "Úgy érezték, nem is élnék túl."
+    },
+    {
+        "word": "most",
+        "translation": "зараз",
+        "en": {
+            "translation": "most"
+        },
+        "example": "Most azonban ismét felfigyelt rájuk."
+    },
+    {
+        "word": "rejtély",
+        "translation": "таємниця",
+        "en": {
+            "translation": "mystery"
+        },
+        "example": "Ez ám a rejtély, igaz-e?"
+    },
+    {
+        "word": "még",
+        "translation": "ще",
+        "en": {
+            "translation": "even"
+        },
+        "example": "Hisz az a férfi ott még nála is öregebb."
+    },
+    {
+        "word": "híján",
+        "translation": "без",
+        "en": {
+            "translation": "lame"
+        },
+        "example": "Kis híján fellökte az illetőt."
+    },
+    {
+        "word": "hazai",
+        "translation": "місцевий",
+        "en": {
+            "translation": "hazai"
+        },
+        "example": "A hazai baglyok ma igen szokatlanul viselkedtek."
+    },
+    {
+        "word": "rögtön",
+        "translation": "відразу",
+        "en": {
+            "translation": "immediately"
+        },
+        "example": "Kilépve rögtön összeütközött egy járókelővel."
+    },
+    {
+        "word": "széles",
+        "translation": "широкий",
+        "en": {
+            "translation": "windy"
+        },
+        "example": "Szája széles mosolyra húzódott."
+    },
+    {
+        "word": "csoportjára",
+        "translation": "до групи",
+        "en": {
+            "translation": "csoportjára"
+        },
+        "example": "Tekintete a talárosok egy csoportjára tévedt."
+    },
+    {
+        "word": "ekkor",
+        "translation": "тоді",
+        "en": {
+            "translation": "ekkor"
+        },
+        "example": "Ekkor meglódult a kocsioszlop."
+    },
+    {
+        "word": "állt",
+        "translation": "стояв",
+        "en": {
+            "translation": "állt"
+        },
+        "example": "Dursley úr széke az ablaknak háttal állt."
+    },
+    {
+        "word": "határozottan",
+        "translation": "рішуче",
+        "en": {
+            "translation": "firmly"
+        },
+        "example": "A leghatározottabban elzárkóztak minden sületlenségtől."
+    },
+    {
+        "word": "bámulták",
+        "translation": "дивилися",
+        "en": {
+            "translation": "they were staring"
+        },
+        "example": "Tátott szájjal, mutogatva bámulták a fejük fölött elsuhanó madarakat."
+    },
+    {
+        "word": "képzelődés",
+        "translation": "уявлення",
+        "en": {
+            "translation": "imagination"
+        },
+        "example": "Ez a vágya is meglepte, mivel a képzelődés minden formáját határozottan elítélte."
+    },
+    {
+        "word": "éjszakai",
+        "translation": "нічний",
+        "en": {
+            "translation": "overnight"
+        },
+        "example": "A bagoly köztudomásúlag éjszakai madár."
+    },
+    {
+        "word": "megváltozására",
+        "translation": "зміна",
+        "en": {
+            "translation": "to change"
+        },
+        "example": "A baglyok alvási szokásának e hirtelen megváltozására."
+    },
+    {
+        "word": "ellentétben",
+        "translation": "на відміну від",
+        "en": {
+            "translation": "unlike"
+        },
+        "example": "Fényes nappal ide-oda repdeső baglyokat – ellentétben az utcai járókelőkkel."
+    },
+    {
+        "word": "késéssel",
+        "translation": "затримка",
+        "en": {
+            "translation": "with delay"
+        },
+        "example": "Dursley úr némi késéssel fogta fel."
+    },
+    {
+        "word": "tükörben",
+        "translation": "в дзеркалі",
+        "en": {
+            "translation": "tükörben"
+        },
+        "example": "A visszapillantó tükörben figyelte az állatot."
+    },
+    {
+        "word": "némelyek",
+        "translation": "деякі",
+        "en": {
+            "translation": "some"
+        },
+        "example": "Lehet, hogy némelyek máris tűzijáték-petárdákat lődöznek?"
+    },
+    {
+        "word": "smaragdzöld",
+        "translation": "смарагдово-зелений",
+        "en": {
+            "translation": "smaragdzöld"
+        },
+        "example": "Smaragdzöld palástban virít!"
+    },
+    {
+        "word": "jókora",
+        "translation": "великий",
+        "en": {
+            "translation": "sneaky"
+        },
+        "example": "Dursley úr jókora, tagbaszakadt ember volt."
+    },
+    {
+        "word": "tudom",
+        "translation": "я знаю",
+        "en": {
+            "translation": "tudom"
+        },
+        "example": "Nos, Ted – mosolygott a meteorológus –, ezt sajnos nem tudom megjósolni."
+    },
+    {
+        "word": "talárosok",
+        "translation": "одягнені в мантії",
+        "en": {
+            "translation": "talárosok"
+        },
+        "example": "Tekintete a talárosok egy csoportjára tévedt."
+    },
+    {
+        "word": "akik",
+        "translation": "які",
+        "en": {
+            "translation": "who"
+        },
+        "example": "Akik tátott szájjal, mutogatva bámulták a fejük fölött elsuhanó madarakat."
+    },
+    {
+        "word": "ácsorgott",
+        "translation": "стояв",
+        "en": {
+            "translation": "ácsorgott"
+        },
+        "example": "A társaság a járdán ácsorgott."
+    },
+    {
+        "word": "másodpercig",
+        "translation": "секунда",
+        "en": {
+            "translation": "for a second"
+        },
+        "example": "Egy másodpercig fel sem fogta, mit látott."
+    },
+    {
+        "word": "lődöznek",
+        "translation": "стріляють",
+        "en": {
+            "translation": "shoot"
+        },
+        "example": "Lehet, hogy némelyek máris tűzijáték-petárdákat lődöznek?"
+    },
+    {
+        "word": "baglyokat",
+        "translation": "сови",
+        "en": {
+            "translation": "owls"
+        },
+        "example": "Baglyokat figyeltek meg országszerte."
+    },
+    {
+        "word": "és",
+        "translation": "і",
+        "en": {
+            "translation": "and"
+        },
+        "example": "Mivel naphosszat a kerítésnél ágaskodott, és a szomszédokat leste."
+    },
+    {
+        "word": "kezében",
+        "translation": "в руці",
+        "en": {
+            "translation": "kezében"
+        },
+        "example": "Kezében a fánkot rejtő zacskóval."
+    },
+    {
+        "word": "madár",
+        "translation": "птах",
+        "en": {
+            "translation": "bird"
+        },
+        "example": "A bagoly köztudomásúlag éjszakai madár."
+    },
+    {
+        "word": "okkal",
+        "translation": "з причини",
+        "en": {
+            "translation": "for a reason"
+        },
+        "example": "Úgy vélték, egy okkal több, hogy távol tartsák maguktól a Potter családot."
+    },
+    {
+        "word": "csemetéjük",
+        "translation": "їхня дитина",
+        "en": {
+            "translation": "seedlings"
+        },
+        "example": "Dursley-éknek volt egy csemetéjük is."
+    },
+    {
+        "word": "azután",
+        "translation": "після того",
+        "en": {
+            "translation": "azután"
+        },
+        "example": "Azután kerekre nyílt szemekkel visszafordult."
+    },
+    {
+        "word": "büszkén",
+        "translation": "з гордістю",
+        "en": {
+            "translation": "proudly"
+        },
+        "example": "Büszkén állíthatták, hogy köszönik szépen."
+    },
+    {
+        "word": "állatot",
+        "translation": "тварина",
+        "en": {
+            "translation": "állatot"
+        },
+        "example": "A macska nem szaladt el, sőt szigorú pillantást vetett a ház urára. Miközben kifordult a főútra, a visszapillantó tükörben figyelte az állatot."
+    },
+    {
+        "word": "értette",
+        "translation": "розумів",
+        "en": {
+            "translation": "értette"
+        },
+        "example": "Nem értette, miért, de nyugtalanság fogta el, ha rájuk nézett."
+    },
+    {
+        "word": "viselt",
+        "translation": "носив",
+        "en": {
+            "translation": "viselt"
+        },
+        "example": "A kis ember ibolyaszínű köpönyeget viselt."
+    },
+    {
+        "word": "szenvedett",
+        "translation": "страждав",
+        "en": {
+            "translation": "szenvedett"
+        },
+        "example": "A Dursley család semmiben nem szenvedett hiányt."
+    },
+    {
+        "word": "nézett",
+        "translation": "дивився",
+        "en": {
+            "translation": "watched"
+        },
+        "example": "Pislogva meredt a macskára, s az visszanézett rá."
+    },
+    {
+        "word": "azonban",
+        "translation": "однак",
+        "en": {
+            "translation": "azonban"
+        },
+        "example": "Úgy érezték, nem is élnék túl, ha valaki tudomást szerezne Potterékről."
+    },
+    {
+        "word": "sárgásbarna",
+        "translation": "жовто-коричневий",
+        "en": {
+            "translation": "yellowish"
+        },
+        "example": "Egyikük sem vette észre az ablak előtt elszálló nagy, sárgásbarna baglyot."
+    },
+    {
+        "word": "hazafelé",
+        "translation": "додому",
+        "en": {
+            "translation": "home"
+        },
+        "example": "Pánikszerűen elindult hazafelé."
+    },
+    {
+        "word": "szerint",
+        "translation": "за",
+        "en": {
+            "translation": "szerint"
+        },
+        "example": "Szüleinek egybehangzó véleménye szerint."
+    },
+    {
+        "word": "soknál",
+        "translation": "багато",
+        "en": {
+            "translation": "soknál"
+        },
+        "example": "Ez már több volt a soknál."
+    },
+    {
+        "word": "mit",
+        "translation": "що",
+        "en": {
+            "translation": "with"
+        },
+        "example": "Nem feltételezte róluk, hogy közük lehet bármilyen rejtélyes dologhoz."
+    },
+    {
+        "word": "melyekben",
+        "translation": "в яких",
+        "en": {
+            "translation": "melyekben"
+        },
+        "example": "Melyekben a nézők arról számoltak be."
+    },
+    {
+        "word": "nap",
+        "translation": "день",
+        "en": {
+            "translation": "nap"
+        },
+        "example": "Az a borongós, szürke kedd, melyen történetünk kezdetét veszi."
+    },
+    {
+        "word": "vadidegen",
+        "translation": "незнайомець",
+        "en": {
+            "translation": "vadidegen"
+        },
+        "example": "Megölelte egy vadidegen ember!"
+    },
+    {
+        "word": "délelőttje",
+        "translation": "вранці",
+        "en": {
+            "translation": "morning"
+        },
+        "example": "Dursley úrnak tehát tökéletesen normális, bagolymentes délelőttje volt."
+    },
+    {
+        "word": "apropó",
+        "translation": "до речі",
+        "en": {
+            "translation": "apropó"
+        },
+        "example": "Apropó, az sem biztos, hogy az unokaöccsét Harrynek hívják."
+    },
+    {
+        "word": "pereputty",
+        "translation": "родина",
+        "en": {
+            "translation": "pereputty"
+        },
+        "example": "Mit szólnának a szomszédok, ha a Potter-pereputty feltűnne az utcájukban."
+    },
+    {
+        "word": "dolgok",
+        "translation": "речі",
+        "en": {
+            "translation": "dolgok"
+        },
+        "example": "Hamarosan szokatlan, rejtélyes dolgok történnek majd országszerte."
+    },
+    {
+        "word": "társaság",
+        "translation": "товариство",
+        "en": {
+            "translation": "társaság"
+        },
+        "example": "A társaság is izgatottan sustorgott."
+    },
+    {
+        "word": "töltötte",
+        "translation": "провів",
+        "en": {
+            "translation": "töltötte"
+        },
+        "example": "Remek hangulatban töltötte az időt."
+    },
+    {
+        "word": "utolsó",
+        "translation": "останній",
+        "en": {
+            "translation": "utolsó"
+        },
+        "example": "Még éppen elcsípte a híradó utolsó perceit."
+    },
+    {
+        "word": "bőr",
+        "translation": "шкіра",
+        "en": {
+            "translation": "bőr"
+        },
+        "example": "Hogy nem sül le a bőr a képéről!"
+    },
+    {
+        "word": "semmi",
+        "translation": "нічого",
+        "en": {
+            "translation": "semmi"
+        },
+        "example": "Ma semmi nem szegheti kedvemet!"
+    },
+    {
+        "word": "szólalt",
+        "translation": "виступив",
+        "en": {
+            "translation": "szólalt"
+        },
+        "example": "Szólalt meg olyan éles, nyekergő hangon."
+    },
+    {
+        "word": "térképet",
+        "translation": "карта",
+        "en": {
+            "translation": "térképet"
+        },
+        "example": "Megpillantott egy térképet böngésző macskát."
+    },
+    {
+        "word": "kezdődött",
+        "translation": "почався",
+        "en": {
+            "translation": "kezdődött"
+        },
+        "example": "Dursley úr és neje számára épp úgy kezdődött, mint az összes többi nap."
+    },
+    {
+        "word": "beszélgetésükből",
+        "translation": "з їхньої розмови",
+        "en": {
+            "translation": "beszélgetésükből"
+        },
+        "example": "Akkor akaratlanul is elcsípett néhány szót a beszélgetésükből."
+    },
+    {
+        "word": "böngésző",
+        "translation": "перегляд",
+        "en": {
+            "translation": "böngésző"
+        },
+        "example": "Megpillantott egy térképet böngésző macskát."
+    },
+    {
+        "word": "reggel",
+        "translation": "вранці",
+        "en": {
+            "translation": "reggel"
+        },
+        "example": "Az a borongós, szürke kedd, melyen történetünk kezdetét veszi, Dursley úr és neje számára épp úgy kezdődött, mint az összes többi nap."
+    },
+    {
+        "word": "vélték",
+        "translation": "вважав",
+        "en": {
+            "translation": "vélték"
+        },
+        "example": "Úgy vélték, egy okkal több, hogy távol tartsák maguktól a Potter családot."
+    },
+    {
+        "word": "dudley-jukra",
+        "translation": "Дадлі",
+        "en": {
+            "translation": "dudley-jukra"
+        },
+        "example": "Kölykük csak rossz hatással lenne az ő Dudley-jukra."
+    },
+    {
+        "word": "átlagos",
+        "translation": "середній",
+        "en": {
+            "translation": "átlagos"
+        },
+        "example": "Dursley-nének kellemes, átlagos napja volt."
+    },
+    {
+        "word": "felfigyelt",
+        "translation": "звернув увагу",
+        "en": {
+            "translation": "felfigyelt"
+        },
+        "example": "Most azonban ismét felfigyelt rájuk."
+    },
+    {
+        "word": "fúrókon",
+        "translation": "свердла",
+        "en": {
+            "translation": "fúrókon"
+        },
+        "example": "Ekkor már ismét csak a fúrókon járt az esze."
+    },
+    {
+        "word": "bosszantotta",
+        "translation": "дратувало",
+        "en": {
+            "translation": "bosszantotta"
+        },
+        "example": "Látszólag cseppet sem bosszantotta, hogy kis híján fellökték."
+    },
+    {
+        "word": "sarokra",
+        "translation": "на кут",
+        "en": {
+            "translation": "sarokra"
+        },
+        "example": "A sarokra érve történt vele az első szokatlan dolog."
+    },
+    {
+        "word": "szántszándékkal",
+        "translation": "навмисно",
+        "en": {
+            "translation": "szántszándékkal"
+        },
+        "example": "A maskarás emberek talán szántszándékkal keresik a feltűnést."
+    },
+    {
+        "word": "szépen",
+        "translation": "красиво",
+        "en": {
+            "translation": "szépen"
+        },
+        "example": "Büszkén állíthatták, hogy köszönik szépen."
+    },
+    {
+        "word": "tagbaszakadt",
+        "translation": "міцний",
+        "en": {
+            "translation": "tagbaszakadt"
+        },
+        "example": "Dursley úr jókora, tagbaszakadt ember volt."
+    },
+    {
+        "word": "szót",
+        "translation": "слово",
+        "en": {
+            "translation": "szót"
+        },
+        "example": "Azután felkapta a telefonkagylót, és már tárcsázni akarta az otthoni számot, amikor egyszerre meggondolta magát."
+    },
+    {
+        "word": "egyet",
+        "translation": "один",
+        "en": {
+            "translation": "egyet"
+        },
+        "example": "Azután nyelt egyet, és továbbment."
+    },
+    {
+        "word": "visszapillantó",
+        "translation": "дзеркало заднього виду",
+        "en": {
+            "translation": "visszapillantó"
+        },
+        "example": "A visszapillantó tükörben figyelte az állatot."
+    },
+    {
+        "word": "feltűnést",
+        "translation": "привертання уваги",
+        "en": {
+            "translation": "feltűnést"
+        },
+        "example": "Talán a maskarás emberek szántszándékkal keresik a feltűnést."
+    },
+    {
+        "word": "kinyújtóztatja",
+        "translation": "розтягує",
+        "en": {
+            "translation": "kinyújtóztatja"
+        },
+        "example": "Elhatározta, hogy kinyújtóztatja tagjait."
+    },
+    {
+        "word": "háttal",
+        "translation": "спиною",
+        "en": {
+            "translation": "háttal"
+        },
+        "example": "A kilencedik emeleti igazgatói irodában Dursley úr széke az ablaknak háttal állt."
+    },
+    {
+        "word": "sustorgó",
+        "translation": "шепіт",
+        "en": {
+            "translation": "sustorgó"
+        },
+        "example": "Visszafordult a sustorgó társaság felé."
+    },
+    {
+        "word": "benne",
+        "translation": "в ньому",
+        "en": {
+            "translation": "benne"
+        },
+        "example": "Aztán felötlött benne, hogy a maskarás emberek talán szántszándékkal keresik a feltűnést."
+    },
+    {
+        "word": "mélyedt",
+        "translation": "занурився",
+        "en": {
+            "translation": "mélyedt"
+        },
+        "example": "Izgatott sugdolózásba mélyedt."
+    },
+    {
+        "word": "annyit",
+        "translation": "настільки",
+        "en": {
+            "translation": "annyit"
+        },
+        "example": "Annyit azonban megígérhetek, hogy nem lesz száraz éjszakánk."
+    },
+    {
+        "word": "érezték",
+        "translation": "відчували",
+        "en": {
+            "translation": "érezték"
+        },
+        "example": "Úgy érezték, nem is élnék túl."
+    },
+    {
+        "word": "képéről",
+        "translation": "з обличчя",
+        "en": {
+            "translation": "képéről"
+        },
+        "example": "Hogy nem sül le a bőr a képéről!"
+    },
+    {
+        "word": "szemközti",
+        "translation": "навпроти",
+        "en": {
+            "translation": "szemközti"
+        },
+        "example": "Átsétál a szemközti pékségbe egy fánkért."
+    },
+    {
+        "word": "miért",
+        "translation": "чому",
+        "en": {
+            "translation": "miért"
+        },
+        "example": "Nem értette, miért, de nyugtalanság fogta el, ha rájuk nézett."
+    },
+    {
+        "word": "töpörödött",
+        "translation": "зморщений",
+        "en": {
+            "translation": "töpörödött"
+        },
+        "example": "Az illető, egy töpörödött öregember."
+    },
+    {
+        "word": "állat",
+        "translation": "тварина",
+        "en": {
+            "translation": "állat"
+        },
+        "example": "Pislogva meredt a macskára, s az visszanézett rá. Miközben kifordult a főútra, a visszapillantó tükörben figyelte az állatot."
+    },
+    {
+        "word": "szétszórt",
+        "translation": "розсіяний",
+        "en": {
+            "translation": "szétszórt"
+        },
+        "example": "Aznap délután sehogy sem tudott a fúrókra koncentrálni, még öt órakor is olyan szétszórt volt."
+    },
+    {
+        "word": "elújságolta",
+        "translation": "повідомив",
+        "en": {
+            "translation": "elújságolta"
+        },
+        "example": "Elújságolta, hogy a kis Dudley megint tanult egy új szót."
+    },
+    {
+        "word": "aktatáskáját",
+        "translation": "портфель",
+        "en": {
+            "translation": "aktatáskáját"
+        },
+        "example": "Fél kilenckor Dursley úr felkapta aktatáskáját."
+    },
+    {
+        "word": "hetünk",
+        "translation": "наш тиждень",
+        "en": {
+            "translation": "hetünk"
+        },
+        "example": "Még egy egész hetünk van az ünnepig."
+    },
+    {
+        "word": "etetőszékbe",
+        "translation": "в стільчик для годування",
+        "en": {
+            "translation": "etetőszékbe"
+        },
+        "example": "Beletuszkolta bömbölő fiát az etetőszékbe."
+    },
+    {
+        "word": "felkapta",
+        "translation": "схопив",
+        "en": {
+            "translation": "felkapta"
+        },
+        "example": "Felkapta a telefonkagylót."
+    },
+    {
+        "word": "egyszóval",
+        "translation": "одним словом",
+        "en": {
+            "translation": "egyszóval"
+        },
+        "example": "Egyszóval remek hangulatban töltötte az időt délig."
+    },
+    {
+        "word": "felhajtóról",
+        "translation": "з під'їзної дороги",
+        "en": {
+            "translation": "felhajtóról"
+        },
+        "example": "Beült a kocsijába, s a felhajtóról a Privet Drive-ra tolatott."
+    },
+    {
+        "word": "figurák",
+        "translation": "фігурки",
+        "en": {
+            "translation": "figurák"
+        },
+        "example": "A feltűnő palástokba burkolódzó figurák akkor is ott voltak még."
+    },
+    {
+        "word": "biztosan",
+        "translation": "точно",
+        "en": {
+            "translation": "biztosan"
+        },
+        "example": "Biztosan ez a legújabb őrült divat."
+    },
+    {
+        "word": "nemigen",
+        "translation": "навряд чи",
+        "en": {
+            "translation": "nemigen"
+        },
+        "example": "Szerencsére, mert másképpen nemigen tudott volna aznap délelőtt a fúrókra összpontosítani."
+    },
+    {
+        "word": "jókedvvel",
+        "translation": "гарний настрій",
+        "en": {
+            "translation": "jókedvvel"
+        },
+        "example": "Kaján jókedvvel elmesélte a legfrissebb pletykákat."
+    },
+    {
+        "word": "egyenesen",
+        "translation": "прямо",
+        "en": {
+            "translation": "egyenesen"
+        },
+        "example": "Egyenesen rettegtek attól, hogy kitudódhat."
+    },
+    {
+        "word": "átcsörtetett",
+        "translation": "пробився",
+        "en": {
+            "translation": "átcsörtetett"
+        },
+        "example": "Átcsörtetett az utca túloldalára."
+    },
+    {
+        "word": "azok",
+        "translation": "ті",
+        "en": {
+            "translation": "azok"
+        },
+        "example": "Talán azok a taláros alakok…"
+    },
+    {
+        "word": "valóban",
+        "translation": "насправді",
+        "en": {
+            "translation": "valóban"
+        },
+        "example": "Valóban ott ült egy nőstény macska."
+    },
+    {
+        "word": "kétszeresével",
+        "translation": "вдвічі більше",
+        "en": {
+            "translation": "kétszeresével"
+        },
+        "example": "Nyak dolgában a szokásos méret kétszeresével büszkélkedhetett."
+    },
+    {
+        "word": "legdursley-szerűtlenebb",
+        "translation": "найбільш невідповідний до Дурслея",
+        "en": {
+            "translation": "most dadursley"
+        },
+        "example": "Potterné és „az a semmirekellő férje” ugyanis a lehető legdursley-szerűtlenebb emberek voltak."
+    },
+    {
+        "word": "tévét",
+        "translation": "телевізор",
+        "en": {
+            "translation": "tévét"
+        },
+        "example": "Átment a nappaliba, és bekapcsolta a tévét."
+    },
+    {
+        "word": "új",
+        "translation": "новий",
+        "en": {
+            "translation": "új"
+        },
+        "example": "A kis Dudley megint tanult egy új szót."
+    },
+    {
+        "word": "felfigyeltek",
+        "translation": "звернули увагу",
+        "en": {
+            "translation": "felfigyeltek"
+        },
+        "example": "Még az arra járók is felfigyeltek rá."
+    },
+    {
+        "word": "szegény",
+        "translation": "бідний",
+        "en": {
+            "translation": "szegény"
+        },
+        "example": "Hisz mindig olyan ideges lesz szegény, ha a nővére szóba kerül."
+    },
+    {
+        "word": "vacsora",
+        "translation": "вечеря",
+        "en": {
+            "translation": "vacsora"
+        },
+        "example": "Vacsora közben mesélt urának."
+    },
+    {
+        "word": "féltve",
+        "translation": "ревно",
+        "en": {
+            "translation": "feared"
+        },
+        "example": "Volt azonban egy féltve őrzött titkuk."
+    },
+    {
+        "word": "elindult",
+        "translation": "вирушив",
+        "en": {
+            "translation": "elindult"
+        },
+        "example": "Pánikszerűen elindult hazafelé."
+    },
+    {
+        "word": "dolog",
+        "translation": "річ",
+        "en": {
+            "translation": "dolog"
+        },
+        "example": "Nem feltételezte róluk, hogy közük lehet bármilyen rejtélyes dologhoz."
+    },
+    {
+        "word": "káprázott",
+        "translation": "помилився",
+        "en": {
+            "translation": "káprázott"
+        },
+        "example": "Hát persze! Biztosan káprázott a szeme."
+    },
+    {
+        "word": "repdeső",
+        "translation": "літаючий",
+        "en": {
+            "translation": "repdeső"
+        },
+        "example": "Fényes nappal ide-oda repdeső baglyokat figyeltek meg."
+    },
+    {
+        "word": "felé",
+        "translation": "до",
+        "en": {
+            "translation": "felé"
+        },
+        "example": "Visszafordult a sustorgó társaság felé."
+    },
+    {
+        "word": "az",
+        "translation": "що",
+        "en": {
+            "translation": "az"
+        },
+        "example": "Ez ám a rejtély, igaz-e?"
+    },
+    {
+        "word": "férfi",
+        "translation": "чоловік",
+        "en": {
+            "translation": "férfi"
+        },
+        "example": "Az a férfi ott még nála is öregebb."
+    },
+    {
+        "word": "sajnos",
+        "translation": "на жаль",
+        "en": {
+            "translation": "sajnos"
+        },
+        "example": "Ezt sajnos nem tudom megjósolni."
+    },
+    {
+        "word": "palástokba",
+        "translation": "в плащах",
+        "en": {
+            "translation": "palástokba"
+        },
+        "example": "A feltűnő palástokba burkolódzó figurák akkor is ott voltak még, amikor kijött a pékségből."
+    },
+    {
+        "word": "sötétlő",
+        "translation": "темніє",
+        "en": {
+            "translation": "darker"
+        },
+        "example": "A szemei körül sötétlő kerek foltról."
+    },
+    {
+        "word": "derekát",
+        "translation": "талія",
+        "en": {
+            "translation": "waist"
+        },
+        "example": "Boldogan átölelte Dursley úr derekát."
+    },
+    {
+        "word": "napja",
+        "translation": "день",
+        "en": {
+            "translation": "napja"
+        },
+        "example": "Dursley-nének kellemes, átlagos napja volt."
+    },
+    {
+        "word": "csibész",
+        "translation": "розбишака",
+        "en": {
+            "translation": "csibész"
+        },
+        "example": "Te kis csibész, te!"
+    },
+    {
+        "word": "rá",
+        "translation": "на це",
+        "en": {
+            "translation": "on it"
+        },
+        "example": "Nyugtalanság fogta el, ha rájuk nézett."
+    },
+    {
+        "word": "fúróiról",
+        "translation": "про свої свердла",
+        "en": {
+            "translation": "drill"
+        },
+        "example": "Átmenetileg kénytelen volt megfeledkezni szeretett fúróiról."
+    },
+    {
+        "word": "térképnek",
+        "translation": "карта",
+        "en": {
+            "translation": "térképnek"
+        },
+        "example": "De a térképnek már nyoma sem volt."
+    },
+    {
+        "word": "mindig",
+        "translation": "завжди",
+        "en": {
+            "translation": "always"
+        },
+        "example": "Még mindig eltökélt szándéka volt."
+    },
+    {
+        "word": "emberrel",
+        "translation": "з людиною",
+        "en": {
+            "translation": "man"
+        },
+        "example": "Öt emberrel ordibált."
+    },
+    {
+        "word": "majd",
+        "translation": "потім",
+        "en": {
+            "translation": "majd"
+        },
+        "example": "Azután nyelt egyet, és továbbment."
+    },
+    {
+        "word": "véleménye",
+        "translation": "думка",
+        "en": {
+            "translation": "véleménye"
+        },
+        "example": "Szüleinek egybehangzó véleménye szerint."
+    },
+    {
+        "word": "ágaskodott",
+        "translation": "випростався",
+        "en": {
+            "translation": "wedded"
+        },
+        "example": "Mivel naphosszat a kerítésnél ágaskodott."
+    },
+    {
+        "word": "kérdés",
+        "translation": "питання",
+        "en": {
+            "translation": "kérdés"
+        },
+        "example": "Felötlött a kérdés, hogy vajon normális viselkedés-e ez egy macskától."
+    },
+    {
+        "word": "naphosszat",
+        "translation": "цілий день",
+        "en": {
+            "translation": "naphosszat"
+        },
+        "example": "Mivel naphosszat a kerítésnél ágaskodott."
+    },
+    {
+        "word": "amit",
+        "translation": "що",
+        "en": {
+            "translation": "amit"
+        },
+        "example": "A borult égen sem látszott semmi, ami arra utalt volna, hogy hamarosan szokatlan, rejtélyes dolgok történnek majd országszerte."
+    },
+    {
+        "word": "után",
+        "translation": "після",
+        "en": {
+            "translation": "után"
+        },
+        "example": "Némi töprengés után elvetette a problémát."
+    },
+    {
+        "word": "kétségkívül",
+        "translation": "безсумнівно",
+        "en": {
+            "translation": "kétségkívül"
+        },
+        "example": "Kétségkívül azonos volt a sarki macskával."
+    },
+    {
+        "word": "visszafordult",
+        "translation": "повернувся назад",
+        "en": {
+            "translation": "visszafordult"
+        },
+        "example": "Azután kerekre nyílt szemekkel visszafordult."
+    },
+    {
+        "word": "meglepte",
+        "translation": "здивувало",
+        "en": {
+            "translation": "surprised"
+        },
+        "example": "Ez a vágya is meglepte, mivel a képzelődés minden formáját határozottan elítélte."
+    },
+    {
+        "word": "kuncogott",
+        "translation": "хихикнув",
+        "en": {
+            "translation": "kuncogott"
+        },
+        "example": "Te kis csibész, te! – kuncogott Dursley úr."
+    },
+    {
+        "word": "mivel",
+        "translation": "оскільки",
+        "en": {
+            "translation": "mivel"
+        },
+        "example": "Mivel naphosszat a kerítésnél ágaskodott."
+    },
+    {
+        "word": "úrnak",
+        "translation": "пану",
+        "en": {
+            "translation": "gentle"
+        },
+        "example": "Dursley úrnak tehát tökéletesen normális, bagolymentes délelőttje volt."
+    },
+    {
+        "word": "tehát",
+        "translation": "отже",
+        "en": {
+            "translation": "tehát"
+        },
+        "example": "Dursley úrnak tehát tökéletesen normális, bagolymentes délelőttje volt."
+    },
+    {
+        "word": "előre",
+        "translation": "заздалегідь",
+        "en": {
+            "translation": "forward"
+        },
+        "example": "Az előre jelzett eső helyett hullócsillagok záporoztak az égből."
+    },
+    {
+        "word": "hiszen",
+        "translation": "адже",
+        "en": {
+            "translation": "because"
+        },
+        "example": "Hiszen nem is látta még azt a gyereket."
+    },
+    {
+        "word": "ablak",
+        "translation": "вікно",
+        "en": {
+            "translation": "ablak"
+        },
+        "example": "Dursley úr széke az ablaknak háttal állt."
+    },
+    {
+        "word": "sok",
+        "translation": "багато",
+        "en": {
+            "translation": "many"
+        },
+        "example": "Ez már több volt a soknál."
+    },
+    {
+        "word": "dobolt",
+        "translation": "грав на барабанах",
+        "en": {
+            "translation": "drummed"
+        },
+        "example": "S ujjaival türelmetlenül dobolt a kormánykeréken."
+    },
+    {
+        "word": "többségük",
+        "translation": "більшість з них",
+        "en": {
+            "translation": "most of them"
+        },
+        "example": "Többségük éjszaka se látott még baglyot, nemhogy nappal."
+    },
+    {
+        "word": "szúrt",
+        "translation": "бив",
+        "en": {
+            "translation": "szúrt"
+        },
+        "example": "Az első dolog, ami szemet szúrt neki."
+    },
+    {
+        "word": "utca",
+        "translation": "вулиця",
+        "en": {
+            "translation": "street"
+        },
+        "example": "Potter-pereputty feltűnne az utcájukban."
+    },
+    {
+        "word": "szándéka",
+        "translation": "намір",
+        "en": {
+            "translation": "intention"
+        },
+        "example": "Még mindig eltökélt szándéka volt."
+    },
+    {
+        "word": "olvasta",
+        "translation": "читав",
+        "en": {
+            "translation": "read"
+        },
+        "example": "A macska most az utcatáblát olvasta."
+    },
+    {
+        "word": "szokásos",
+        "translation": "звичайний",
+        "en": {
+            "translation": "usual"
+        },
+        "example": "Nyak dolgában a szokásos méret kétszeresével büszkélkedhetett."
+    },
+    {
+        "word": "időt",
+        "translation": "час",
+        "en": {
+            "translation": "time"
+        },
+        "example": "Remek hangulatban töltötte az időt."
+    },
+    {
+        "word": "kérnie",
+        "translation": "попросити",
+        "en": {
+            "translation": "to ask"
+        },
+        "example": "Kedves uram, nem kell bocsánatot kérnie."
+    },
+    {
+        "word": "bagolymentes",
+        "translation": "без сов",
+        "en": {
+            "translation": "bagolymentes"
+        },
+        "example": "Dursley úrnak tehát tökéletesen normális, bagolymentes délelőttje volt."
+    },
+    {
+        "word": "haszontalan",
+        "translation": "марно",
+        "en": {
+            "translation": "useless"
+        },
+        "example": "Elmesélt urának a szomszédasszony haszontalan gyerekéről."
+    },
+    {
+        "word": "madárfigyelők",
+        "translation": "спостерігачі за птахами",
+        "en": {
+            "translation": "birdwatchers"
+        },
+        "example": "A madárfigyelők jelentései szerint."
+    },
+    {
+        "word": "vetett",
+        "translation": "поглянув",
+        "en": {
+            "translation": "sowed"
+        },
+        "example": "Szigorú pillantást vetett a ház urára."
+    },
+    {
+        "word": "öregebb",
+        "translation": "старший",
+        "en": {
+            "translation": "öregebb"
+        },
+        "example": "Hisz az a férfi ott még nála is öregebb."
+    },
+    {
+        "word": "örömünnep",
+        "translation": "свято",
+        "en": {
+            "translation": "festival"
+        },
+        "example": "Örömünnep ez a nap még maguknak, mugliknak is!"
+    },
+    {
+        "word": "átmenetileg",
+        "translation": "тимчасово",
+        "en": {
+            "translation": "temporarily"
+        },
+        "example": "Átmenetileg ismét kénytelen volt megfeledkezni szeretett fúróiról."
+    },
+    {
+        "word": "öregember",
+        "translation": "старий",
+        "en": {
+            "translation": "old man"
+        },
+        "example": "Az illető, egy töpörödött öregember."
+    },
+    {
+        "word": "megtántorodott",
+        "translation": "похитнувся",
+        "en": {
+            "translation": "stagnant"
+        },
+        "example": "Az illető megtántorodott, és majdnem elesett."
+    },
+    {
+        "word": "meredt",
+        "translation": "витріщився",
+        "en": {
+            "translation": "meredt"
+        },
+        "example": "Pislogva meredt a macskára, s az visszanézett rá."
+    },
+    {
+        "word": "nem",
+        "translation": "ні",
+        "en": {
+            "translation": "not"
+        },
+        "example": "A macskák nem olvasnak se térképet, se táblákat!"
+    },
+    {
+        "word": "persely",
+        "translation": "скарбничка",
+        "en": {
+            "translation": "plaw"
+        },
+        "example": "Egyiküknél sincs adománygyűjtő persely."
+    },
+    {
+        "word": "töltötte",
+        "translation": "провів",
+        "en": {
+            "translation": "spent"
+        },
+        "example": "Remek hangulatban töltötte az időt."
+    },
+    {
+        "word": "megérkezett",
+        "translation": "прибув",
+        "en": {
+            "translation": "arrived"
+        },
+        "example": "Néhány perccel később megérkezett a Grunnings parkolójába."
+    },
+    {
+        "word": "szemet",
+        "translation": "очі",
+        "en": {
+            "translation": "eye"
+        },
+        "example": "Az első dolog, ami szemet szúrt neki."
+    },
+    {
+        "word": "letette",
+        "translation": "поклав",
+        "en": {
+            "translation": "put down"
+        },
+        "example": "Letette a kagylót."
+    },
+    {
+        "word": "fúrókra",
+        "translation": "про свердла",
+        "en": {
+            "translation": "for drills"
+        },
+        "example": "Dursley úr aznap délután sehogy sem tudott a fúrókra koncentrálni."
+    },
+    {
+        "word": "valamire",
+        "translation": "на щось",
+        "en": {
+            "translation": "onto"
+        },
+        "example": "Biztosan adományokat gyűjtenek valamire."
+    },
+    {
+        "word": "fúró",
+        "translation": "свердло",
+        "en": {
+            "translation": "drill"
+        },
+        "example": "Dursley úr, aki igazgatói posztot töltött be egy Grunnings nevű fúrógyártó cégnél."
+    },
+    {
+        "word": "nyitja",
+        "translation": "ключ",
+        "en": {
+            "translation": "nyitja"
+        },
+        "example": "Igen, ez lehet a dolog nyitja."
+    },
+    {
+        "word": "ordibált",
+        "translation": "кричав",
+        "en": {
+            "translation": "ordibált"
+        },
+        "example": "Öt emberrel ordibált."
+    },
+    {
+        "word": "szomszédasszony",
+        "translation": "сусідка",
+        "en": {
+            "translation": "szomszédasszony"
+        },
+        "example": "Elmesélt urának a szomszédasszony haszontalan gyerekéről."
+    },
+    {
+        "word": "csókot",
+        "translation": "поцілунок",
+        "en": {
+            "translation": "kiss"
+        },
+        "example": "Csókot nyomott neje orcájára."
+    },
+    {
+        "word": "voltak",
+        "translation": "були",
+        "en": {
+            "translation": "voltak"
+        },
+        "example": "Potterné és „az a semmirekellő férje” ugyanis a lehető legdursley-szerűtlenebb emberek voltak."
+    },
+    {
+        "word": "szerezne",
+        "translation": "запропонував би",
+        "en": {
+            "translation": "obtain"
+        },
+        "example": "Ha valaki tudomást szerezne Potterékről."
+    },
+    {
+        "word": "híradó",
+        "translation": "новини",
+        "en": {
+            "translation": "rumor"
+        },
+        "example": "Még éppen elcsípte a híradó utolsó perceit."
+    },
+    {
+        "word": "látott",
+        "translation": "бачив",
+        "en": {
+            "translation": "seen"
+        },
+        "example": "Dursley úr megütközve látta."
+    },
+    {
+        "word": "kifordult",
+        "translation": "розвернувся",
+        "en": {
+            "translation": "turned out"
+        },
+        "example": "Miközben kifordult a főútra."
+    },
+    {
+        "word": "kerülhették",
+        "translation": "могли уникнути",
+        "en": {
+            "translation": "they could have avoided"
+        },
+        "example": "Nem kerülhették el a figyelmét az utcákon lézengő, különös ruhába öltözött – egészen pontosan taláros – emberek."
+    },
+    {
+        "word": "akarta",
+        "translation": "хотів",
+        "en": {
+            "translation": "akarta"
+        },
+        "example": "Már tárcsázni akarta az otthoni számot."
+    },
+    {
+        "word": "tudták",
+        "translation": "знали",
+        "en": {
+            "translation": "they knew"
+        },
+        "example": "Tudták, hogy Potteréknek is van egy fiuk."
+    },
+    {
+        "word": "divat",
+        "translation": "мода",
+        "en": {
+            "translation": "fashion"
+        },
+        "example": "Biztosan ez a legújabb őrült divat, gondolta."
+    },
+    {
+        "word": "lakó",
+        "translation": "мешканець",
+        "en": {
+            "translation": "resident"
+        },
+        "example": "A Privet Drive 4. szám alatt lakó Dursley úr és neje büszkén állíthatták, hogy köszönik szépen."
+    },
+    {
+        "word": "dursley-éknek",
+        "translation": "Дурслі",
+        "en": {
+            "translation": "dursley-éknek"
+        },
+        "example": "Dursley-éknek volt egy csemetéjük is."
+    },
+    {
+        "word": "tátott",
+        "translation": "широко відкритий",
+        "en": {
+            "translation": "tátott"
+        },
+        "example": "Tátott szájjal, mutogatva bámulták a fejük fölött elsuhanó madarakat."
+    },
+    {
+        "word": "is",
+        "translation": "також",
+        "en": {
+            "translation": "is"
+        },
+        "example": "Tudták, hogy Potteréknek is van egy fiuk."
+    },
+    {
+        "word": "közük",
+        "translation": "їхнє",
+        "en": {
+            "translation": "they are"
+        },
+        "example": "Nem feltételezte róluk, hogy közük lehet bármilyen rejtélyes dologhoz."
+    },
+    {
+        "word": "különös",
+        "translation": "дивний",
+        "en": {
+            "translation": "strange"
+        },
+        "example": "Különös ruhába öltözött emberek."
+    },
+    {
+        "word": "furcsán",
+        "translation": "дивно",
+        "en": {
+            "translation": "strangely"
+        },
+        "example": "Ma furcsán viselkedtek."
+    },
+    {
+        "word": "világon",
+        "translation": "в світі",
+        "en": {
+            "translation": "world"
+        },
+        "example": "A legpompásabb fiúcska volt a világon."
+    },
+    {
+        "word": "nekünk",
+        "translation": "для нас",
+        "en": {
+            "translation": "us"
+        },
+        "example": "Milyen időt ígér nekünk Jim McGuffin."
+    },
+    {
+        "word": "őt",
+        "translation": "він",
+        "en": {
+            "translation": "őt"
+        },
+        "example": "Valamiféle „mugli”-nak is nevezte őt."
+    },
+    {
+        "word": "gyerekéről",
+        "translation": "про дитину",
+        "en": {
+            "translation": "gyerekéről"
+        },
+        "example": "Elmesélt urának a szomszédasszony haszontalan gyerekéről."
+    },
+    {
+        "word": "nekik",
+        "translation": "для них",
+        "en": {
+            "translation": "nekik"
+        },
+        "example": "Mintha mondani akarna nekik valamit."
+    },
+    {
+        "word": "figyeltek",
+        "translation": "дивився",
+        "en": {
+            "translation": "figyeltek"
+        },
+        "example": "Több száz nyugtalanul repkedő példányt figyeltek meg országszerte."
+    },
+    {
+        "word": "megtorpant",
+        "translation": "зупинився",
+        "en": {
+            "translation": "megtorpant"
+        },
+        "example": "Egy pillanatra megtorpant."
+    },
+    {
+        "word": "feltételezte",
+        "translation": "припустив",
+        "en": {
+            "translation": "assumed"
+        },
+        "example": "Nem feltételezte róluk, hogy közük lehet bármilyen rejtélyes dologhoz."
+    },
+    {
+        "word": "normális",
+        "translation": "нормальний",
+        "en": {
+            "translation": "normal"
+        },
+        "example": "Felötlött a kérdés, hogy vajon normális viselkedés-e ez egy macskától."
+    },
+    {
+        "word": "meggondolta",
+        "translation": "передумав",
+        "en": {
+            "translation": "thought about"
+        },
+        "example": "Egyszerre meggondolta magát."
+    },
+    {
+        "word": "órakor",
+        "translation": "о годині",
+        "en": {
+            "translation": "órakor"
+        },
+        "example": "Még öt órakor is olyan szétszórt volt."
+    },
+    {
+        "word": "maskarákban",
+        "translation": "в маскарадних костюмах",
+        "en": {
+            "translation": "in masquerades"
+        },
+        "example": "Fiatalok is micsoda maskarákban képesek járni."
+    },
+    {
+        "word": "pletykákat",
+        "translation": "чутки",
+        "en": {
+            "translation": "rumors"
+        },
+        "example": "Elmesélte a legfrissebb pletykákat."
+    },
+    {
+        "word": "részeiből",
+        "translation": "з частин",
+        "en": {
+            "translation": "part of"
+        },
+        "example": "Az ország legkülönbözőbb részeiből."
+    },
+    {
+        "word": "fiúcska",
+        "translation": "хлопчик",
+        "en": {
+            "translation": "boy"
+        },
+        "example": "A legpompásabb fiúcska volt a világon."
+    },
+    {
+        "word": "ruhába",
+        "translation": "в одяг",
+        "en": {
+            "translation": "into clothes"
+        },
+        "example": "Különös ruhába öltözött emberek."
+    },
+    {
+        "word": "reggeli",
+        "translation": "сніданок",
+        "en": {
+            "translation": "morning"
+        },
+        "example": "A szokásos reggeli dugóban araszolva."
+    },
+    {
+        "word": "lenne",
+        "translation": "бути",
+        "en": {
+            "translation": "would be"
+        },
+        "example": "Kölykük csak rossz hatással lenne az ő Dudley-jukra."
+    },
+    {
+        "word": "azt",
+        "translation": "це",
+        "en": {
+            "translation": "it"
+        },
+        "example": "Biztosan azt látta, amit látni akart."
+    },
+    {
+        "word": "hajnal",
+        "translation": "світанок",
+        "en": {
+            "translation": "dawn"
+        },
+        "example": "Ma hajnal óta több száz nyugtalanul repkedő példányt figyeltek meg országszerte."
+    },
+    {
+        "word": "fel",
+        "translation": "вгору",
+        "en": {
+            "translation": "fel"
+        },
+        "example": "Csókot nyomott neje orcájára, beült a kocsijába, s a felhajtóról a Privet Drive-ra tolatott."
+    },
+    {
+        "word": "fejük",
+        "translation": "їхні голови",
+        "en": {
+            "translation": "their heads"
+        },
+        "example": "Tátott szájjal, mutogatva bámulták a fejük fölött elsuhanó madarakat."
+    },
+    {
+        "word": "elhajtott",
+        "translation": "від'їхав",
+        "en": {
+            "translation": "elhajtott"
+        },
+        "example": "Kocsijába vágta magát, és elhajtott."
+    },
+    {
+        "word": "megrázta",
+        "translation": "потрусив",
+        "en": {
+            "translation": "shook"
+        },
+        "example": "A férfi megrázta a fejét."
+    },
+    {
+        "word": "elhatározta",
+        "translation": "вирішив",
+        "en": {
+            "translation": "determined"
+        },
+        "example": "Elhatározta, hogy kinyújtóztatja tagjait."
+    },
+    {
+        "word": "remélte",
+        "translation": "сподівався",
+        "en": {
+            "translation": "hoped"
+        },
+        "example": "Őszintén remélte, hogy csak képzelődött."
+    },
+    {
+        "word": "bele",
+        "translation": "в це",
+        "en": {
+            "translation": "bele"
+        },
+        "example": "Bele sem gondoltak abba, hogy."
+    },
+    {
+        "word": "dudley-t",
+        "translation": "Дадлі",
+        "en": {
+            "translation": "dudley-t"
+        },
+        "example": "Miután lefektették Dudley-t."
+    },
+    {
+        "word": "hírolvasó",
+        "translation": "ведучий новин",
+        "en": {
+            "translation": "hírolvasó"
+        },
+        "example": "Nos, Ted – mosolygott a meteorológus –, ezt sajnos nem tudom megjósolni – felelte a hírolvasó."
+    },
+    {
+        "word": "fölött",
+        "translation": "над",
+        "en": {
+            "translation": "fölött"
+        },
+        "example": "A fejük fölött elsuhanó madarakat."
+    },
+    {
+        "word": "ritkán",
+        "translation": "рідко",
+        "en": {
+            "translation": "rarely"
+        },
+        "example": "Nappal csak ritkán mutatkozik."
+    },
+    {
+        "word": "kilenckor",
+        "translation": "о дев'ятій",
+        "en": {
+            "translation": "at nine"
+        },
+        "example": "Fél kilenckor Dursley úr felkapta aktatáskáját."
+    },
+    {
+        "word": "rájuk",
+        "translation": "на них",
+        "en": {
+            "translation": "on them"
+        },
+        "example": "Nem értette, miért, de nyugtalanság fogta el, ha rájuk nézett."
+    },
+    {
+        "word": "hír",
+        "translation": "новина",
+        "en": {
+            "translation": "news"
+        },
+        "example": "Végezetül egy belföldi hír."
+    },
+    {
+        "word": "száz",
+        "translation": "сто",
+        "en": {
+            "translation": "hundred"
+        },
+        "example": "Ma hajnal óta több száz nyugtalanul repkedő példányt figyeltek meg országszerte."
+    },
+    {
+        "word": "taláros",
+        "translation": "в мантіях",
+        "en": {
+            "translation": "tale"
+        },
+        "example": "Különös ruhába öltözött – egészen pontosan taláros – emberek."
+    },
+    {
+        "word": "ezt",
+        "translation": "це",
+        "en": {
+            "translation": "this"
+        },
+        "example": "Biztosan ezt látta."
+    },
+    {
+        "word": "száraz",
+        "translation": "сухий",
+        "en": {
+            "translation": "dry"
+        },
+        "example": "Annyit azonban megígérhetek, hogy nem lesz száraz éjszakánk."
+    },
+    {
+        "word": "leghatározottabban",
+        "translation": "категорично",
+        "en": {
+            "translation": "leghatározottabban"
+        },
+        "example": "A leghatározottabban elzárkóztak minden sületlenségtől."
+    },
+    {
+        "word": "talárosokról",
+        "translation": "про мантії",
+        "en": {
+            "translation": "about talers"
+        },
+        "example": "A talárosokról időközben teljesen megfeledkezett."
+    },
+    {
+        "word": "neje",
+        "translation": "дружина",
+        "en": {
+            "translation": "wife"
+        },
+        "example": "Csókot nyomott neje orcájára."
+    },
+    {
+        "word": "pékség",
+        "translation": "пекарня",
+        "en": {
+            "translation": "bakery"
+        },
+        "example": "Kijött a pékségből."
+    },
+    {
+        "word": "baglyot",
+        "translation": "сова",
+        "en": {
+            "translation": "owl"
+        },
+        "example": "Baglyot figyeltek meg országszerte."
+    },
+    {
+        "word": "felötlött",
+        "translation": "з'явилося",
+        "en": {
+            "translation": "indented"
+        },
+        "example": "Aztán felötlött benne, hogy a maskarás emberek talán szántszándékkal keresik a feltűnést."
+    },
+    {
+        "word": "bármilyen",
+        "translation": "будь-який",
+        "en": {
+            "translation": "any"
+        },
+        "example": "Nem feltételezte róluk, hogy közük lehet bármilyen rejtélyes dologhoz."
+    },
+    {
+        "word": "egészen",
+        "translation": "цілком",
+        "en": {
+            "translation": "all the"
+        },
+        "example": "Egészen pontosan taláros emberek."
+    },
+    {
+        "word": "nemhogy",
+        "translation": "ні",
+        "en": {
+            "translation": "nemhogy"
+        },
+        "example": "Többségük éjszaka se látott még baglyot, nemhogy nappal."
+    },
+    {
+        "word": "sincs",
+        "translation": "також немає",
+        "en": {
+            "translation": "sincs"
+        },
+        "example": "Úgy tűnt, egyiküknél sincs adománygyűjtő persely."
+    },
+    {
+        "word": "róluk",
+        "translation": "про них",
+        "en": {
+            "translation": "about them"
+        },
+        "example": "Nem feltételezte róluk, hogy közük lehet bármilyen rejtélyes dologhoz."
+    },
+    {
+        "word": "igen",
+        "translation": "так",
+        "en": {
+            "translation": "again"
+        },
+        "example": "A hazai baglyok ma igen szokatlanul viselkedtek."
+    },
+    {
+        "word": "számot",
+        "translation": "номер",
+        "en": {
+            "translation": "számot"
+        },
+        "example": "Már tárcsázni akarta az otthoni számot."
+    },
+    {
+        "word": "olyan",
+        "translation": "такий",
+        "en": {
+            "translation": "olyan"
+        },
+        "example": "Olyan éles, nyekergő hangon szólt."
+    },
+    {
+        "word": "összpontosítani",
+        "translation": "зосередитися",
+        "en": {
+            "translation": "to focus"
+        },
+        "example": "Szerencsére, mert másképpen nemigen tudott volna aznap délelőtt a fúrókra összpontosítani."
+    },
+    {
+        "word": "különcök",
+        "translation": "диво",
+        "en": {
+            "translation": "eccentric"
+        },
+        "example": "E különcök egy egész csoportjába botlott."
+    },
+    {
+        "word": "példányt",
+        "translation": "примірник",
+        "en": {
+            "translation": "instance"
+        },
+        "example": "Több száz nyugtalanul repkedő példányt figyeltek meg országszerte."
+    },
+    {
+        "word": "nevezte",
+        "translation": "названий",
+        "en": {
+            "translation": "named"
+        },
+        "example": "Valamiféle „mugli”-nak is nevezte őt."
+    },
+    {
+        "word": "olvasnak",
+        "translation": "читають",
+        "en": {
+            "translation": "they are reading"
+        },
+        "example": "A macskák nem olvasnak se térképet, se táblákat!"
+    },
+    {
+        "word": "lába",
+        "translation": "ноги",
+        "en": {
+            "translation": "legs"
+        },
+        "example": "Az igazgatónak a földbe gyökerezett a lába."
+    },
+    {
+        "word": "érve",
+        "translation": "доказ",
+        "en": {
+            "translation": "érve"
+        },
+        "example": "A sarokra érve történt vele az első szokatlan dolog."
+    },
+    {
+        "word": "micsoda",
+        "translation": "що",
+        "en": {
+            "translation": "what"
+        },
+        "example": "Micsoda feltűnést keltenének!"
+    },
+    {
+        "word": "nővérek",
+        "translation": "сестри",
+        "en": {
+            "translation": "sisters"
+        },
+        "example": "Sose látták egymást, évek óta nem is találkoztak, és Dursley-né úgy tett, mintha sose lett volna nővére – Potterné és „az a semmirekellő férje” ugyanis a lehető legdursley-szerűtlenebb emberek voltak."
+    },
+    {
+        "word": "egyik-másik",
+        "translation": "деякі",
+        "en": {
+            "translation": "one or another"
+        },
+        "example": "Lehet, hogy egyik-másik máris tűzijáték-petárdákat lődöznek?"
+    },
+    {
+        "word": "tárcsázni",
+        "translation": "набрати номер",
+        "en": {
+            "translation": "dial"
+        },
+        "example": "Már tárcsázni akarta az otthoni számot."
+    },
+    {
+        "word": "kocsijához",
+        "translation": "до його машини",
+        "en": {
+            "translation": "kocsijához"
+        },
+        "example": "Dursley úr a kocsijához sietett."
+    },
+    {
+        "word": "kilépett",
+        "translation": "вийшов",
+        "en": {
+            "translation": "kilépett"
+        },
+        "example": "Kilépett a házból."
+    },
+    {
+        "word": "gondolni",
+        "translation": "думати",
+        "en": {
+            "translation": "to think about"
+        },
+        "example": "Bele sem gondoltak abba, hogy."
+    },
+    {
+        "word": "feleségének",
+        "translation": "його дружина",
+        "en": {
+            "translation": "feleségének"
+        },
+        "example": "Feleségének egy szót sem szól a történtekről."
+    },
+    {
+        "word": "képesek",
+        "translation": "здатні",
+        "en": {
+            "translation": "képesek"
+        },
+        "example": "Fiatalok is micsoda maskarákban képesek járni."
+    },
+    {
+        "word": "hangon",
+        "translation": "голосом",
+        "en": {
+            "translation": "tone"
+        },
+        "example": "Szólalt meg olyan éles, nyekergő hangon."
+    },
+    {
+        "word": "ritka",
+        "translation": "рідкісний",
+        "en": {
+            "translation": "rare"
+        },
+        "example": "A Potter név korántsem olyan ritka."
+    },
+    {
+        "word": "elintézett",
+        "translation": "впорядкований",
+        "en": {
+            "translation": "arranged"
+        },
+        "example": "Elintézett néhány fontos telefont."
+    },
+    {
+        "word": "őrült",
+        "translation": "божевільний",
+        "en": {
+            "translation": "crazy"
+        },
+        "example": "Biztosan ez a legújabb őrült divat."
+    },
+    {
+        "word": "bocsánat",
+        "translation": "вибачення",
+        "en": {
+            "translation": "apology"
+        },
+        "example": "Bocsánat – morogta Dursley úr."
+    },
+    {
+        "word": "nyelt",
+        "translation": "ковтав",
+        "en": {
+            "translation": "swallow"
+        },
+        "example": "Azután nyelt egyet, és továbbment."
+    },
+    {
+        "word": "hallottam",
+        "translation": "я чув",
+        "en": {
+            "translation": "I have heard"
+        },
+        "example": "Igen, én is azt hallottam... a fiuk, Harry."
+    },
+    {
+        "word": "elvetette",
+        "translation": "відхилив",
+        "en": {
+            "translation": "sowed"
+        },
+        "example": "Némi töprengés után elvetette a problémát."
+    },
+    {
+        "word": "tolatott",
+        "translation": "дав задній хід",
+        "en": {
+            "translation": "pushed"
+        },
+        "example": "Beült a kocsijába, s a felhajtóról a Privet Drive-ra tolatott."
+    },
+    {
+        "word": "fejéből",
+        "translation": "з голови",
+        "en": {
+            "translation": "fejéből"
+        },
+        "example": "Ezt a gondolatot hamar kiverték a fejéből."
+    },
+    {
+        "word": "éjszakánk",
+        "translation": "наша ніч",
+        "en": {
+            "translation": "our night"
+        },
+        "example": "Annyit azonban megígérhetek, hogy nem lesz száraz éjszakánk."
+    },
+    {
+        "word": "felhajtóra",
+        "translation": "на під'їзну дорогу",
+        "en": {
+            "translation": "rampage"
+        },
+        "example": "A négyes szám előtti felhajtóra."
+    },
+    {
+        "word": "ez",
+        "translation": "це",
+        "en": {
+            "translation": "no"
+        },
+        "example": "Ez ám a rejtély, igaz-e?"
+    },
+    {
+        "word": "jelzett",
+        "translation": "вказано",
+        "en": {
+            "translation": "indicated"
+        },
+        "example": "Az előre jelzett eső helyett hullócsillagok záporoztak az égből."
+    },
+    {
+        "word": "macskától",
+        "translation": "від кота",
+        "en": {
+            "translation": "macskától"
+        },
+        "example": "Felötlött a kérdés, hogy vajon normális viselkedés-e ez egy macskától."
+    },
+    {
+        "word": "fia",
+        "translation": "його син",
+        "en": {
+            "translation": "fia"
+        },
+        "example": "Tudták, hogy Potteréknek is van egy fiuk."
+    },
+    {
+        "word": "magában",
+        "translation": "в собі",
+        "en": {
+            "translation": "on the own"
+        },
+        "example": "Egy darabig így fortyogott magában."
+    },
+    {
+        "word": "viselkedtek",
+        "translation": "поводилися",
+        "en": {
+            "translation": "were behaved"
+        },
+        "example": "A hazai baglyok ma igen szokatlanul viselkedtek."
+    },
+    {
+        "word": "másképpen",
+        "translation": "інакше",
+        "en": {
+            "translation": "otherwise"
+        },
+        "example": "Szerencsére, mert másképpen nemigen tudott volna aznap délelőtt a fúrókra összpontosítani."
+    },
+    {
+        "word": "időközben",
+        "translation": "між тим",
+        "en": {
+            "translation": "in the meantime"
+        },
+        "example": "A talárosokról időközben teljesen megfeledkezett."
+    },
+    {
+        "word": "megjósolni",
+        "translation": "передбачати",
+        "en": {
+            "translation": "to predict"
+        },
+        "example": "Ezt sajnos nem tudom megjósolni."
+    },
+    {
+        "word": "ott",
+        "translation": "там",
+        "en": {
+            "translation": "ott"
+        },
+        "example": "A feltűnő palástokba burkolódzó figurák akkor is ott voltak még."
+    },
+    {
+        "word": "nyomott",
+        "translation": "натиснутий",
+        "en": {
+            "translation": "pressed"
+        },
+        "example": "Csókot nyomott neje orcájára."
+    },
+    {
+        "word": "kedd",
+        "translation": "вівторок",
+        "en": {
+            "translation": "Tuesday"
+        },
+        "example": "Az a borongós, szürke kedd, melyen történetünk kezdetét veszi."
+    },
+    {
+        "word": "semmirekellő",
+        "translation": "нікчемний",
+        "en": {
+            "translation": "semmirekellő"
+        },
+        "example": "Az a semmirekellő férje."
+    },
+    {
+        "word": "délután",
+        "translation": "день",
+        "en": {
+            "translation": "afternoon"
+        },
+        "example": "Dursley úr aznap délután sehogy sem tudott a fúrókra koncentrálni."
+    },
+    {
+        "word": "irodában",
+        "translation": "в офісі",
+        "en": {
+            "translation": "in office"
+        },
+        "example": "A kilencedik emeleti igazgatói irodában."
+    },
+    {
+        "word": "dursley",
+        "translation": "Дурслі",
+        "en": {
+            "translation": "dursley"
+        },
+        "example": "Dursley úr megütközve látta."
+    },
+    {
+        "word": "megpillantott",
+        "translation": "помітив",
+        "en": {
+            "translation": "glimpy"
+        },
+        "example": "Miközben beletuszkolta bömbölő fiát az etetőszékbe, megpillantott egy térképet böngésző macskát."
+    },
+    {
+        "word": "illető",
+        "translation": "особа",
+        "en": {
+            "translation": "person"
+        },
+        "example": "Az illető, egy töpörödött öregember."
+    },
+    {
+        "word": "jelenség",
+        "translation": "явище",
+        "en": {
+            "translation": "jelenség"
+        },
+        "example": "A különös jelenség ma reggel hét órakor kezdődött."
+    },
+    {
+        "word": "belföldi",
+        "translation": "внутрішній",
+        "en": {
+            "translation": "domestic"
+        },
+        "example": "Végezetül egy belföldi hír."
+    },
+    {
+        "word": "fúrógyártó",
+        "translation": "виробник свердел",
+        "en": {
+            "translation": "driller"
+        },
+        "example": "Dursley úr, aki igazgatói posztot töltött be egy Grunnings nevű fúrógyártó cégnél."
+    },
+    {
+        "word": "tűnt",
+        "translation": "здавалося",
+        "en": {
+            "translation": "it seemed"
+        },
+        "example": "Úgy tűnt, egyiküknél sincs adománygyűjtő persely."
+    },
+    {
+        "word": "pillanatra",
+        "translation": "на мить",
+        "en": {
+            "translation": "for a moment"
+        },
+        "example": "Egy pillanatra jeges borzalom markolt a szívébe."
+    },
+    {
+        "word": "mégis",
+        "translation": "все ж",
+        "en": {
+            "translation": "yet"
+        },
+        "example": "Dursley-né mégis éveken át került minden olyan témát."
+    },
+    {
+        "word": "amikor",
+        "translation": "коли",
+        "en": {
+            "translation": "when"
+        },
+        "example": "Amikor a város határába ért."
+    },
+    {
+        "word": "kapóra",
+        "translation": "зручно",
+        "en": {
+            "translation": "cap"
+        },
+        "example": "Nos, Ted – mosolygott a meteorológus –, ez kapóra jött."
+    },
+    {
+        "word": "országszerte",
+        "translation": "по всій країні",
+        "en": {
+            "translation": "nationwide"
+        },
+        "example": "Több száz nyugtalanul repkedő példányt figyeltek meg országszerte."
+    },
+    {
+        "word": "figyelte",
+        "translation": "дивився",
+        "en": {
+            "translation": "watched"
+        },
+        "example": "A visszapillantó tükörben figyelte az állatot."
+    },
+    {
+        "word": "más",
+        "translation": "інший",
+        "en": {
+            "translation": "further"
+        },
+        "example": "Úton a város felé már nem is járt más az eszében, csak az a sok-sok fúró, amit aznap eladni remélt."
+    },
+    {
+        "word": "neve",
+        "translation": "ім'я",
+        "en": {
+            "translation": "neve"
+        },
+        "example": "Lehet, hogy Harvey a neve."
+    },
+    {
+        "word": "tökéletesen",
+        "translation": "ідеально",
+        "en": {
+            "translation": "perfectly"
+        },
+        "example": "Ők tökéletesen normálisak."
+    },
+    {
+        "word": "előkereste",
+        "translation": "дістав",
+        "en": {
+            "translation": "skewed"
+        },
+        "example": "Munkába készülő Dursley úr dudorászva előkereste legunalmasabb mintájú nyakkendőjét."
+    },
+    {
+        "word": "hisz",
+        "translation": "адже",
+        "en": {
+            "translation": "think"
+        },
+        "example": "Hisz az a férfi ott még nála is öregebb."
+    },
+    {
+        "word": "arról",
+        "translation": "про це",
+        "en": {
+            "translation": "about"
+        },
+        "example": "Melyekben a nézők arról számoltak be."
+    },
+    {
+        "word": "tagjait",
+        "translation": "його члени",
+        "en": {
+            "translation": "members"
+        },
+        "example": "Elhatározta, hogy kinyújtóztatja tagjait."
+    },
+    {
+        "word": "nőstény",
+        "translation": "самка",
+        "en": {
+            "translation": "female"
+        },
+        "example": "Valóban ott ült egy nőstény macska."
+    },
+    {
+        "word": "kilépve",
+        "translation": "виходячи",
+        "en": {
+            "translation": "exiting"
+        },
+        "example": "Az épületből kilépve rögtön összeütközött egy járókelővel."
+    },
+    {
+        "word": "feltűnő",
+        "translation": "видно",
+        "en": {
+            "translation": "conspicuous"
+        },
+        "example": "Az első szokatlan dolog, amit megpillantott, egy térképet böngésző macska volt."
+    },
+    {
+        "word": "szüleinek",
+        "translation": "його батьки",
+        "en": {
+            "translation": "szüleinek"
+        },
+        "example": "Szüleinek egybehangzó véleménye szerint."
+    },
+    {
+        "word": "valószínűleg",
+        "translation": "ймовірно",
+        "en": {
+            "translation": "probably"
+        },
+        "example": "Valószínűleg rengeteg Potternek van Harry nevű fia."
+    },
+    {
+        "word": "hullócsillagok",
+        "translation": "падаючі зірки",
+        "en": {
+            "translation": "falling stars"
+        },
+        "example": "Az előre jelzett eső helyett hullócsillagok záporoztak az égből."
+    },
+    {
+        "word": "utcájukban",
+        "translation": "на їх вулиці",
+        "en": {
+            "translation": "in their streets"
+        },
+        "example": "Potter-pereputty feltűnne az utcájukban."
+    },
+    {
+        "word": "gondolta",
+        "translation": "думав",
+        "en": {
+            "translation": "gondolta"
+        },
+        "example": "Ahogy elhaladt mellettük, gyanakodva végigmérte őket."
+    },
+    {
+        "word": "lehető",
+        "translation": "можливо",
+        "en": {
+            "translation": "lehető"
+        },
+        "example": "Potterné és „az a semmirekellő férje” ugyanis a lehető legdursley-szerűtlenebb emberek voltak."
+    },
+    {
+        "word": "nyugodtnak",
+        "translation": "спокійний",
+        "en": {
+            "translation": "quiet"
+        },
+        "example": "Elhatározta, hogy nyugodtnak tetteti magát."
+    },
+    {
+        "word": "ennek",
+        "translation": "це",
+        "en": {
+            "translation": "ennek"
+        },
+        "example": "Ennek ellenére ma hajnal óta több száz nyugtalanul repkedő példányt figyeltek meg országszerte."
+    },
+    {
+        "word": "szigorú",
+        "translation": "суворий",
+        "en": {
+            "translation": "strict"
+        },
+        "example": "Szigorú pillantást vetett a ház urára."
+    },
+    {
+        "word": "teljesen",
+        "translation": "повністю",
+        "en": {
+            "translation": "fully"
+        },
+        "example": "A talárosokról időközben teljesen megfeledkezett."
+    },
+    {
+        "word": "odébbállt",
+        "translation": "відійшов",
+        "en": {
+            "translation": "odébbállt"
+        },
+        "example": "A macska végül odébbállt."
+    },
+    {
+        "word": "dundeeból",
+        "translation": "з Данді",
+        "en": {
+            "translation": "from Dundee"
+        },
+        "example": "Dundeeból is kaptam telefonhívásokat."
+    },
+    {
+        "word": "jött",
+        "translation": "прийшов",
+        "en": {
+            "translation": "jött"
+        },
+        "example": "Nos, Ted – mosolygott a meteorológus –, ez kapóra jött."
+    },
+    {
+        "word": "formáját",
+        "translation": "форма",
+        "en": {
+            "translation": "formáját"
+        },
+        "example": "Kétségkívül azonos volt a sarki macskával, csak mintha egy másik állat formáját öltötte volna magára."
+    },
+    {
+        "word": "aránytalanul",
+        "translation": "невідповідно",
+        "en": {
+            "translation": "disproportionately"
+        },
+        "example": "Dursley úr tagbaszakadt ember volt, aránytalanul kurta nyakkal."
+    },
+    {
+        "word": "potterné",
+        "translation": "Поттер",
+        "en": {
+            "translation": "Potterné"
+        },
+        "example": "Sose látták egymást, évek óta nem is találkoztak, és Dursley-né úgy tett, mintha sose lett volna nővére – Potterné és „az a semmirekellő férje” ugyanis a lehető legdursley-szerűtlenebb emberek voltak."
+    },
+    {
+        "word": "macska",
+        "translation": "кіт",
+        "en": {
+            "translation": "cat"
+        },
+        "example": "Pislogva meredt a macskára, s az visszanézett rá. Miközben kifordult a főútra, a visszapillantó tükörben figyelte az állatot."
+    },
+    {
+        "word": "megígérhetek",
+        "translation": "я можу обіцяти",
+        "en": {
+            "translation": "I can promise"
+        },
+        "example": "Annyit azonban megígérhetek, hogy nem lesz száraz éjszakánk."
+    },
+    {
+        "word": "utcákon",
+        "translation": "на вулицях",
+        "en": {
+            "translation": "on the streets"
+        },
+        "example": "Nem kerülhették el a figyelmét az utcákon lézengő, különös ruhába öltözött – egészen pontosan taláros – emberek."
+    },
+    {
+        "word": "ideges",
+        "translation": "роздратований",
+        "en": {
+            "translation": "nervous"
+        },
+        "example": "Mindig olyan ideges lesz szegény, ha a nővére szóba kerül."
+    },
+    {
+        "word": "falat",
+        "translation": "стіна",
+        "en": {
+            "translation": "wall"
+        },
+        "example": "A falat terítette be tejbepapival."
+    },
+    {
+        "word": "mostakarom",
+        "translation": "я хочу це зараз",
+        "en": {
+            "translation": "Mastics"
+        },
+        "example": "A nap legdursley-szerűbb gondolata pedig így hangzott: mostakarom. Most rögtön."
+    },
+    {
+        "word": "kedves",
+        "translation": "дорогий",
+        "en": {
+            "translation": "dear"
+        },
+        "example": "Nos, kedves nézőink, türelem!"
+    },
+    {
+        "word": "száműzte",
+        "translation": "засуджений",
+        "en": {
+            "translation": "exiled"
+        },
+        "example": "Mintha ki is száműzte volna a gondolatot a fejéből."
+    },
+    {
+        "word": "úgy",
+        "translation": "так",
+        "en": {
+            "translation": "business"
+        },
+        "example": "Úgy tett, mintha sose lett volna nővére."
+    },
+    {
+        "word": "húzódott",
+        "translation": "тягнеться",
+        "en": {
+            "translation": "húzódott"
+        },
+        "example": "Szája széles mosolyra húzódott."
+    },
+    {
+        "word": "tett",
+        "translation": "зробив",
+        "en": {
+            "translation": "deed"
+        },
+        "example": "Úgy tett, mintha sose lett volna nővére."
+    },
+    {
+        "word": "járók",
+        "translation": "ходьба",
+        "en": {
+            "translation": "passers -by"
+        },
+        "example": "Még az arra járók is felfigyeltek rá."
+    },
+    {
+        "word": "annyi",
+        "translation": "настільки",
+        "en": {
+            "translation": "so much"
+        },
+        "example": "Annyit azonban megígérhetek, hogy nem lesz száraz éjszakánk."
+    },
+    {
+        "word": "lehetett",
+        "translation": "міг бути",
+        "en": {
+            "translation": "may have been"
+        },
+        "example": "Ez a legújabb őrület, gondolta, biztosan ezt látta. De nem lehetett megbizonyosodni róla, mert ebben a pillanatban épp egy takaró volt a macska mellett."
+    },
+    {
+        "word": "számíthatunk",
+        "translation": "ми можемо розраховувати",
+        "en": {
+            "translation": "we can count on"
+        },
+        "example": "Éjszaka is számíthatunk bagolyátvonulásra."
+    },
+    {
+        "word": "délelőtt",
+        "translation": "ранок",
+        "en": {
+            "translation": "délelőtt"
+        },
+        "example": "Dursley úrnak tehát tökéletesen normális, bagolymentes délelőttje volt."
+    },
+    {
+        "word": "elítélte",
+        "translation": "засуджений",
+        "en": {
+            "translation": "condemned"
+        },
+        "example": "Ez a vágya is meglepte, mivel a képzelődés minden formáját határozottan elítélte."
+    },
+    {
+        "word": "csoda",
+        "translation": "диво",
+        "en": {
+            "translation": "miracle"
+        },
+        "example": "Hát persze! Nem csoda, hogy nem látta."
+    },
+    {
+        "word": "volt",
+        "translation": "було",
+        "en": {
+            "translation": "volt"
+        },
+        "example": "Több száz nyugtalanul repkedő példányt figyeltek meg országszerte."
+    },
+    {
+        "word": "boldogan",
+        "translation": "щасливо",
+        "en": {
+            "translation": "happily"
+        },
+        "example": "Boldogan átölelte Dursley úr derekát."
+    },
+    {
+        "word": "adni",
+        "translation": "давати",
+        "en": {
+            "translation": "adni"
+        },
+        "example": "A kis Dudley-nak is megpróbált egy búcsúpuszit adni."
+    },
+    {
+        "word": "tejbepapival",
+        "translation": "з молоком",
+        "en": {
+            "translation": "tejbepapival"
+        },
+        "example": "A falat terítette be tejbepapival."
+    },
+    {
+        "word": "öltözött",
+        "translation": "одягнений",
+        "en": {
+            "translation": "dressed"
+        },
+        "example": "Különös ruhába öltözött emberek."
+    },
+    {
+        "word": "szívébe",
+        "translation": "в серце",
+        "en": {
+            "translation": "into the heart of"
+        },
+        "example": "Egy pillanatra jeges borzalom markolt a szívébe."
+    },
+    {
+        "word": "pékségből",
+        "translation": "з пекарні",
+        "en": {
+            "translation": "bakery"
+        },
+        "example": "Amikor kijött a pékségből."
+    },
+    {
+        "word": "gyökerezett",
+        "translation": "укорінений",
+        "en": {
+            "translation": "rooted"
+        },
+        "example": "Az igazgatónak a földbe gyökerezett a lába."
+    },
+    {
+        "word": "elvigyorodott",
+        "translation": "усміхнувся",
+        "en": {
+            "translation": "grin"
+        },
+        "example": "Dursley úr csak elvigyorodott."
+    },
+    {
+        "word": "igazgatói",
+        "translation": "директор",
+        "en": {
+            "translation": "directorial"
+        },
+        "example": "Dursley úr igazgatói posztot töltött be."
+    },
+    {
+        "word": "persze",
+        "translation": "звичайно",
+        "en": {
+            "translation": "of course"
+        },
+        "example": "Hát persze! Nem csoda, hogy nem látta."
+    },
+    {
+        "word": "gyereket",
+        "translation": "дитина",
+        "en": {
+            "translation": "child"
+        },
+        "example": "Elmesélt urának a szomszédasszony haszontalan gyerekéről."
+    },
+    {
+        "word": "sose",
+        "translation": "ніколи",
+        "en": {
+            "translation": "never"
+        },
+        "example": "Úgy tett, mintha sose lett volna nővére."
+    },
+    {
+        "word": "ellenkezőleg",
+        "translation": "навпаки",
+        "en": {
+            "translation": "on the contrary"
+        },
+        "example": "A macska nem szaladt el, sőt szigorú pillantást vetett a ház urára."
+    },
+    {
+        "word": "járdán",
+        "translation": "на тротуарі",
+        "en": {
+            "translation": "pavement"
+        },
+        "example": "A társaság a járdán ácsorgott."
+    },
+    {
+        "word": "egyelőre",
+        "translation": "поки що",
+        "en": {
+            "translation": "for the time being"
+        },
+        "example": "A szakértők egyelőre nem találtak magyarázatot."
+    },
+    {
+        "word": "attól",
+        "translation": "від того",
+        "en": {
+            "translation": "from"
+        },
+        "example": "Egyenesen rettegtek attól, hogy kitudódhat."
+    },
+    {
+        "word": "tekintete",
+        "translation": "його погляд",
+        "en": {
+            "translation": "gaze"
+        },
+        "example": "Tekintete a talárosok egy csoportjára tévedt."
+    },
+    {
+        "word": "rejtélyes",
+        "translation": "загадковий",
+        "en": {
+            "translation": "rejtélyes"
+        },
+        "example": "Hamarosan szokatlan, rejtélyes dolgok történnek majd országszerte."
+    },
+    {
+        "word": "veszi",
+        "translation": "бере",
+        "en": {
+            "translation": "take"
+        },
+        "example": "Az a borongós, szürke kedd, melyen történetünk kezdetét veszi."
+    },
+    {
+        "word": "ami",
+        "translation": "це",
+        "en": {
+            "translation": "ami"
+        },
+        "example": "A borult égen sem látszott semmi, ami arra utalt volna, hogy hamarosan szokatlan, rejtélyes dolgok történnek majd országszerte."
+    },
+    {
+        "word": "sustorgott",
+        "translation": "шепотів",
+        "en": {
+            "translation": "Sustorgott"
+        },
+        "example": "A társaság is izgatottan sustorgott."
+    },
+    {
+        "word": "maskarás",
+        "translation": "маскарадний",
+        "en": {
+            "translation": "Maskarás"
+        },
+        "example": "Aztán felötlött benne, hogy a maskarás emberek talán szántszándékkal keresik a feltűnést."
+    },
+    {
+        "word": "adományokat",
+        "translation": "пожертви",
+        "en": {
+            "translation": "donations"
+        },
+        "example": "Biztosan adományokat gyűjtenek valamire."
+    },
+    {
+        "word": "ült",
+        "translation": "сів",
+        "en": {
+            "translation": "sit"
+        },
+        "example": "Valóban ott ült egy nőstény macska."
+    },
+    {
+        "word": "yorkshire-ból",
+        "translation": "з Йоркширу",
+        "en": {
+            "translation": "yorkshire-ból"
+        },
+        "example": "Yorkshire-ból is kaptam telefonhívásokat."
+    },
+    {
+        "word": "fiatal",
+        "translation": "молодий",
+        "en": {
+            "translation": "young"
+        },
+        "example": "Fiatalok is micsoda maskarákban képesek járni."
+    },
+    {
+        "word": "sületlenségtől",
+        "translation": "дурниці",
+        "en": {
+            "translation": "in disbelief"
+        },
+        "example": "A leghatározottabban elzárkóztak minden sületlenségtől."
+    },
+    {
+        "word": "mellett",
+        "translation": "біля",
+        "en": {
+            "translation": "beside"
+        },
+        "example": "A szomszédos kerítésnél ágaskodott."
+    },
+    {
+        "word": "mikor",
+        "translation": "коли",
+        "en": {
+            "translation": "When"
+        },
+        "example": "Mikor azonban a város határába ért."
+    },
+    {
+        "word": "se",
+        "translation": "ні",
+        "en": {
+            "translation": "with"
+        },
+        "example": "Nemhogy nem sejtették, mi történt."
+    },
+    {
+        "word": "hirtelen",
+        "translation": "раптово",
+        "en": {
+            "translation": "suddenly"
+        },
+        "example": "A baglyok alvási szokásának e hirtelen megváltozására."
+    },
+    {
+        "word": "fogta",
+        "translation": "взято",
+        "en": {
+            "translation": "tooth"
+        },
+        "example": "Dursley úr némi késéssel fogta fel."
+    },
+    {
+        "word": "nézte",
+        "translation": "дивився",
+        "en": {
+            "translation": "watched"
+        },
+        "example": "Pislogva nézte a macskát, s az visszanézett rá."
+    },
+    {
+        "word": "főútra",
+        "translation": "на головну дорогу",
+        "en": {
+            "translation": "main road"
+        },
+        "example": "Miközben kifordult a főútra."
+    },
+    {
+        "word": "vajon",
+        "translation": "цікаво",
+        "en": {
+            "translation": "whether"
+        },
+        "example": "Felötlött a kérdés, hogy vajon normális viselkedés-e ez egy macskától."
+    },
+    {
+        "word": "ünnepig",
+        "translation": "до свята",
+        "en": {
+            "translation": "to celebrate"
+        },
+        "example": "Még egy egész hetünk van az ünnepig."
+    },
+    {
+        "word": "zacskóval",
+        "translation": "з мішком",
+        "en": {
+            "translation": "with bag"
+        },
+        "example": "Kezében a fánkot rejtő zacskóval."
+    },
+    {
+        "word": "magát",
+        "translation": "себе",
+        "en": {
+            "translation": "magát"
+        },
+        "example": "Elhatározta, hogy nyugodtnak tetteti magát."
+    },
+    {
+        "word": "emberek",
+        "translation": "люди",
+        "en": {
+            "translation": "people"
+        },
+        "example": "Különös ruhába öltözött emberek."
+    },
+    {
+        "word": "mcguffin",
+        "translation": "МакГаффін",
+        "en": {
+            "translation": "mcguffin"
+        },
+        "example": "Milyen időt ígér nekünk Jim McGuffin."
+    },
+    {
+        "word": "éppen",
+        "translation": "якраз",
+        "en": {
+            "translation": "just"
+        },
+        "example": "Még éppen elcsípte a híradó utolsó perceit."
+    },
+    {
+        "word": "kertet",
+        "translation": "сад",
+        "en": {
+            "translation": "garden"
+        },
+        "example": "A kertet szegélyező falon üldögélt."
+    },
+    {
+        "word": "hatalmas",
+        "translation": "величезний",
+        "en": {
+            "translation": "powerful"
+        },
+        "example": "Dursley úr tagbaszakadt ember volt, aránytalanul kurta nyakkal és hatalmas bajusszal."
+    },
+    {
+        "word": "fényes",
+        "translation": "світлий",
+        "en": {
+            "translation": "bright"
+        },
+        "example": "Fényes nappal ide-oda repdeső baglyokat – ellentétben az utcai járókelőkkel."
+    },
+    {
+        "word": "körül",
+        "translation": "навколо",
+        "en": {
+            "translation": "around"
+        },
+        "example": "Könnyen fel lehetett ismerni a szemei körül sötétlő kerek foltról."
+    },
+    {
+        "word": "máris",
+        "translation": "вже",
+        "en": {
+            "translation": "already"
+        },
+        "example": "Lehet, hogy némelyek máris tűzijáték-petárdákat lődöznek?"
+    },
+    {
+        "word": "éjszaka",
+        "translation": "ніч",
+        "en": {
+            "translation": "night"
+        },
+        "example": "A bagoly köztudomásúlag éjszakai madár."
+    },
+    {
+        "word": "elmesélte",
+        "translation": "він сказав",
+        "en": {
+            "translation": "told"
+        },
+        "example": "Kaján jókedvvel elmesélte a legfrissebb pletykákat."
+    },
+    {
+        "word": "bocsánatot",
+        "translation": "вибачення",
+        "en": {
+            "translation": "apology"
+        },
+        "example": "Nem kell bocsánatot kérnie."
+    },
+    {
+        "word": "van",
+        "translation": "є",
+        "en": {
+            "translation": "van"
+        },
+        "example": "Rengeteg Potternek van Harry nevű fia."
+    },
+    {
+        "word": "látták",
+        "translation": "вони бачили",
+        "en": {
+            "translation": "have been seen"
+        },
+        "example": "Őszintén remélte, hogy csak képzelődött. Még az arra járók is felfigyeltek rá."
+    },
+    {
+        "word": "akaratlanul",
+        "translation": "ненавмисно",
+        "en": {
+            "translation": "akaratlanul"
+        },
+        "example": "Akkor akaratlanul is elcsípett néhány szót a beszélgetésükből."
+    },
+    {
+        "word": "fortyogott",
+        "translation": "кипіло",
+        "en": {
+            "translation": "boot"
+        },
+        "example": "Egy darabig így fortyogott magában."
+    },
+    {
+        "word": "nyakkal",
+        "translation": "з шиєю",
+        "en": {
+            "translation": "with neck"
+        },
+        "example": "Dursley úr tagbaszakadt ember volt, aránytalanul kurta nyakkal."
+    },
+    {
+        "word": "botlott",
+        "translation": "спіткнувся",
+        "en": {
+            "translation": "stumble"
+        },
+        "example": "E különcök egy egész csoportjába botlott."
+    },
+    {
+        "word": "semmiben",
+        "translation": "ні в чому",
+        "en": {
+            "translation": "semmiben"
+        },
+        "example": "A Dursley család semmiben nem szenvedett hiányt."
+    },
+    {
+        "word": "előtt",
+        "translation": "перед",
+        "en": {
+            "translation": "before"
+        },
+        "example": "A négyes szám előtti felhajtóra."
+    },
+    {
+        "word": "elsétált",
+        "translation": "пройшов",
+        "en": {
+            "translation": "elsétált"
+        },
+        "example": "Elsétált a boltba."
+    },
+    {
+        "word": "kormánykeréken",
+        "translation": "кермо",
+        "en": {
+            "translation": "on steering wheel"
+        },
+        "example": "S ujjaival türelmetlenül dobolt a kormánykeréken."
+    },
+    {
+        "word": "egybehangzó",
+        "translation": "одноголосно",
+        "en": {
+            "translation": "unanimous"
+        },
+        "example": "Szüleinek egybehangzó véleménye szerint."
+    },
+    {
+        "word": "összes",
+        "translation": "усі",
+        "en": {
+            "translation": "all"
+        },
+        "example": "Dursley úr és neje számára épp úgy kezdődött, mint az összes többi nap."
+    },
+    {
+        "word": "kis",
+        "translation": "маленький",
+        "en": {
+            "translation": "small"
+        },
+        "example": "Kis híján fellökte az illetőt."
+    },
+    {
+        "word": "elcsípett",
+        "translation": "схопив",
+        "en": {
+            "translation": "elcsípett"
+        },
+        "example": "Akkor akaratlanul is elcsípett néhány szót a beszélgetésükből."
+    },
+    {
+        "word": "sarkán",
+        "translation": "на куті",
+        "en": {
+            "translation": "corner"
+        },
+        "example": "Az utca sarkán."
+    },
+    {
+        "word": "markolt",
+        "translation": "зчеплений",
+        "en": {
+            "translation": "grasp"
+        },
+        "example": "Egy pillanatra jeges borzalom markolt a szívébe."
+    },
+    {
+        "word": "potterékről",
+        "translation": "про Поттерів",
+        "en": {
+            "translation": "about the poters"
+        },
+        "example": "Ha valaki tudomást szerezne Potterékről."
+    },
+    {
+        "word": "délig",
+        "translation": "до полудня",
+        "en": {
+            "translation": "until noon"
+        },
+        "example": "Remek hangulatban töltötte az időt délig."
+    },
+    {
+        "word": "végigsimított",
+        "translation": "гладив",
+        "en": {
+            "translation": "végigsimított"
+        },
+        "example": "Dursley úr végigsimított bajuszán."
+    },
+    {
+        "word": "megint",
+        "translation": "знову",
+        "en": {
+            "translation": "over again"
+        },
+        "example": "A kis Dudley megint tanult egy új szót."
+    },
+    {
+        "word": "tőle",
+        "translation": "від нього",
+        "en": {
+            "translation": "tőle"
+        },
+        "example": "S ő sem hallott soha többet tőle."
+    },
+    {
+        "word": "sem",
+        "translation": "також",
+        "en": {
+            "translation": "who"
+        },
+        "example": "Semmi nem szegheti kedvemet!"
+    },
+    {
+        "word": "ibolyaszínű",
+        "translation": "фіолетовий",
+        "en": {
+            "translation": "violet"
+        },
+        "example": "A kis ember ibolyaszínű köpönyeget viselt."
+    },
+    {
+        "word": "töprengés",
+        "translation": "роздуми",
+        "en": {
+            "translation": "wondering"
+        },
+        "example": "Némi töprengés után elvetette a problémát."
+    },
+    {
+        "word": "felesleges",
+        "translation": "непотрібний",
+        "en": {
+            "translation": "felesleges"
+        },
+        "example": "Felesleges felizgatnia a feleségét."
+    },
+    {
+        "word": "otthoni",
+        "translation": "вдома",
+        "en": {
+            "translation": "home"
+        },
+        "example": "Már tárcsázni akarta az otthoni számot."
+    },
+    {
+        "word": "macskát",
+        "translation": "кіт",
+        "en": {
+            "translation": "cat"
+        },
+        "example": "A macskák nem olvasnak se térképet, se táblákat!"
+    },
+    {
+        "word": "vágya",
+        "translation": "бажання",
+        "en": {
+            "translation": "desire"
+        },
+        "example": "Ez a vágya is meglepte, mivel a képzelődés minden formáját határozottan elítélte."
+    },
+    {
+        "word": "igyekezett",
+        "translation": "намагався",
+        "en": {
+            "translation": "igyekezett"
+        },
+        "example": "Dursley úr igyekezett megfeledkezni mindarról, amit látott."
+    },
+    {
+        "word": "kilencedik",
+        "translation": "дев'ятий",
+        "en": {
+            "translation": "ninth"
+        },
+        "example": "A kilencedik emeleti igazgatói irodában Dursley úr széke az ablaknak háttal állt."
+    },
+    {
+        "word": "kicsit",
+        "translation": "трохи",
+        "en": {
+            "translation": "slightly"
+        },
+        "example": "De ez a név most mégis nyugtalanította egy kicsit."
+    },
+    {
+        "word": "szemben",
+        "translation": "навпроти",
+        "en": {
+            "translation": "opposite"
+        },
+        "example": "A szemközti pékségbe egy fánkért."
+    },
+    {
+        "word": "problémát",
+        "translation": "проблема",
+        "en": {
+            "translation": "problem"
+        },
+        "example": "Némi töprengés után elvetette a problémát."
+    },
+    {
+        "word": "kölykük",
+        "translation": "їхня дитина",
+        "en": {
+            "translation": "purey"
+        },
+        "example": "Kölykük csak rossz hatással lenne az ő Dudley-jukra."
+    },
+    {
+        "word": "sarki",
+        "translation": "роговий",
+        "en": {
+            "translation": "king"
+        },
+        "example": "Kétségkívül azonos volt a sarki macskával."
+    },
+    {
+        "word": "átment",
+        "translation": "переїхав",
+        "en": {
+            "translation": "go through"
+        },
+        "example": "Miután lefektették Dudley-t, átment a nappaliba."
+    },
+    {
+        "word": "testvére",
+        "translation": "брат",
+        "en": {
+            "translation": "brother"
+        },
+        "example": "Sose látták egymást, évek óta nem is találkoztak, és Dursley-né úgy tett, mintha sose lett volna nővére – Potterné és „az a semmirekellő férje” ugyanis a lehető legdursley-szerűtlenebb emberek voltak."
+    },
+    {
+        "word": "esze",
+        "translation": "його розум",
+        "en": {
+            "translation": "wit"
+        },
+        "example": "Ekkor már ismét csak a fúrókon járt az esze."
+    },
+    {
+        "word": "madarakat",
+        "translation": "птахи",
+        "en": {
+            "translation": "birds"
+        },
+        "example": "Tátott szájjal, mutogatva bámulták a fejük fölött elsuhanó madarakat."
+    },
+    {
+        "word": "mesélt",
+        "translation": "розповідав",
+        "en": {
+            "translation": "talked"
+        },
+        "example": "Vacsora közben mesélt urának."
+    },
+    {
+        "word": "be",
+        "translation": "у",
+        "en": {
+            "translation": "be"
+        },
+        "example": "A falat terítette be tejbepapival."
+    },
+    {
+        "word": "mosolygott",
+        "translation": "посміхнувся",
+        "en": {
+            "translation": "smiled"
+        },
+        "example": "Nos, Ted – mosolygott a meteorológus."
+    },
+    {
+        "word": "rákanyarodott",
+        "translation": "повернув",
+        "en": {
+            "translation": "tiped"
+        },
+        "example": "Rákanyarodott a bekötőútra."
+    },
+    {
+        "word": "táblákat",
+        "translation": "таблички",
+        "en": {
+            "translation": "signs"
+        },
+        "example": "A macskák nem olvasnak se térképet, se táblákat!"
+    },
+    {
+        "word": "név",
+        "translation": "ім'я",
+        "en": {
+            "translation": "name"
+        },
+        "example": "De ez a név most mégis nyugtalanította egy kicsit."
+    },
+    {
+        "word": "normálisak",
+        "translation": "нормальні",
+        "en": {
+            "translation": "are normal"
+        },
+        "example": "Ők tökéletesen normálisak."
+    },
+    {
+        "word": "állíthatták",
+        "translation": "міг заявити",
+        "en": {
+            "translation": "could have been set up"
+        },
+        "example": "Büszkén állíthatták, hogy köszönik szépen."
+    },
+    {
+        "word": "helyett",
+        "translation": "замість",
+        "en": {
+            "translation": "instead of"
+        },
+        "example": "Az előre jelzett eső helyett hullócsillagok záporoztak az égből."
+    },
+    {
+        "word": "mertek",
+        "translation": "посмів",
+        "en": {
+            "translation": "mertek"
+        },
+        "example": "Mertek volna Potterék megjelenni az ő környékükön!"
+    },
+    {
+        "word": "nézőink",
+        "translation": "наші глядачі",
+        "en": {
+            "translation": "nézőink"
+        },
+        "example": "Nos, kedves nézőink, türelem!"
+    },
+    {
+        "word": "töprengve",
+        "translation": "з роздумом",
+        "en": {
+            "translation": "töprengve"
+        },
+        "example": "Gondosan végigmérte őket, töprengve, mit jelenthet ez."
+    }
+]

@@ -1,10 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import {
-    LearnNewWord,
-    ReviewWord,
-    StarsRating,
-    SelectLanguage,
     DeckList,
     DeckPage,
     NewWordPage,
@@ -73,7 +69,7 @@ const App: React.FC = () => {
     };
 
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <Routes>
                 <Route path="/" element={<DeckList />} />
                 <Route path="/deck/:id" element={<DeckPage />} />
