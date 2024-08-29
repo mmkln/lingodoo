@@ -85,7 +85,7 @@ const DeckPage: React.FC = () => {
           <div className="mb-4 bg-white rounded-lg p-4 shadow flex justify-between items-center">
               <div>
                   <h2 className="text-lg font-bold">{deckData.name}</h2>
-                  <div className="flex gap-4">
+                  <div className="flex gap-2 md:gap-4">
                     <span className={`rounded-md px-2 py-1 font-bold ${!deckData.toReview ? 'bg-green-300' : 'bg-yellow-300'}`}>
                       {deckData.toReview} to review
                     </span>
@@ -120,7 +120,7 @@ const DeckPage: React.FC = () => {
             </button>
           )}
 
-          <main className="flex flex-col gap-4">
+          <main className="flex flex-col gap-2 md:gap-4">
               {deckWords.map((word, index) => (
                 <WordItem key={index} word={word.word} translation={word.translation} />
               ))}
