@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
-import {Word} from '../models';
+import { DeckWord, Word } from '../models';
 
 interface FlipCardProps {
-    data: Word;
+    data: DeckWord | Word;
 }
 
 const FlipCard: React.FC<FlipCardProps> = ({ data }) => {

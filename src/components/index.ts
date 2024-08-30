@@ -6,3 +6,5 @@ export * from './WordItem';
 export {default as NewWordPage} from './NewWordPage'
 export {default as ReviewPage} from './ReviewPage';
 export * from './FlipCardInput';
+export {default as FlipCard} from './FlipCard';
+

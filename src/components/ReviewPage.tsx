@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { DeckWord } from '../models';
 import { getLocalStorageItem, setLocalStorageItem, updateWordData, wordsToReview } from '../helpers';
 import { LS_KEYS } from '../constants';
+import { FlipCard } from '../components';
 
 const ReviewPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -10,7 +11,6 @@ const ReviewPage: React.FC = () => {
 
   const [deckWords, setDeckWords] = useState<DeckWord[]>([]);
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
-  const [isFront, setIsFront] = useState(true);
 
   useEffect(() => {
     const storedDecks = getLocalStorageItem<any[]>(LS_KEYS.decks) || [];
@@ -20,10 +20,6 @@ const ReviewPage: React.FC = () => {
       setDeckWords(words);
     }
   }, [id]);
-
-  const handleFlipCard = () => {
-    setIsFront(!isFront);
-  };
 
   const handleNextCard = (known: boolean) => {
     const updatedWord = updateWordData(deckWords[currentWordIndex], known);
@@ -42,7 +38,6 @@ const ReviewPage: React.FC = () => {
     const nextIndex = currentWordIndex + 1;
     if (nextIndex < deckWords.length) {
       setCurrentWordIndex(nextIndex);
-      setIsFront(true);
     } else {
       navigate(`/deck/${id}`);
     }
@@ -70,13 +65,7 @@ const ReviewPage: React.FC = () => {
       </header>
 
       <div className="flex justify-center items-center h-full">
-        <div onClick={handleFlipCard} className="cursor-pointer text-center bg-white rounded-lg p-10 shadow-lg">
-          {isFront ? (
-            <span className="text-2xl">{currentWord.word}</span>
-          ) : (
-            <span className="text-2xl">{currentWord.translation}</span>
-          )}
-        </div>
+        <FlipCard data={currentWord} />
       </div>
 
       <div className="flex justify-around mt-10">

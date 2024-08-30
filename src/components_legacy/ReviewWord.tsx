@@ -1,6 +1,6 @@
 import React from 'react';
-import {FlipCard, WordCard} from '.';
 import { Word } from '../models';
+import { FlipCard } from '../components';
 
 interface ReviewWordProps {
     data: Word;
