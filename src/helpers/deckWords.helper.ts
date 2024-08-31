@@ -59,10 +59,19 @@ export function initializeDeckWords(deckId: number, words: Array<{translation: s
   setWordsIntoDeck(deckId, newWords);
 }
 
-export function setNextDeckWords(deck: Deck, words: Array<{translation: string, word: string, example: string}>): void {
-  if (deck.toReview == 0) {
+export function setNextDeckWords(deck: Deck, words: Array<{ translation: string, word: string, example: string }>): void {
+  const currentTime = new Date();
+
+  // Check if more than 24 hours have passed since the last update
+  const oneDayInMilliseconds = 24 * 60 * 60 * 1000;
+  const timeSinceLastUpdate = currentTime.getTime() - new Date(deck.lastUpdated).getTime();
+
+  if (deck.toReview === 0 && timeSinceLastUpdate > oneDayInMilliseconds) {
     const newWords = words.slice(deck.total, deck.total + 5);
     setWordsIntoDeck(deck.id, newWords);
+
+    // Update the lastUpdated time to current time
+    deck.lastUpdated = currentTime;
   }
 }
 

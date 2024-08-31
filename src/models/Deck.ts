@@ -4,6 +4,7 @@ export interface Deck {
     toReview: number;
     total: number;
     words: DeckWord[];
+    lastUpdated: Date;
 }
 
 export interface DeckWord {

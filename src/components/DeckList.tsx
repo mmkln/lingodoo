@@ -47,7 +47,8 @@ const DeckList: React.FC = () => {
             name,
             toReview: 0,
             total: 0,
-            words: []
+            words: [],
+            lastUpdated: new Date()
         };
         const updatedDecks = [...decks, newDeck];
         setDecks(updatedDecks);

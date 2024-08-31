@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31b2c143-fea7-4c35-9ade-8dabeb74f926" name="Changes" comment="Update Gap on DeckPage for mobile devices;">
+    <list default="true" id="31b2c143-fea7-4c35-9ade-8dabeb74f926" name="Changes" comment="Implement FlipCard on ReviewPage;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ReviewPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ReviewPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components_legacy/FlipCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FlipCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components_legacy/ReviewWord.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components_legacy/ReviewWord.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components_legacy/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components_legacy/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DeckList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DeckList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DeckPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DeckPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/deckWords.helper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/deckWords.helper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Deck.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Deck.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +127,8 @@
       <workItem from="1723923172065" duration="5552000" />
       <workItem from="1724436013748" duration="1341000" />
       <workItem from="1724948366494" duration="8401000" />
-      <workItem from="1724957038063" duration="2724000" />
+      <workItem from="1724957038063" duration="3943000" />
+      <workItem from="1725112973722" duration="293000" />
     </task>
     <task id="LOCAL-00001" summary="Init new Decks logic;">
       <option name="closed" value="true" />
@@ -194,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724956172739</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Implement FlipCard on ReviewPage;">
+      <option name="closed" value="true" />
+      <created>1725010105458</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725010105458</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +228,7 @@
     <MESSAGE value="Update environment settings; Add python scripts for translation; Move legacy components into dedicated directory;" />
     <MESSAGE value="Implement Hungarian language Deck logic;" />
     <MESSAGE value="Update Gap on DeckPage for mobile devices;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Gap on DeckPage for mobile devices;" />
+    <MESSAGE value="Implement FlipCard on ReviewPage;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement FlipCard on ReviewPage;" />
   </component>
 </project>

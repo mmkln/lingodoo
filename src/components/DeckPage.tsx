@@ -8,14 +8,6 @@ import {
 } from '../helpers';
 import { LS_KEYS } from '../constants';
 
-const defaultDeckData: Deck = {
-    id: 0,
-    name: '',
-    toReview: 0,
-    total: 0,
-    words: []
-};
-
 const DeckPage: React.FC = () => {
     const { id } = useParams<{ id: string }>();
     const navigate = useNavigate();
