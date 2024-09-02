@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31b2c143-fea7-4c35-9ade-8dabeb74f926" name="Changes" comment="Update adding new work algorithm, to only add new words once a day;">
+    <list default="true" id="31b2c143-fea7-4c35-9ade-8dabeb74f926" name="Changes" comment="Update flip card logic - flip back for new word;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FlipCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FlipCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/deckWords.helper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/deckWords.helper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ReviewPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ReviewPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +125,8 @@
       <workItem from="1724436013748" duration="1341000" />
       <workItem from="1724948366494" duration="8401000" />
       <workItem from="1724957038063" duration="3943000" />
-      <workItem from="1725112973722" duration="1697000" />
+      <workItem from="1725112973722" duration="1794000" />
+      <workItem from="1725263094766" duration="122000" />
     </task>
     <task id="LOCAL-00001" summary="Init new Decks logic;">
       <option name="closed" value="true" />
@@ -208,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725113327218</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update flip card logic - flip back for new word;">
+      <option name="closed" value="true" />
+      <created>1725114731654</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725114731654</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +244,7 @@
     <MESSAGE value="Update Gap on DeckPage for mobile devices;" />
     <MESSAGE value="Implement FlipCard on ReviewPage;" />
     <MESSAGE value="Update adding new work algorithm, to only add new words once a day;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update adding new work algorithm, to only add new words once a day;" />
+    <MESSAGE value="Update flip card logic - flip back for new word;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update flip card logic - flip back for new word;" />
   </component>
 </project>
