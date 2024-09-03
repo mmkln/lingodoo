@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31b2c143-fea7-4c35-9ade-8dabeb74f926" name="Changes" comment="Make Review Page buttons larger;">
+    <list default="true" id="31b2c143-fea7-4c35-9ade-8dabeb74f926" name="Changes" comment="Update Button size &amp; Flip card font size;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/FlipCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FlipCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ReviewPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ReviewPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
       <recent name="$PROJECT_DIR$/src/components_legacy" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -99,8 +98,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.predeploy" />
       </list>
     </recent_temporary>
@@ -129,7 +128,7 @@
       <workItem from="1725112973722" duration="1794000" />
       <workItem from="1725263094766" duration="183000" />
       <workItem from="1725288874982" duration="8000" />
-      <workItem from="1725365910069" duration="376000" />
+      <workItem from="1725365910069" duration="934000" />
     </task>
     <task id="LOCAL-00001" summary="Init new Decks logic;">
       <option name="closed" value="true" />
@@ -227,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725263247643</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Update Button size &amp; Flip card font size;">
+      <option name="closed" value="true" />
+      <created>1725366412839</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1725366412839</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +264,7 @@
     <MESSAGE value="Update adding new work algorithm, to only add new words once a day;" />
     <MESSAGE value="Update flip card logic - flip back for new word;" />
     <MESSAGE value="Make Review Page buttons larger;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make Review Page buttons larger;" />
+    <MESSAGE value="Update Button size &amp; Flip card font size;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Button size &amp; Flip card font size;" />
   </component>
 </project>
