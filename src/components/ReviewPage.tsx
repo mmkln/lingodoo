@@ -72,7 +72,7 @@ const ReviewPage: React.FC = () => {
         <button
           onClick={() => handleNextCard(false)}
           className="flex items-center justify-center px-6 py-4 text-sm text-white transition-colors duration-200 bg-red-500 rounded-lg hover:bg-red-600">
-          <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <svg className="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round"
                   d="M6 18L18 6M6 6l12 12"/>
           </svg>
@@ -80,7 +80,7 @@ const ReviewPage: React.FC = () => {
         <button
           onClick={() => handleNextCard(true)}
           className="flex items-center justify-center px-6 py-4 text-sm text-white transition-colors duration-200 bg-green-500 rounded-lg hover:bg-green-600">
-          <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <svg className="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round"
                   d="M5 13l4 4L19 7"/>
           </svg>

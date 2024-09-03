@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31b2c143-fea7-4c35-9ade-8dabeb74f926" name="Changes" comment="Update flip card logic - flip back for new word;">
+    <list default="true" id="31b2c143-fea7-4c35-9ade-8dabeb74f926" name="Changes" comment="Make Review Page buttons larger;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FlipCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FlipCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ReviewPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ReviewPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +127,9 @@
       <workItem from="1724948366494" duration="8401000" />
       <workItem from="1724957038063" duration="3943000" />
       <workItem from="1725112973722" duration="1794000" />
-      <workItem from="1725263094766" duration="122000" />
+      <workItem from="1725263094766" duration="183000" />
+      <workItem from="1725288874982" duration="8000" />
+      <workItem from="1725365910069" duration="376000" />
     </task>
     <task id="LOCAL-00001" summary="Init new Decks logic;">
       <option name="closed" value="true" />
@@ -216,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725114731654</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Make Review Page buttons larger;">
+      <option name="closed" value="true" />
+      <created>1725263247643</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1725263247643</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +256,7 @@
     <MESSAGE value="Implement FlipCard on ReviewPage;" />
     <MESSAGE value="Update adding new work algorithm, to only add new words once a day;" />
     <MESSAGE value="Update flip card logic - flip back for new word;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update flip card logic - flip back for new word;" />
+    <MESSAGE value="Make Review Page buttons larger;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make Review Page buttons larger;" />
   </component>
 </project>

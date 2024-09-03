@@ -18,10 +18,10 @@ const FlipCard: React.FC<FlipCardProps> = ({ data }) => {
               onKeyDown={(e) => (e.key === ' ' || e.key === 'Enter') && setIsFlipped((prev) => !prev)}
               onClick={() => setIsFlipped((prev) => !prev)} className={`flip-card w-full h-full ${isFlipped ? 'flip-rotate-x-back' : ''}`}>
                 <div className="flip-front flex justify-center items-center rounded-lg border bg-white p-4 shadow-lg">
-                    <h3 className="text-lg font-semibold text-gray-800">{data.word}</h3>
+                    <h3 className="text-3xl font-semibold text-gray-800">{data.word}</h3>
                 </div>
                 <div className="flip-back flex justify-center items-center  rounded-lg border bg-white p-4 shadow-lg">
-                    <h3 className="text-lg font-semibold">{data.translation}</h3>
+                    <h3 className="text-3xl font-semibold">{data.translation}</h3>
                 </div>
             </div>
         </div>
