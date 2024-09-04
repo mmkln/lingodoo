@@ -12,6 +12,7 @@ export interface DeckWord {
     word: string;
     translation: string;
     example: string;
+    explanation?: string
     nextReviewDate: Date;
     interval: number;
     repetitionCount: number;

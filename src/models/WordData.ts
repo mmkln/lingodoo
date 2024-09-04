@@ -12,4 +12,5 @@ export interface Word {
     word: string;
     translation: string;
     example: string;
+    explanation?: string;
 }
