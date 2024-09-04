@@ -1,5 +1,8 @@
 import { Deck, DeckWord } from '../models';
-import { getLocalStorageItem, setLocalStorageItem } from './localStorage.helper';
+import {
+  getLocalStorageItem,
+  setLocalStorageItem,
+} from './localStorage.helper';
 import { LS_KEYS } from '../constants';
 import { initializeWord } from './repetition.helper';
 
@@ -7,64 +10,90 @@ interface WordItem {
   word: string;
   translation: string;
   example: string;
+  explanation?: string;
 }
 
-export const setWordsIntoDeck = (deckId: number, wordList: WordItem[]): void => {
+export const setWordsIntoDeck = (
+  deckId: number,
+  wordList: WordItem[]
+): void => {
   const storedDecks: Deck[] = getLocalStorageItem<any[]>(LS_KEYS.decks) || [];
   const deckIndex = storedDecks.findIndex((d: Deck) => d.id === Number(deckId));
 
   if (deckIndex !== -1) {
-
-    wordList.map(({word, translation, example}) => {
+    wordList.map(({ word, translation, example, explanation }) => {
       const newWord: DeckWord = initializeWord({
-        id: storedDecks[deckIndex].words?.length ? storedDecks[deckIndex].words[storedDecks[deckIndex].words.length - 1].id + 1 : 1,
+        id: storedDecks[deckIndex].words?.length
+          ? storedDecks[deckIndex].words[
+              storedDecks[deckIndex].words.length - 1
+            ].id + 1
+          : 1,
         word,
         translation,
-        example
+        example,
+        explanation,
       });
 
       storedDecks[deckIndex].words.push(newWord);
       storedDecks[deckIndex].total += 1;
-      storedDecks[deckIndex].toReview = calculateDeckToReviewCount(storedDecks[deckIndex]);
-    })
+      storedDecks[deckIndex].toReview = calculateDeckToReviewCount(
+        storedDecks[deckIndex]
+      );
+    });
 
     setLocalStorageItem(LS_KEYS.decks, storedDecks);
   }
-}
+};
 
-export const setWordIntoDeck = (deckId: number | string, wordItem: WordItem): void => {
+export const setWordIntoDeck = (
+  deckId: number | string,
+  wordItem: WordItem
+): void => {
   const storedDecks: Deck[] = getLocalStorageItem<any[]>(LS_KEYS.decks) || [];
   const deckIndex = storedDecks.findIndex((d: Deck) => d.id === Number(deckId));
 
   if (deckIndex !== -1) {
-
-    const { word, translation, example} = wordItem;
+    const { word, translation, example, explanation } = wordItem;
     const newWord: DeckWord = initializeWord({
-      id: storedDecks[deckIndex].words?.length ? storedDecks[deckIndex].words[storedDecks[deckIndex].words.length - 1].id + 1 : 1,
+      id: storedDecks[deckIndex].words?.length
+        ? storedDecks[deckIndex].words[storedDecks[deckIndex].words.length - 1]
+            .id + 1
+        : 1,
       word,
       translation,
-      example
+      example,
+      explanation,
     });
 
     storedDecks[deckIndex].words.push(newWord);
     storedDecks[deckIndex].total += 1;
-    storedDecks[deckIndex].toReview = calculateDeckToReviewCount(storedDecks[deckIndex]);
+    storedDecks[deckIndex].toReview = calculateDeckToReviewCount(
+      storedDecks[deckIndex]
+    );
 
     setLocalStorageItem(LS_KEYS.decks, storedDecks);
   }
-}
+};
 
-export function initializeDeckWords(deckId: number, words: Array<{translation: string, word: string, example: string}>): void {
+export function initializeDeckWords(
+  deckId: number,
+  words: Array<{ translation: string; word: string; example: string }>
+): void {
   const newWords = words.slice(0, 5);
   setWordsIntoDeck(deckId, newWords);
 }
 
-export function setNextDeckWords(deck: Deck, words: Array<{ translation: string, word: string, example: string }>): void {
+export function setNextDeckWords(
+  deck: Deck,
+  words: Array<{ translation: string; word: string; example: string }>
+): void {
   const currentTime = new Date();
 
   // Check if more than 24 hours have passed since the last update or if lastUpdated is null
   const oneDayInMilliseconds = 24 * 60 * 60 * 1000;
-  const lastUpdatedTime = deck.lastUpdated ? new Date(deck.lastUpdated).getTime() : 0; // If null, use 0 (epoch)
+  const lastUpdatedTime = deck.lastUpdated
+    ? new Date(deck.lastUpdated).getTime()
+    : 0; // If null, use 0 (epoch)
   const timeSinceLastUpdate = currentTime.getTime() - lastUpdatedTime;
 
   if (deck.toReview === 0 && timeSinceLastUpdate > oneDayInMilliseconds) {
@@ -77,13 +106,17 @@ export function setNextDeckWords(deck: Deck, words: Array<{ translation: string,
 }
 
 export function calculateDeckToReviewCount(deck: Deck): number {
-  return deck.words.filter(word => new Date(word.nextReviewDate) <= new Date()).length;
+  return deck.words.filter(
+    (word) => new Date(word.nextReviewDate) <= new Date()
+  ).length;
 }
 
 export function updateDeckToReviewCount(deck: Deck): void {
   const count = calculateDeckToReviewCount(deck);
   const storedDecks: Deck[] = getLocalStorageItem<any[]>(LS_KEYS.decks) || [];
-  const deckIndex = storedDecks.findIndex((d: Deck) => d.id === Number(deck.id));
+  const deckIndex = storedDecks.findIndex(
+    (d: Deck) => d.id === Number(deck.id)
+  );
 
   if (deckIndex !== -1) {
     storedDecks[deckIndex].toReview = count;
@@ -105,7 +138,9 @@ export function setDeckToReviewCount(deckId: number, count: number): void {
 export function updateDeckLastUpdated(deck: Deck): void {
   const currentTime = new Date();
   const storedDecks: Deck[] = getLocalStorageItem<Deck[]>(LS_KEYS.decks) || [];
-  const deckIndex = storedDecks.findIndex((d: Deck) => d.id === Number(deck.id));
+  const deckIndex = storedDecks.findIndex(
+    (d: Deck) => d.id === Number(deck.id)
+  );
 
   if (deckIndex !== -1) {
     storedDecks[deckIndex].lastUpdated = currentTime;

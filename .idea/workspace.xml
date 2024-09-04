@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31b2c143-fea7-4c35-9ade-8dabeb74f926" name="Changes" comment="Add Example on FlipCard;">
+    <list default="true" id="31b2c143-fea7-4c35-9ade-8dabeb74f926" name="Changes" comment="Add 'explanation' param to some words;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FlipCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FlipCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/WORDS_HP_HU.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/WORDS_HP_HU.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Deck.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Deck.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/WordData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/WordData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ReviewPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ReviewPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/deckWords.helper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/deckWords.helper.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +131,7 @@
       <workItem from="1725263094766" duration="183000" />
       <workItem from="1725288874982" duration="8000" />
       <workItem from="1725365910069" duration="1549000" />
-      <workItem from="1725467614925" duration="4303000" />
+      <workItem from="1725467614925" duration="4596000" />
     </task>
     <task id="LOCAL-00001" summary="Init new Decks logic;">
       <option name="closed" value="true" />
@@ -249,7 +245,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725366858530</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Install Prettier;">
+      <option name="closed" value="true" />
+      <created>1725471966765</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1725471966765</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add 'explanation' param to some words;">
+      <option name="closed" value="true" />
+      <created>1725472004678</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1725472004678</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +293,8 @@
     <MESSAGE value="Make Review Page buttons larger;" />
     <MESSAGE value="Update Button size &amp; Flip card font size;" />
     <MESSAGE value="Add Example on FlipCard;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Example on FlipCard;" />
+    <MESSAGE value="Install Prettier;" />
+    <MESSAGE value="Add 'explanation' param to some words;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add 'explanation' param to some words;" />
   </component>
 </project>
