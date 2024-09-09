@@ -3,7 +3,7 @@ import {
   getLocalStorageItem,
   setLocalStorageItem,
 } from './localStorage.helper';
-import { LS_KEYS } from '../constants';
+import { ADD_WORDS_COUNT, LS_KEYS } from '../constants';
 import { initializeWord } from './repetition.helper';
 
 interface WordItem {
@@ -79,7 +79,7 @@ export function initializeDeckWords(
   deckId: number,
   words: Array<{ translation: string; word: string; example: string }>
 ): void {
-  const newWords = words.slice(0, 5);
+  const newWords = words.slice(0, ADD_WORDS_COUNT);
   setWordsIntoDeck(deckId, newWords);
 }
 
@@ -97,7 +97,7 @@ export function setNextDeckWords(
   const timeSinceLastUpdate = currentTime.getTime() - lastUpdatedTime;
 
   if (deck.toReview === 0 && timeSinceLastUpdate > oneDayInMilliseconds) {
-    const newWords = words.slice(deck.total, deck.total + 5);
+    const newWords = words.slice(deck.total, deck.total + ADD_WORDS_COUNT);
     setWordsIntoDeck(deck.id, newWords);
 
     // Update the lastUpdated time to current time

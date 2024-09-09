@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31b2c143-fea7-4c35-9ade-8dabeb74f926" name="Changes" comment="Add 'explanation' param to some words;">
+    <list default="true" id="31b2c143-fea7-4c35-9ade-8dabeb74f926" name="Changes" comment="Update HU words;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FlipCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FlipCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ReviewPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ReviewPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/helpers/deckWords.helper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/deckWords.helper.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,26 +38,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.deploy.executor": "Run",
-    "npm.predeploy.executor": "Run",
-    "npm.start.executor": "Run",
-    "prettierjs.PrettierConfiguration.Package": "/Users/michamoll/Desktop/lingodoo/node_modules/prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "/Users/michamoll/Desktop/lingodoo/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.deploy.executor&quot;: &quot;Run&quot;,
+    &quot;npm.predeploy.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/michamoll/Desktop/lingodoo/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/michamoll/Desktop/lingodoo/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components" />
@@ -131,7 +133,8 @@
       <workItem from="1725263094766" duration="183000" />
       <workItem from="1725288874982" duration="8000" />
       <workItem from="1725365910069" duration="1549000" />
-      <workItem from="1725467614925" duration="4596000" />
+      <workItem from="1725467614925" duration="6424000" />
+      <workItem from="1725905048908" duration="899000" />
     </task>
     <task id="LOCAL-00001" summary="Init new Decks logic;">
       <option name="closed" value="true" />
@@ -261,7 +264,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725472004678</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Fix missing 'explanatino' params in helpers;">
+      <option name="closed" value="true" />
+      <created>1725472324851</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1725472324851</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Update HU words;">
+      <option name="closed" value="true" />
+      <created>1725905082667</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1725905082667</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +314,8 @@
     <MESSAGE value="Add Example on FlipCard;" />
     <MESSAGE value="Install Prettier;" />
     <MESSAGE value="Add 'explanation' param to some words;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add 'explanation' param to some words;" />
+    <MESSAGE value="Fix missing 'explanatino' params in helpers;" />
+    <MESSAGE value="Update HU words;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update HU words;" />
   </component>
 </project>
