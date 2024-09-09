@@ -9,7 +9,7 @@ export const WORDS_HP_HU: Array<{
     translation: 'пан',
     example: 'Dursley úr a fúrókat eladta.',
     explanation:
-      "Слово 'úr' означає 'пан' і використовується для звертання до чоловіків у ввічливому контексті, схоже на українське 'сер'.",
+      "Слово використовується для звертання до чоловіків у ввічливому контексті, схоже на українське 'сер'.",
   },
   {
     word: 'palástban',
@@ -23,7 +23,7 @@ export const WORDS_HP_HU: Array<{
     translation: 'феєрверки',
     example: 'Talán máris tűzijáték-petárdákat lődöznek?',
     explanation:
-      "'Tűzijáték-petárdák' означає 'феєрверки'. Це складне слово, де 'tűzijáték' означає 'феєрверк', а 'petárda' — 'петарда'.",
+      "Це складне слово, де 'tűzijáték' означає 'феєрверк', а 'petárda' — 'петарда'.",
   },
   {
     word: 'perccel',
@@ -44,14 +44,14 @@ export const WORDS_HP_HU: Array<{
     translation: 'на деякий час',
     example: 'Egy darabig így fortyogott magában.',
     explanation:
-      "'Darabig' означає 'на деякий час'. Слово використовується для опису нетривалого періоду.",
+      "Слово використовується для опису нетривалого періоду.",
   },
   {
     word: 'szürke',
     translation: 'сірий',
     example: 'Az a borongós, szürke kedd.',
     explanation:
-      "Слово 'szürke' означає 'сірий'. Використовується для опису кольору або похмурого настрою.",
+      "Використовується для опису кольору або похмурого настрою.",
   },
   {
     word: 'emeleti',
