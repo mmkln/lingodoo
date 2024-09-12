@@ -57,8 +57,8 @@ const ReviewPage: React.FC = () => {
   const currentWord = deckWords[currentWordIndex];
 
   return (
-    <div className="container mx-auto p-4 h-[100vh] md:h-auto md:block flex flex-col justify-around">
-      <header className="mb-4 w-full">
+    <div className="container mx-auto p-4">
+      <header className="mb-40 md:mb-4 w-full">
         <button
           type="button"
           onClick={() => navigate(`/deck/${id}`)}
@@ -86,45 +86,47 @@ const ReviewPage: React.FC = () => {
         <FlipCard data={currentWord} />
       </div>
 
-      <div className="flex justify-around mt-10">
-        <button
-          onClick={() => handleNextCard(false)}
-          className="flex items-center justify-center px-8 py-6 text-sm text-white transition-colors duration-200 bg-red-500 rounded-lg hover:bg-red-600"
-        >
-          <svg
-            className="w-8 h-8"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth="2"
-            stroke="currentColor"
+      <div className="flex justify-center mt-52 md:mb-10">
+        <div className="w-[26rem] flex justify-around">
+          <button
+            onClick={() => handleNextCard(false)}
+            className="flex items-center justify-center px-4 py-4 text-sm text-white transition-colors duration-200 bg-red-500 rounded-lg hover:bg-red-600"
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M6 18L18 6M6 6l12 12"
-            />
-          </svg>
-        </button>
-        <button
-          onClick={() => handleNextCard(true)}
-          className="flex items-center justify-center px-8 py-6 text-sm text-white transition-colors duration-200 bg-green-500 rounded-lg hover:bg-green-600"
-        >
-          <svg
-            className="w-8 h-8"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth="2"
-            stroke="currentColor"
+            <svg
+              className="w-16 h-16"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="2"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+          <button
+            onClick={() => handleNextCard(true)}
+            className="flex items-center justify-center px-4 py-4 text-sm text-white transition-colors duration-200 bg-green-500 rounded-lg hover:bg-green-600"
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M5 13l4 4L19 7"
-            />
-          </svg>
-        </button>
+            <svg
+              className="w-16 h-16"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="2"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M5 13l4 4L19 7"
+              />
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
   );

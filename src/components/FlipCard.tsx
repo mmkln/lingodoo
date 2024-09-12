@@ -24,12 +24,16 @@ const FlipCard: React.FC<FlipCardProps> = ({ data }) => {
         <div className="flip-front flex justify-center items-center rounded-lg border bg-white p-4 shadow-lg">
           <h3 className="text-3xl font-semibold text-gray-800">{data.word}</h3>
         </div>
-        <div className="relative flip-back flex flex-col justify-center items-center rounded-lg border bg-white p-4 shadow-lg">
+        <div
+          className="relative flip-back flex flex-col justify-center items-center rounded-lg border bg-white p-4 shadow-lg">
           <h3 className="text-3xl font-semibold text-gray-800">
             {data.translation}
           </h3>
           <p className="text-sm font-medium text-gray-400 text-center">
             {data.example}
+          </p>
+          <p className="text-sm font-medium text-gray-400 text-center">
+            {data.exampleTranslation && data.exampleTranslation}
           </p>
           <p className="absolute bottom-0 p-4 italic">
             {data.explanation && (
