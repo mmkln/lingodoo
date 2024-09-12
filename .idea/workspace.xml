@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31b2c143-fea7-4c35-9ade-8dabeb74f926" name="Changes" comment="Update ReviewPage layout;">
+    <list default="true" id="31b2c143-fea7-4c35-9ade-8dabeb74f926" name="Changes" comment="Add 'exampleTranslation' property; Update ReviewPage layout;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FlipCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FlipCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ReviewPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ReviewPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Deck.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Deck.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/WordData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/WordData.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +61,7 @@
       <recent name="$PROJECT_DIR$/src/components_legacy" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -102,8 +99,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.predeploy" />
       </list>
     </recent_temporary>
@@ -135,7 +132,8 @@
       <workItem from="1725365910069" duration="1549000" />
       <workItem from="1725467614925" duration="6424000" />
       <workItem from="1725905048908" duration="1308000" />
-      <workItem from="1726156984479" duration="647000" />
+      <workItem from="1726156984479" duration="741000" />
+      <workItem from="1726160509734" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="Init new Decks logic;">
       <option name="closed" value="true" />
@@ -289,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725906058386</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Add 'exampleTranslation' property; Update ReviewPage layout;">
+      <option name="closed" value="true" />
+      <created>1726157699806</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1726157699806</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,6 +332,7 @@
     <MESSAGE value="Fix missing 'explanatino' params in helpers;" />
     <MESSAGE value="Update HU words;" />
     <MESSAGE value="Update ReviewPage layout;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update ReviewPage layout;" />
+    <MESSAGE value="Add 'exampleTranslation' property; Update ReviewPage layout;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add 'exampleTranslation' property; Update ReviewPage layout;" />
   </component>
 </project>

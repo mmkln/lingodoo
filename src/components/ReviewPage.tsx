@@ -86,7 +86,7 @@ const ReviewPage: React.FC = () => {
         <FlipCard data={currentWord} />
       </div>
 
-      <div className="flex justify-center mt-52 md:mb-10">
+      <div className="flex justify-center mt-32 md:mb-10">
         <div className="w-[26rem] flex justify-around">
           <button
             onClick={() => handleNextCard(false)}
