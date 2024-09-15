@@ -3,7 +3,7 @@ import {
   getLocalStorageItem,
   setLocalStorageItem,
 } from './localStorage.helper';
-import { ADD_WORDS_COUNT, LS_KEYS } from '../constants';
+import { ADD_WORDS_GAP, ADD_WORDS_LIMIT, LS_KEYS } from '../constants';
 import { initializeWord } from './repetition.helper';
 
 interface WordItem {
@@ -79,7 +79,7 @@ export function initializeDeckWords(
   deckId: number,
   words: Array<{ translation: string; word: string; example: string }>
 ): void {
-  const newWords = words.slice(0, ADD_WORDS_COUNT);
+  const newWords = words.slice(0, ADD_WORDS_LIMIT);
   setWordsIntoDeck(deckId, newWords);
 }
 
@@ -90,14 +90,13 @@ export function setNextDeckWords(
   const currentTime = new Date();
 
   // Check if more than 24 hours have passed since the last update or if lastUpdated is null
-  const oneDayInMilliseconds = 24 * 60 * 60 * 1000;
   const lastUpdatedTime = deck.lastUpdated
     ? new Date(deck.lastUpdated).getTime()
     : 0; // If null, use 0 (epoch)
   const timeSinceLastUpdate = currentTime.getTime() - lastUpdatedTime;
 
-  if (deck.toReview === 0 && timeSinceLastUpdate > oneDayInMilliseconds) {
-    const newWords = words.slice(deck.total, deck.total + ADD_WORDS_COUNT);
+  if (deck.toReview === 0 && timeSinceLastUpdate > ADD_WORDS_GAP) {
+    const newWords = words.slice(deck.total, deck.total + ADD_WORDS_LIMIT);
     setWordsIntoDeck(deck.id, newWords);
 
     // Update the lastUpdated time to current time
