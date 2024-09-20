@@ -58,7 +58,7 @@ const ReviewPage: React.FC = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <header className="mb-40 md:mb-4 w-full">
+      <header className="mb-32 md:mb-4 w-full">
         <button
           type="button"
           onClick={() => navigate(`/deck/${id}`)}

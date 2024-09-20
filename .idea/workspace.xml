@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31b2c143-fea7-4c35-9ade-8dabeb74f926" name="Changes" comment="Update ReviewPage action buttons margin-top;">
+    <list default="true" id="31b2c143-fea7-4c35-9ade-8dabeb74f926" name="Changes" comment="Update Repetition logic;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/deckWords.helper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/deckWords.helper.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/repetition.helper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/repetition.helper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ReviewPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ReviewPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +61,7 @@
       <recent name="$PROJECT_DIR$/src/components_legacy" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -102,8 +99,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.predeploy" />
       </list>
     </recent_temporary>
@@ -137,7 +134,8 @@
       <workItem from="1725905048908" duration="1308000" />
       <workItem from="1726156984479" duration="741000" />
       <workItem from="1726160509734" duration="80000" />
-      <workItem from="1726395392963" duration="3017000" />
+      <workItem from="1726395392963" duration="3386000" />
+      <workItem from="1726831056340" duration="98000" />
     </task>
     <task id="LOCAL-00001" summary="Init new Decks logic;">
       <option name="closed" value="true" />
@@ -307,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726160570619</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Update Repetition logic;">
+      <option name="closed" value="true" />
+      <created>1726399549896</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1726399549896</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,6 +352,7 @@
     <MESSAGE value="Update ReviewPage layout;" />
     <MESSAGE value="Add 'exampleTranslation' property; Update ReviewPage layout;" />
     <MESSAGE value="Update ReviewPage action buttons margin-top;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update ReviewPage action buttons margin-top;" />
+    <MESSAGE value="Update Repetition logic;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Repetition logic;" />
   </component>
 </project>
